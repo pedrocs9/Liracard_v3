@@ -1,0 +1,38 @@
+@import 'global';
+
+.logo{
+    width: 100px;
+    height: 60px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    border-top: 30px solid rgb(52,53,51);
+    width: 100%;
+
+}
+
+nav{
+    @include caja-flex(space-between,center,nowrap);
+
+    ul{
+        display: flex;
+        padding: 0;
+
+        a{
+            padding: 10px;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: #6495ED;
+            transform: scale(1.1);
+            
+        }
+    }
+}
+
+
+@import 'medios';

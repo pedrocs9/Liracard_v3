@@ -1,3 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: "Noto Sans JP", sans-serif;
+  background: url("");
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(134, 132, 132);
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border-top: 30px solid rgb(52, 53, 51);
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+nav ul {
+  display: flex;
+  padding: 0;
+}
+nav ul a {
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+nav ul a:hover {
+  color: #6495ED;
+  transform: scale(1.1);
+}
+
+@media (min-width: 1400px) {
+  nav, .servicios, .footer-content, .presentacion {
+    width: 60%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  .presentacion, .tipo-servicios {
+    flex-direction: column;
+  }
+  .presentacion div {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .presentacion div {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .presentacion div h1, .presentacion div p {
+    padding: 0;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
