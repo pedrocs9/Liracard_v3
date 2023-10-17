@@ -1,39 +1,105 @@
-// Pantallas Extra anchas
-
-@media(min-width:1400px){
-    nav, .servicios, .footer-content, .presentacion{
-        width: 60%;
-        margin: auto;
-    }
-}
-
-// Pantalla medianas
-
-@media(max-width: 992px){
-    .presentacion, .tipo-servicios{
-        flex-direction: column; 
-    }
-
-    .presentacion div{
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
+@media (max-width:320px){
     nav{
-        @include caja-flex(center,center,wrap);
-        padding-bottom: 20px;
-        padding-top: 20px;
+        a{
+            padding: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }  
+        .nav1{
+            margin-right: 10px;
+        }  
+    }
+    .logo{
+        width: 140px;
+        margin:5px 10px;
     }
 }
-
-// Pantallas Pequeñas
-
-@media(max-width:420px){
-    .presentacion div{
-        text-align: center;
-        margin-bottom: 30px;
-        h1,p{
-            padding: 0;
+@media (min-width:321px) and (max-width:375px){
+    nav{
+        a{
+            padding: 10px;
+            font-size: 1.3rem;
+            font-weight: bold;
         }
+        .nav1{
+            margin-right: 10px;
+        }  
+    }
+    .logo{
+        width: 140px;
+        margin:5px 15px;
+    }
+}
+@media (min-width:376px) and (max-width:425px){
+    nav{
+        a{
+            padding: 10px;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }  
+        .nav1{
+            margin-right: 10px;
+        }  
+    }
+    .logo{
+        width: 145px;
+        margin:5px 20px;
+    }
+}
+@media (min-width:426px) and (max-width:768px){
+    nav{
+        a{
+            padding: 10px;
+            font-size: 1.7rem;
+            font-weight: bold;
+        }  
+        .nav1{
+            margin-right: 10px;
+        }
+    }
+    .logo{
+        width: 150px;
+        margin:5px 25px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    nav{
+        a{
+            padding: 10px;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }  
+        
+    }
+    .logo{
+        width: 150px;
+        margin:5px 25px;
+    }
+}
+@media (min-width:1025px) and (max-width:1440px){
+    nav{
+        a{
+            padding: 10px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }  
+    }
+    .logo{
+        width: 160px;
+        margin:5px 30px;
+    }
+}
+@media (min-width:1441px){
+    nav{
+        a{
+            padding: 10px;
+            font-size: 2rem;
+            font-weight: bold;
+        }  
+    }
+
+    .logo{
+        width: 240px;
+        margin:5px 65px;
     }
 }

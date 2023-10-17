@@ -17,7 +17,7 @@ body{
     padding: 0;
     line-height: 1.6;
     font-family: 'Noto Sans JP', sans-serif;
-    background: url('');
+    background: url('../img/fondo.png');
 }
 
 ul{
@@ -35,9 +35,18 @@ img{
 }
 
 nav{
+    width: 100%;
+    margin: auto;
+}
+.footer-content{
     width: 80%;
     margin: auto;
 }
+
+// Variables
+$color_primario:rgb(9, 54, 108);
+$color_secundario:rgb(137, 45, 44);
+
 
 // USO DE MIXINS EN SASS;
 
