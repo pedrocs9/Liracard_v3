@@ -13,6 +13,48 @@
         width: 140px;
         margin:5px 10px;
     }
+
+    .presentacion{
+        padding-top: 155px;
+        @include caja-flex(center,center,nowrap);
+    
+        .flex-item2{
+            text-align: center;
+        }
+    
+        h1{
+            margin-top: 0;
+            font-size: $font-h1;
+            text-align: center;
+    
+        }
+    
+        p{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        #carouselExampleIndicators{
+            padding: 0px 20px;
+        }
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        p{
+            font-size: 1.5rem !important;
+            text-align: center;
+        }
+    }
+    
 }
 @media (min-width:321px) and (max-width:375px){
     nav{
@@ -29,6 +71,47 @@
         width: 140px;
         margin:5px 15px;
     }
+    .presentacion{
+        padding-top: 155px;
+        @include caja-flex(center,center,nowrap);
+    
+        .flex-item2{
+            text-align: center;
+        }
+    
+        h1{
+            margin-top: 0;
+            font-size: $font-h1;
+            text-align: center;
+    
+        }
+    
+        p{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        #carouselExampleIndicators{
+            padding: 0px 20px;
+        }
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        p{
+            font-size: 1.5rem !important;
+            text-align: center;
+        }
+    }
+
 }
 @media (min-width:376px) and (max-width:425px){
     nav{
@@ -45,6 +128,47 @@
         width: 145px;
         margin:5px 20px;
     }
+    .presentacion{
+        padding-top: 155px;
+        @include caja-flex(center,center,nowrap);
+    
+        .flex-item2{
+            text-align: center;
+        }
+    
+        h1{
+            margin-top: 0;
+            font-size: $font-h1;
+            text-align: center;
+    
+        }
+    
+        p{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        #carouselExampleIndicators{
+            padding: 0px 20px;
+        }
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        p{
+            font-size: 1.5rem !important;
+            text-align: center;
+        }
+    }
+  
 }
 @media (min-width:426px) and (max-width:768px){
     nav{
@@ -61,6 +185,47 @@
         width: 150px;
         margin:5px 25px;
     }
+    .presentacion{
+        padding-top: 180px;
+        @include caja-flex(center,center,nowrap);
+    
+        .flex-item2{
+            text-align: center;
+        }
+    
+        h1{
+            margin-top: 0;
+            font-size: $font-h1;
+            text-align: center;
+    
+        }
+    
+        p{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        #carouselExampleIndicators{
+            padding: 0px 30px;
+        }
+    }
+    footer{
+        bottom: 0;
+        width: 100%;
+        margin-top: 3vh;
+        p{
+            font-size: 1.5rem !important;
+            text-align: center;
+        }
+    }
+   
 }
 @media (min-width:769px) and (max-width:1024px){
     nav{
@@ -75,6 +240,46 @@
         width: 150px;
         margin:5px 25px;
     }
+    .presentacion{
+        padding-top: 180px;
+        @include caja-flex(center,center,nowrap);
+    
+        .flex-item2{
+            text-align: center;
+        }
+    
+        h1{
+            margin-top: 0;
+            font-size: $font-h1;
+            text-align: center;
+    
+        }
+    
+        p{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        #carouselExampleIndicators{
+            padding: 0px 30px;
+        }
+    }
+    footer{
+        bottom: 0;
+        width: 100%;
+        margin-top: 3vh;
+        p{
+            font-size: 1.5rem !important;
+            text-align: center;
+        }
+    }
 }
 @media (min-width:1025px) and (max-width:1440px){
     nav{
@@ -87,6 +292,46 @@
     .logo{
         width: 160px;
         margin:5px 30px;
+    }
+    .presentacion{
+        padding-top: 180px;
+        @include caja-flex(center,center,nowrap);
+    
+        .flex-item2{
+            text-align: center;
+        }
+    
+        h1{
+            margin-top: 0;
+            font-size: $font-h1;
+            text-align: center;
+    
+        }
+    
+        p{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        #carouselExampleIndicators{
+            padding: 0px 30px;
+        }
+    }
+    footer{
+        bottom: 0;
+        width: 100%;
+        margin-top: 3vh;
+        p{
+            font-size: 1.5rem !important;
+            text-align: center;
+        }
     }
 }
 @media (min-width:1441px){
@@ -102,4 +347,46 @@
         width: 200px;
         margin:5px 65px;
     }
+    .presentacion{
+        padding-top: 300px;
+        @include caja-flex(center,center,nowrap);
+    
+        .flex-item2{
+            text-align: center;
+        }
+    
+        h1{
+            margin-top: 0;
+            font-size: $font-h1;
+            text-align: center;
+    
+        }
+    
+        p{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        #carouselExampleIndicators{
+            padding: 0px 30px;
+        }
+    }
+    footer{
+        bottom: 0;
+        width: 100%;
+        margin-top: 3vh;
+        p{
+            font-size: 1.5rem !important;
+            text-align: center;
+        }
+    }
+
+  
 }

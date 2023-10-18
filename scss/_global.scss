@@ -34,18 +34,68 @@ img{
     height: auto;
 }
 
-nav{
-    width: 100%;
-    margin: auto;
-}
-.footer-content{
+nav, .servicios, .presentacion, .footer-content{
     width: 80%;
     margin: auto;
 }
 
+.titulo-servicios, .presentacion{
+    margin-bottom: 10%;
+}
+
+
+
 // Variables
 $color_primario:rgb(9, 54, 108);
 $color_secundario:rgb(137, 45, 44);
+$font-p: 1.8rem;
+$font-h1: 3.0rem;
+$font-h2: 2.4rem;
+$font-h3: 2.0rem;
+
+p{
+    font-size: $font-p;
+    color: rgb(134,132,132);
+}
+
+h2{
+    font-size: $font-h2;
+}
+
+h3{
+    font-size: $font-h3;
+    font-weight: lighter;
+}
+
+.btn{
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    &:hover{
+        transform: scale(1.1);
+        
+    }
+
+}
+
+
+
+.btn-principal{
+    @extend .btn;
+    color: #fff;
+    background-color: $color_primario;
+}
+
+.btn-secundario{
+    @extend .btn;
+    background-color: rgb(134,132,132);
+}
 
 
 // USO DE MIXINS EN SASS;
