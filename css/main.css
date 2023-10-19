@@ -75,7 +75,8 @@ h3 {
 }
 
 .btn-secundario {
-  background-color: rgb(134, 132, 132);
+  background-color: rgb(137, 45, 44);
+  color: #fff;
 }
 
 .logo {
@@ -290,7 +291,182 @@ nav ul a:hover {
   .emp-segundo-item div {
     width: 90%;
     height: 35vh;
-    background-color: rgba(128, 128, 128, 0.3); /* Color gris con 50% de transparencia */
+    background-color: rgba(128, 128, 128, 0.3);
+    /* Color gris con 50% de transparencia */
+  }
+  .equip-item-uno {
+    margin-top: 45%;
+    width: 100%;
+    height: 30vh;
+  }
+  .equip-item-uno img {
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-dos {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-dos h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
+  }
+  .equip-item-dos p {
+    padding-left: 2vh;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .equip-item-tres div {
+    text-align: center;
+  }
+  .equip-item-tres div h3 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .equip-item-tres div p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres div button {
+    margin-top: 2vh;
+  }
+  .equip-item-cuatro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cuatro h2 {
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .equip-item-cuatro .otros-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-cuatro .otros-servicios img {
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .equip-item-cuatro .otros-servicios h3 {
+    margin-bottom: 5vh;
+    text-align: center;
+    color: rgb(137, 45, 44);
+  }
+  .equip-item-cinco {
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cinco .titulo-cinco {
+    text-align: center;
+  }
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 3vh;
+  }
+  .equip-item-cinco .itemcito {
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .equip-item-cinco .itemcito h3 {
+    font-weight: bold;
+  }
+  .equip-item-cinco .itemcito .calidad {
+    width: 160px;
+    height: 100px;
+  }
+  .equip-item-cinco .itemcito img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2vh;
+  }
+  .equip-item-cinco .itemcito p {
+    margin-bottom: 8vh;
+    padding: 0px 20px;
+  }
+  .equip-item-seis {
+    text-align: center;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .equip-item-seis .nuestras-maquinas h2 {
+    padding: 0px 40px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+  }
+  .equip-item-seis .nuestras-maquinas p {
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 6vh;
+  }
+  .equip-item-seis .maquinas {
+    width: 90%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .equip-item-seis .maquinas div {
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .equip-item-seis .maquinas h3 {
+    color: white;
+    margin-top: 12vh;
+    padding: 0px 10px;
+  }
+  .equip-item-seis .maquinas .cnc {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .convencionales {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .plasma {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 321px) and (max-width: 375px) {
@@ -477,7 +653,187 @@ nav ul a:hover {
   .emp-segundo-item div {
     width: 90%;
     height: 35vh;
-    background-color: rgba(128, 128, 128, 0.3); /* Color gris con 50% de transparencia */
+    background-color: rgba(128, 128, 128, 0.3);
+    /* Color gris con 50% de transparencia */
+  }
+  .equip-item-uno {
+    margin-top: 45%;
+    width: 100%;
+    height: 30vh;
+    padding: 0px 10px;
+  }
+  .equip-item-uno img {
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-dos {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-dos h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
+    padding: 0px 30px;
+  }
+  .equip-item-dos p {
+    padding-left: 2vh;
+    font-size: 1.5rem;
+    padding: 0px 30px;
+  }
+  .equip-item-tres {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .equip-item-tres div {
+    text-align: center;
+  }
+  .equip-item-tres div h3 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .equip-item-tres div p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres div button {
+    margin-top: 2vh;
+  }
+  .equip-item-cuatro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cuatro h2 {
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .equip-item-cuatro .otros-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-cuatro .otros-servicios img {
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .equip-item-cuatro .otros-servicios h3 {
+    margin-bottom: 5vh;
+    text-align: center;
+    color: rgb(137, 45, 44);
+    padding: 0px 15px;
+  }
+  .equip-item-cinco {
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cinco .titulo-cinco {
+    text-align: center;
+  }
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 3vh;
+  }
+  .equip-item-cinco .itemcito {
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .equip-item-cinco .itemcito h3 {
+    font-weight: bold;
+  }
+  .equip-item-cinco .itemcito .calidad {
+    width: 160px;
+    height: 100px;
+  }
+  .equip-item-cinco .itemcito img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2vh;
+  }
+  .equip-item-cinco .itemcito p {
+    margin-bottom: 8vh;
+    padding: 0px 20px;
+  }
+  .equip-item-seis {
+    text-align: center;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .equip-item-seis .nuestras-maquinas h2 {
+    padding: 0px 40px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+  }
+  .equip-item-seis .nuestras-maquinas p {
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 6vh;
+  }
+  .equip-item-seis .maquinas {
+    width: 90%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .equip-item-seis .maquinas div {
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .equip-item-seis .maquinas h3 {
+    color: white;
+    margin-top: 12vh;
+    padding: 0px 10px;
+  }
+  .equip-item-seis .maquinas .cnc {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .convencionales {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .plasma {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 376px) and (max-width: 425px) {
@@ -664,7 +1020,182 @@ nav ul a:hover {
   .emp-segundo-item div {
     width: 90%;
     height: 35vh;
-    background-color: rgba(128, 128, 128, 0.3); /* Color gris con 50% de transparencia */
+    background-color: rgba(128, 128, 128, 0.3);
+    /* Color gris con 50% de transparencia */
+  }
+  .equip-item-uno {
+    margin-top: 45%;
+    width: 100%;
+    height: 30vh;
+  }
+  .equip-item-uno img {
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-dos {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-dos h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
+  }
+  .equip-item-dos p {
+    padding-left: 2vh;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .equip-item-tres div {
+    text-align: center;
+  }
+  .equip-item-tres div h3 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .equip-item-tres div p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres div button {
+    margin-top: 2vh;
+  }
+  .equip-item-cuatro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cuatro h2 {
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .equip-item-cuatro .otros-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-cuatro .otros-servicios img {
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .equip-item-cuatro .otros-servicios h3 {
+    margin-bottom: 5vh;
+    text-align: center;
+    color: rgb(137, 45, 44);
+  }
+  .equip-item-cinco {
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cinco .titulo-cinco {
+    text-align: center;
+  }
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 3vh;
+  }
+  .equip-item-cinco .itemcito {
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .equip-item-cinco .itemcito h3 {
+    font-weight: bold;
+  }
+  .equip-item-cinco .itemcito .calidad {
+    width: 160px;
+    height: 100px;
+  }
+  .equip-item-cinco .itemcito img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2vh;
+  }
+  .equip-item-cinco .itemcito p {
+    margin-bottom: 8vh;
+    padding: 0px 20px;
+  }
+  .equip-item-seis {
+    text-align: center;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .equip-item-seis .nuestras-maquinas h2 {
+    padding: 0px 40px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+  }
+  .equip-item-seis .nuestras-maquinas p {
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 6vh;
+  }
+  .equip-item-seis .maquinas {
+    width: 90%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .equip-item-seis .maquinas div {
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .equip-item-seis .maquinas h3 {
+    color: white;
+    margin-top: 12vh;
+    padding: 0px 10px;
+  }
+  .equip-item-seis .maquinas .cnc {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .convencionales {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .plasma {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 426px) and (max-width: 768px) {
@@ -852,7 +1383,208 @@ nav ul a:hover {
   .emp-segundo-item div {
     width: 90%;
     height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2); /* Color gris con 50% de transparencia */
+    background-color: rgba(128, 128, 128, 0.2);
+    /* Color gris con 50% de transparencia */
+  }
+  .equip-item-uno {
+    margin-top: 25%;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 27vh;
+  }
+  .equip-item-uno img {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-uno h5 {
+    color: white;
+  }
+  .equip-item-uno p {
+    color: white;
+  }
+  .equip-item-dos {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-dos h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
+  }
+  .equip-item-dos p {
+    padding-left: 2vh;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .equip-item-tres div {
+    text-align: center;
+    margin-top: 7vh;
+  }
+  .equip-item-tres div h3 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .equip-item-tres div p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres div button {
+    margin-top: 2vh;
+  }
+  .equip-item-cuatro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cuatro h2 {
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .equip-item-cuatro .otros-servicios {
+    display: flex;
+    flex-direction: row;
+  }
+  .equip-item-cuatro .otros-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-cuatro .otros-servicios img {
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .equip-item-cuatro .otros-servicios h3 {
+    margin-bottom: 5vh;
+    text-align: center;
+    color: rgb(137, 45, 44);
+  }
+  .equip-item-cuatro .otros-servicios .tercer-servicio img {
+    margin-top: 3vh;
+  }
+  .equip-item-cinco {
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cinco .titulo-cinco {
+    text-align: center;
+  }
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 3vh;
+  }
+  .equip-item-cinco .titulo-cinco p {
+    padding: 0px 40px;
+  }
+  .equip-item-cinco .itemcito {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .equip-item-cinco .itemcito h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 10px 0px;
+  }
+  .equip-item-cinco .itemcito .calidad {
+    width: 90px;
+    height: 70px;
+  }
+  .equip-item-cinco .itemcito img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2vh;
+  }
+  .equip-item-cinco .itemcito p {
+    margin-bottom: 8vh;
+    padding: 0px 20px;
+  }
+  .equip-item-cinco .itemcito div {
+    padding: 0px 10px;
+  }
+  .equip-item-seis {
+    text-align: center;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .equip-item-seis .nuestras-maquinas h2 {
+    padding: 0px 40px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+  }
+  .equip-item-seis .nuestras-maquinas p {
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    margin-bottom: 6vh;
+  }
+  .equip-item-seis .maquinas {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .equip-item-seis .maquinas div {
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+  }
+  .equip-item-seis .maquinas h3 {
+    color: white;
+    margin-top: 12vh;
+    padding: 0px 10px;
+  }
+  .equip-item-seis .maquinas .cnc {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .convencionales {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .plasma {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -1037,7 +1769,208 @@ nav ul a:hover {
   .emp-segundo-item div {
     width: 90%;
     height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2); /* Color gris con 50% de transparencia */
+    background-color: rgba(128, 128, 128, 0.2);
+    /* Color gris con 50% de transparencia */
+  }
+  .equip-item-uno {
+    margin-top: 25%;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 27vh;
+  }
+  .equip-item-uno img {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-uno h5 {
+    color: white;
+  }
+  .equip-item-uno p {
+    color: white;
+  }
+  .equip-item-dos {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-dos h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
+  }
+  .equip-item-dos p {
+    padding-left: 2vh;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .equip-item-tres div {
+    text-align: center;
+    margin-top: 7vh;
+  }
+  .equip-item-tres div h3 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .equip-item-tres div p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres div button {
+    margin-top: 2vh;
+  }
+  .equip-item-cuatro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cuatro h2 {
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .equip-item-cuatro .otros-servicios {
+    display: flex;
+    flex-direction: row;
+  }
+  .equip-item-cuatro .otros-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-cuatro .otros-servicios img {
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .equip-item-cuatro .otros-servicios h3 {
+    margin-bottom: 5vh;
+    text-align: center;
+    color: rgb(137, 45, 44);
+  }
+  .equip-item-cuatro .otros-servicios .tercer-servicio img {
+    margin-top: 3vh;
+  }
+  .equip-item-cinco {
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cinco .titulo-cinco {
+    text-align: center;
+  }
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 3vh;
+  }
+  .equip-item-cinco .titulo-cinco p {
+    padding: 0px 40px;
+  }
+  .equip-item-cinco .itemcito {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .equip-item-cinco .itemcito h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 10px 0px;
+  }
+  .equip-item-cinco .itemcito .calidad {
+    width: 90px;
+    height: 70px;
+  }
+  .equip-item-cinco .itemcito img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2vh;
+  }
+  .equip-item-cinco .itemcito p {
+    margin-bottom: 8vh;
+    padding: 0px 20px;
+  }
+  .equip-item-cinco .itemcito div {
+    padding: 0px 10px;
+  }
+  .equip-item-seis {
+    text-align: center;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .equip-item-seis .nuestras-maquinas h2 {
+    padding: 0px 40px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+  }
+  .equip-item-seis .nuestras-maquinas p {
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    margin-bottom: 6vh;
+  }
+  .equip-item-seis .maquinas {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .equip-item-seis .maquinas div {
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+  }
+  .equip-item-seis .maquinas h3 {
+    color: white;
+    margin-top: 12vh;
+    padding: 0px 10px;
+  }
+  .equip-item-seis .maquinas .cnc {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .convencionales {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .plasma {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -1221,7 +2154,208 @@ nav ul a:hover {
   .emp-segundo-item div {
     width: 90%;
     height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2); /* Color gris con 50% de transparencia */
+    background-color: rgba(128, 128, 128, 0.2);
+    /* Color gris con 50% de transparencia */
+  }
+  .equip-item-uno {
+    margin-top: 25%;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 27vh;
+  }
+  .equip-item-uno img {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-uno h5 {
+    color: white;
+  }
+  .equip-item-uno p {
+    color: white;
+  }
+  .equip-item-dos {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-dos h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
+  }
+  .equip-item-dos p {
+    padding-left: 2vh;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .equip-item-tres div {
+    text-align: center;
+    margin-top: 7vh;
+  }
+  .equip-item-tres div h3 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .equip-item-tres div p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres div button {
+    margin-top: 2vh;
+  }
+  .equip-item-cuatro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cuatro h2 {
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .equip-item-cuatro .otros-servicios {
+    display: flex;
+    flex-direction: row;
+  }
+  .equip-item-cuatro .otros-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-cuatro .otros-servicios img {
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .equip-item-cuatro .otros-servicios h3 {
+    margin-bottom: 5vh;
+    text-align: center;
+    color: rgb(137, 45, 44);
+  }
+  .equip-item-cuatro .otros-servicios .tercer-servicio img {
+    margin-top: 3vh;
+  }
+  .equip-item-cinco {
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cinco .titulo-cinco {
+    text-align: center;
+  }
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 3vh;
+  }
+  .equip-item-cinco .titulo-cinco p {
+    padding: 0px 40px;
+  }
+  .equip-item-cinco .itemcito {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .equip-item-cinco .itemcito h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 10px 0px;
+  }
+  .equip-item-cinco .itemcito .calidad {
+    width: 90px;
+    height: 70px;
+  }
+  .equip-item-cinco .itemcito img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2vh;
+  }
+  .equip-item-cinco .itemcito p {
+    margin-bottom: 8vh;
+    padding: 0px 20px;
+  }
+  .equip-item-cinco .itemcito div {
+    padding: 0px 10px;
+  }
+  .equip-item-seis {
+    text-align: center;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .equip-item-seis .nuestras-maquinas h2 {
+    padding: 0px 40px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+  }
+  .equip-item-seis .nuestras-maquinas p {
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    margin-bottom: 6vh;
+  }
+  .equip-item-seis .maquinas {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .equip-item-seis .maquinas div {
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+  }
+  .equip-item-seis .maquinas h3 {
+    color: white;
+    margin-top: 12vh;
+    padding: 0px 10px;
+  }
+  .equip-item-seis .maquinas .cnc {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .convencionales {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .plasma {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 1441px) {
@@ -1409,7 +2543,208 @@ nav ul a:hover {
   .emp-segundo-item div {
     width: 90%;
     height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2); /* Color gris con 50% de transparencia */
+    background-color: rgba(128, 128, 128, 0.2);
+    /* Color gris con 50% de transparencia */
+  }
+  .equip-item-uno {
+    margin-top: 25%;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 27vh;
+  }
+  .equip-item-uno img {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-uno h5 {
+    color: white;
+  }
+  .equip-item-uno p {
+    color: white;
+  }
+  .equip-item-dos {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-dos h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
+  }
+  .equip-item-dos p {
+    padding-left: 2vh;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .equip-item-tres div {
+    text-align: center;
+    margin-top: 7vh;
+  }
+  .equip-item-tres div h3 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .equip-item-tres div p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .equip-item-tres div button {
+    margin-top: 2vh;
+  }
+  .equip-item-cuatro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cuatro h2 {
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .equip-item-cuatro .otros-servicios {
+    display: flex;
+    flex-direction: row;
+  }
+  .equip-item-cuatro .otros-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .equip-item-cuatro .otros-servicios img {
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .equip-item-cuatro .otros-servicios h3 {
+    margin-bottom: 5vh;
+    text-align: center;
+    color: rgb(137, 45, 44);
+  }
+  .equip-item-cuatro .otros-servicios .tercer-servicio img {
+    margin-top: 3vh;
+  }
+  .equip-item-cinco {
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .equip-item-cinco .titulo-cinco {
+    text-align: center;
+  }
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 3vh;
+  }
+  .equip-item-cinco .titulo-cinco p {
+    padding: 0px 40px;
+  }
+  .equip-item-cinco .itemcito {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .equip-item-cinco .itemcito h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 10px 0px;
+  }
+  .equip-item-cinco .itemcito .calidad {
+    width: 90px;
+    height: 70px;
+  }
+  .equip-item-cinco .itemcito img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2vh;
+  }
+  .equip-item-cinco .itemcito p {
+    margin-bottom: 8vh;
+    padding: 0px 20px;
+  }
+  .equip-item-cinco .itemcito div {
+    padding: 0px 10px;
+  }
+  .equip-item-seis {
+    text-align: center;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .equip-item-seis .nuestras-maquinas h2 {
+    padding: 0px 40px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+  }
+  .equip-item-seis .nuestras-maquinas p {
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    margin-bottom: 6vh;
+  }
+  .equip-item-seis .maquinas {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .equip-item-seis .maquinas div {
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+  }
+  .equip-item-seis .maquinas h3 {
+    color: white;
+    margin-top: 12vh;
+    padding: 0px 10px;
+  }
+  .equip-item-seis .maquinas .cnc {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .convencionales {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .equip-item-seis .maquinas .plasma {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 

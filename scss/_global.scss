@@ -94,7 +94,8 @@ h3{
 
 .btn-secundario{
     @extend .btn;
-    background-color: rgb(134,132,132);
+    background-color: $color_secundario;
+    color: #fff;
 }
 
 
