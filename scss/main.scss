@@ -9,10 +9,13 @@ header{
     top: 0;
     border-top: 30px solid rgb(52,53,51);
     width: 100%;
+    z-index: 10;
+    
 
 }
 
 nav{
+    width: 100%;
     @include caja-flex(space-between,center,nowrap);
 
     ul{
