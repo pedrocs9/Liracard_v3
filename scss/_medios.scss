@@ -382,8 +382,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        button{
+            margin-top:5vh;
+        }
 
         .nuestras-maquinas {
+            margin-bottom: 5vh;
             h2 {
                 padding: 0px 40px;
                 font-weight: bold;
@@ -448,8 +452,85 @@
             }
         }
     }
-}
 
+    // CONTACTO
+    .cont-primer-item{
+        margin-top: 0vh;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 2vh;
+        }
+        
+    }
+    .primera-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 21vh;
+        .cont-segundo-item{
+            width: 85%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            border-radius: 33px;
+            background: #09366c;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        
+            form{
+                height: 34vh;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5vh;
+                .boton-enviar{
+                    text-align: center;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
+
+    .cont-tercer-item{
+        .titulito{
+            margin-bottom: 6vh;
+        }
+        margin-top: 12vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10vh;
+        div{
+            margin-bottom: 3vh;
+            h3{
+                font-weight: 700;
+                color:$color_primario
+            }
+            p{
+                font-size: 1.4rem;
+                padding: 0px 10px;
+            }
+        }
+        
+    }
+
+    // COMO LLEGAR     
+    .como-item-uno{
+        margin-top: 22vh;
+        margin-bottom: 5vh;
+        text-align: center;
+        h1{
+            font-weight: 700;
+            font-size: 2rem;
+            color: $color_primario;
+        }
+        h2{
+            font-size: 1.5rem;
+            color: $color_secundario;
+            padding: 0px 10px;
+        }
+    }     
+   
+}
 @media (min-width:321px) and (max-width:375px) {
     nav {
         a {
@@ -903,9 +984,92 @@
             }
         }
     }
+    // CONTACTO
+    .cont-primer-item{
+        margin-top: 0vh;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 2vh;
+        }
+        
+    }
+    .primera-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 21vh;
+        .cont-segundo-item{
+            width: 85%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            border-radius: 33px;
+            background: #09366c;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        
+            form{
+                height: 34vh;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5vh;
+                .boton-enviar{
+                    text-align: center;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
 
-}
+    .cont-tercer-item{
+        .titulito{
+            margin-bottom: 6vh;
+        }
+        margin-top: 12vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10vh;
+        div{
+            margin-bottom: 3vh;
+            h3{
+                font-weight: 700;
+                color:$color_primario
+            }
+            p{
+                font-size: 1.4rem;
+                padding: 0px 10px;
+            }
+        }
+        
+    }
+    // COMO LLEGAR     
+    .como-item-uno{
+        margin-top: 22vh;
+        margin-bottom: 5vh;
+        text-align: center;
+        h1{
+            font-weight: 700;
+            font-size: 2rem;
+            color: $color_primario;
+        }
+        h2{
+            font-size: 1.5rem;
+            color: $color_secundario;
+            padding: 0px 10px;
+        }
+    }    
+    .mapa-como-llegar{
+        width: 100%;
+        margin-bottom: 25vh;
+        .container-mapa{
+            .mapa{
+                width: 90%;
+            }
+        }
+    } 
 
+} 
 @media (min-width:376px) and (max-width:425px) {
     nav {
         a {
@@ -1355,9 +1519,92 @@
             }
         }
     }
+    // CONTACTO
+    .cont-primer-item{
+        margin-top: 0vh;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 2vh;
+        }
+        
+    }
+    .primera-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 21vh;
+        .cont-segundo-item{
+            width: 85%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            border-radius: 33px;
+            background: #09366c;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        
+            form{
+                height: 34vh;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5vh;
+                .boton-enviar{
+                    text-align: center;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
+
+    .cont-tercer-item{
+        .titulito{
+            margin-bottom: 6vh;
+        }
+        margin-top: 12vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10vh;
+        div{
+            margin-bottom: 3vh;
+            h3{
+                font-weight: 700;
+                color:$color_primario
+            }
+            p{
+                font-size: 1.4rem;
+                padding: 0px 10px;
+            }
+        }
+        
+    }
+    // COMO LLEGAR     
+    .como-item-uno{
+        margin-top: 22vh;
+        margin-bottom: 5vh;
+        text-align: center;
+        h1{
+            font-weight: 700;
+            font-size: 2.2rem;
+            color: $color_primario;
+        }
+        h2{
+            font-size: 1.7rem;
+            color: $color_secundario;
+            padding: 0px 50px;
+        }
+    }    
+    .mapa-como-llegar{
+        width: 100%;
+        margin-bottom: 25vh;
+        .container-mapa{
+            .mapa{
+                width: 90%;
+            }
+        }
+    } 
 
 }
-
 @media (min-width:426px) and (max-width:768px) {
     nav {
         a {
@@ -1838,9 +2085,94 @@
             }
         }
     }
+    // CONTACTO
+    .cont-primer-item{
+        margin-top: 0vh;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 2vh;
+        }
+        
+    }
+    .primera-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 21vh;
+        .cont-segundo-item{
+            width: 75%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            border-radius: 33px;
+            background: #09366c;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        
+            form{
+                height: 34vh;
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5vh;
+                .boton-enviar{
+                    text-align: center;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
+
+    .cont-tercer-item{
+        .titulito{
+            margin-bottom: 6vh;
+        }
+        margin-top: 12vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10vh;
+        div{
+            margin-bottom: 3vh;
+            h3{
+                font-weight: 700;
+                color:$color_primario;
+                font-size: 2.8rem;
+            }
+            p{
+                font-size: 1.8rem;
+                padding: 0px 10px;
+            }
+        }
+        
+    }
+    // COMO LLEGAR     
+    .como-item-uno{
+        margin-top: 22vh;
+        margin-bottom: 5vh;
+        text-align: center;
+        h1{
+            font-weight: 700;
+            font-size: 2.2rem;
+            color: $color_primario;
+        }
+        h2{
+            font-size: 1.7rem;
+            color: $color_secundario;
+            padding: 0px 50px;
+        }
+    }    
+    .mapa-como-llegar{
+        width: 100%;
+        margin-bottom: 25vh;
+        .container-mapa{
+            .mapa{
+                width: 90%;
+                height: 50vh;
+            }
+        }
+    }    
 
 }
-
 @media (min-width:769px) and (max-width:1024px) {
     nav {
         a {
@@ -2067,6 +2399,7 @@
         width: 100%;
         height: 30vh;
         margin-bottom: 27vh;
+        padding: 0px 50px;
 
         img {
             height: 40vh;
@@ -2101,11 +2434,13 @@
             font-size: 3rem;
             font-weight: bold;
             color: $color_primario;
+            padding: 0vh 40vh;
         }
 
         p {
             padding-left: 2vh;
             font-size: 1.5rem;
+            padding: 0vh 35vh;
         }
     }
 
@@ -2137,6 +2472,7 @@
             p {
                 color: white;
                 font-size: 1.5rem;
+                padding: 0vh 22vh;
             }
 
             button {
@@ -2152,7 +2488,7 @@
         margin-bottom: 10vh;
 
         h2 {
-            padding-left: 3vh;
+            padding-left: 10vh;
             margin-bottom: 7vh;
             font-weight: bold;
             font-size: 2.5rem;
@@ -2196,7 +2532,6 @@
     .equip-item-cinco {
         margin-top: 10vh;
         width: 100%;
-        margin-bottom: 10vh;
 
         .titulo-cinco {
             text-align: center;
@@ -2207,6 +2542,7 @@
 
             p {
                 padding: 0px 40px;
+                margin-bottom: 20vh;
             }
         }
 
@@ -2321,8 +2657,93 @@
             }
         }
     }
-}
+    // CONTACTO
+    .cont-primer-item{
+        margin-top: 0vh;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 2vh;
+        }
+        
+    }
+    .primera-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 21vh;
+        .cont-segundo-item{
+            width: 70%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            border-radius: 33px;
+            background: #09366c;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        
+            form{
+                height: 34vh;
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5vh;
+                .boton-enviar{
+                    text-align: center;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
 
+    .cont-tercer-item{
+        .titulito{
+            margin-bottom: 6vh;
+        }
+        margin-top: 12vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10vh;
+        div{
+            margin-bottom: 3vh;
+            h3{
+                font-weight: 700;
+                color:$color_primario;
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.8rem;
+                padding: 0px 10px;
+            }
+        }
+        
+    }
+     // COMO LLEGAR     
+     .como-item-uno{
+        margin-top: 22vh;
+        margin-bottom: 5vh;
+        text-align: center;
+        h1{
+            font-weight: 700;
+            font-size: 2.2rem;
+            color: $color_primario;
+        }
+        h2{
+            font-size: 1.7rem;
+            color: $color_secundario;
+            padding: 0px 50px;
+        }
+    }    
+    .mapa-como-llegar{
+        width: 100%;
+        margin-bottom: 13vh;
+        .container-mapa{
+            .mapa{
+                width: 90%;
+                height: 50vh;
+            }
+        }
+    }        
+}
 @media (min-width:1025px) and (max-width:1440px) {
     nav {
         a {
@@ -2543,13 +2964,14 @@
 
     // EQUIPAMIENTO
     .equip-item-uno {
-        margin-top: 25%;
+        margin-top: 15%;
         width: 100%;
         height: 30vh;
-        margin-bottom: 27vh;
+        margin-bottom: 34vh;
+        padding: 0vh 5vh;
 
         img {
-            height: 40vh;
+            height: 55vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -2561,6 +2983,7 @@
 
         p {
             color: white;
+            
         }
 
 
@@ -2568,7 +2991,6 @@
 
     .equip-item-dos {
         width: 100%;
-        margin-top: 10vh;
         margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
@@ -2584,8 +3006,8 @@
         }
 
         p {
-            padding-left: 2vh;
             font-size: 1.5rem;
+            padding: 0vh 26vh;
         }
     }
 
@@ -2608,7 +3030,7 @@
 
             h3 {
                 color: white;
-                font-size: 2.4rem;
+                font-size: 3rem;
                 margin-bottom: 10px;
                 font-weight: bold;
 
@@ -2617,6 +3039,7 @@
             p {
                 color: white;
                 font-size: 1.5rem;
+                padding: 0vh 40vh;
             }
 
             button {
@@ -2632,15 +3055,16 @@
         margin-bottom: 10vh;
 
         h2 {
-            padding-left: 3vh;
+            padding-left: 6vh;
             margin-bottom: 7vh;
             font-weight: bold;
-            font-size: 2.5rem;
+            font-size: 3.2rem;
         }
 
         .otros-servicios {
             display: flex;
             flex-direction: row;
+            justify-content: space-evenly;
 
             div {
                 display: flex;
@@ -2661,22 +3085,18 @@
 
             h3 {
                 margin-bottom: 5vh;
+                margin-top: 1vh;
                 text-align: center;
                 color: $color_secundario;
             }
 
-            .tercer-servicio {
-                img {
-                    margin-top: 3vh;
-                }
-            }
+            
         }
     }
 
     .equip-item-cinco {
         margin-top: 10vh;
         width: 100%;
-        margin-bottom: 10vh;
 
         .titulo-cinco {
             text-align: center;
@@ -2686,14 +3106,14 @@
             }
 
             p {
-                padding: 0px 40px;
+                padding: 0px 100px;
             }
         }
 
         .itemcito {
             display: flex;
             flex-direction: row;
-            margin-top: 10vh;
+            margin-top: 15vh;
             text-align: center;
 
             h3 {
@@ -2739,12 +3159,15 @@
             h2 {
                 padding: 0px 40px;
                 font-weight: bold;
-                margin-bottom: 7vh;
+                margin-bottom: 4vh;
+                color: $color_primario;
+                font-size: 3.2rem;
+
             }
 
             p {
-                padding: 0px 50px;
-                font-size: 1.5rem;
+                padding: 0px 100px;
+                font-size: 1.7rem;
                 margin-bottom: 6vh;
             }
         }
@@ -2801,8 +3224,94 @@
             }
         }
     }
-}
+    // CONTACTO
+    .cont-primer-item{
+        margin-top: 0vh;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 2vh;
+        }
+        
+    }
+    .primera-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 21vh;
+        .cont-segundo-item{
+            width: 60%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            border-radius: 33px;
+            background: #09366c;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        
+            form{
+                height: 34vh;
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5vh;
+                .boton-enviar{
+                    text-align: center;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
 
+    .cont-tercer-item{
+        .titulito{
+            margin-bottom: 6vh;
+        }
+        margin-top: 12vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10vh;
+        div{
+            margin-bottom: 3vh;
+            h3{
+                font-weight: 700;
+                color:$color_primario;
+                font-size: 3.2rem;
+            }
+            p{
+                font-size: 1.9rem;
+                padding: 0px 10px;
+            }
+        }
+        
+    }
+   // COMO LLEGAR     
+   .como-item-uno{
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    h1{
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: $color_primario;
+    }
+    h2{
+        font-size: 2rem;
+        color: $color_secundario;
+        padding: 0px 50px;
+    }
+}    
+.mapa-como-llegar{
+    width: 100%;
+    margin-bottom: 13vh;
+    .container-mapa{
+        .mapa{
+            width: 90%;
+            height: 50vh;
+        }
+    }
+}    
+
+}
 @media (min-width:1441px) {
     nav {
         a {
@@ -2822,7 +3331,7 @@
     }
 
     .presentacion {
-        padding-top: 300px;
+        padding-top: 400px;
         @include caja-flex(center, center, nowrap);
 
         .flex-item2 {
@@ -2831,8 +3340,10 @@
 
         h1 {
             margin-top: 0;
-            font-size: $font-h1;
+            font-size: 3.5rem;
             text-align: center;
+            color: $color_primario;
+            font-weight: 700;
 
         }
 
@@ -2850,7 +3361,7 @@
 
     section {
         #carouselExampleIndicators {
-            padding: 0px 30px;
+            padding: 100px;
         }
     }
 
@@ -3029,13 +3540,13 @@
 
     // EQUIPAMIENTO
     .equip-item-uno {
-        margin-top: 25%;
+        margin-top: 10%;
         width: 100%;
         height: 30vh;
         margin-bottom: 27vh;
-
+        padding: 0vh 15vh;
         img {
-            height: 40vh;
+            height: 60vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -3043,10 +3554,13 @@
 
         h5 {
             color: white;
+            font-size: 2.3rem;
+            font-weight: bold;
         }
 
         p {
             color: white;
+            font-size: 1.2rem;
         }
 
 
@@ -3054,7 +3568,7 @@
 
     .equip-item-dos {
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 35vh;
         margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
@@ -3064,14 +3578,15 @@
         h3 {
             text-align: center;
             margin-bottom: 3vh;
-            font-size: 3rem;
+            font-size: 2.7rem;
             font-weight: bold;
             color: $color_primario;
         }
 
         p {
-            padding-left: 2vh;
-            font-size: 1.5rem;
+            font-size: 1rem;
+            font-size: 2rem;
+            padding: 0vh 25vh;
         }
     }
 
@@ -3094,7 +3609,7 @@
 
             h3 {
                 color: white;
-                font-size: 2.4rem;
+                font-size: 3rem;
                 margin-bottom: 10px;
                 font-weight: bold;
 
@@ -3102,7 +3617,8 @@
 
             p {
                 color: white;
-                font-size: 1.5rem;
+                font-size: 2rem;
+                padding: 0vh 30vh;
             }
 
             button {
@@ -3118,15 +3634,16 @@
         margin-bottom: 10vh;
 
         h2 {
-            padding-left: 3vh;
+            padding-left: 6vh;
             margin-bottom: 7vh;
             font-weight: bold;
-            font-size: 2.5rem;
+            font-size: 3rem;
         }
 
         .otros-servicios {
             display: flex;
             flex-direction: row;
+            justify-content: space-evenly;
 
             div {
                 display: flex;
@@ -3149,30 +3666,29 @@
                 margin-bottom: 5vh;
                 text-align: center;
                 color: $color_secundario;
+                margin-top: 1vh;
             }
 
-            .tercer-servicio {
-                img {
-                    margin-top: 3vh;
-                }
-            }
+            
         }
     }
 
     .equip-item-cinco {
-        margin-top: 10vh;
+        margin-top: 20vh;
         width: 100%;
-        margin-bottom: 10vh;
+        margin-bottom: 20vh;
 
         .titulo-cinco {
             text-align: center;
 
             h2 {
                 margin-bottom: 3vh;
+                font-weight: bold;
+                color:$color_primario;
             }
 
             p {
-                padding: 0px 40px;
+                padding: 0px 150px;
             }
         }
 
@@ -3186,6 +3702,7 @@
                 font-weight: bold;
                 font-size: 1.7rem;
                 margin: 10px 0px;
+                color: $color_secundario;
             }
 
             .calidad {
@@ -3225,12 +3742,13 @@
             h2 {
                 padding: 0px 40px;
                 font-weight: bold;
-                margin-bottom: 7vh;
+                margin-bottom: 4.5vh;
+                color: $color_primario;
             }
 
             p {
-                padding: 0px 50px;
-                font-size: 1.5rem;
+                padding: 0px 200px;
+                font-size: 1.8rem;
                 margin-bottom: 6vh;
             }
         }
@@ -3287,5 +3805,119 @@
             }
         }
     }
+    // CONTACTO
+    .cont-primer-item{
+        margin-top: 0vh;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 2vh;
+        }
+        
+    }
+    .primera-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 21vh;
+        .cont-segundo-item{
+            width: 50%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            border-radius: 33px;
+            background: #09366c;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        
+            form{
+                height: 34vh;
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5vh;
+                .boton-enviar{
+                    text-align: center;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
+
+    .cont-tercer-item{
+        text-align: center;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3{
+                font-weight: 700;
+                color:$color_primario;
+                font-size: 3rem;
+            }
+            p{
+                font-size: 2rem;
+                padding: 0px 10px;
+            }
+        }
+        .corte{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            h3{
+                font-weight: 700;
+                color:$color_primario;
+                font-size: 3rem;
+            }
+            p{
+                font-size: 2rem;
+                padding: 0px 10px;
+            }
+        }
+        
+    }
+    // COMO LLEGAR     
+    .como-item-uno{
+        margin-top: 22vh;
+        margin-bottom: 5vh;
+        text-align: center;
+        h1{
+            font-weight: 700;
+            font-size: 2rem;
+            color: $color_primario;
+        }
+        h2{
+            font-size: 1.5rem;
+            color: $color_secundario;
+            padding: 0px 10px;
+        }
+    }     
+    // COMO LLEGAR     
+   .como-item-uno{
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    h1{
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: $color_primario;
+    }
+    h2{
+        font-size: 2rem;
+        color: $color_secundario;
+        padding: 0px 50px;
+    }
+}    
+.mapa-como-llegar{
+    width: 100%;
+    margin-bottom: 11vh;
+    .container-mapa{
+        .mapa{
+            width: 80%;
+            height: 50vh;
+        }
+    }
+}    
 
 }

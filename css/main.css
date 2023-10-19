@@ -424,6 +424,12 @@ nav ul a:hover {
     flex-direction: column;
     align-items: center;
   }
+  .equip-item-seis button {
+    margin-top: 5vh;
+  }
+  .equip-item-seis .nuestras-maquinas {
+    margin-bottom: 5vh;
+  }
   .equip-item-seis .nuestras-maquinas h2 {
     padding: 0px 40px;
     font-weight: bold;
@@ -467,6 +473,76 @@ nav ul a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+  }
+  .cont-primer-item {
+    margin-top: 0vh;
+    text-align: center;
+  }
+  .cont-primer-item h1 {
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  .primera-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+  }
+  .primera-section .cont-segundo-item {
+    width: 85%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    background: #09366c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .primera-section .cont-segundo-item form {
+    height: 34vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .boton-enviar {
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .cont-tercer-item {
+    margin-top: 12vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .cont-tercer-item .titulito {
+    margin-bottom: 6vh;
+  }
+  .cont-tercer-item div {
+    margin-bottom: 3vh;
+  }
+  .cont-tercer-item div h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+  }
+  .cont-tercer-item div p {
+    font-size: 1.4rem;
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 1.5rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 10px;
   }
 }
 @media (min-width: 321px) and (max-width: 375px) {
@@ -835,6 +911,83 @@ nav ul a:hover {
     background-size: cover;
     background-position: center center;
   }
+  .cont-primer-item {
+    margin-top: 0vh;
+    text-align: center;
+  }
+  .cont-primer-item h1 {
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  .primera-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+  }
+  .primera-section .cont-segundo-item {
+    width: 85%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    background: #09366c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .primera-section .cont-segundo-item form {
+    height: 34vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .boton-enviar {
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .cont-tercer-item {
+    margin-top: 12vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .cont-tercer-item .titulito {
+    margin-bottom: 6vh;
+  }
+  .cont-tercer-item div {
+    margin-bottom: 3vh;
+  }
+  .cont-tercer-item div h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+  }
+  .cont-tercer-item div p {
+    font-size: 1.4rem;
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 1.5rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 10px;
+  }
+  .mapa-como-llegar {
+    width: 100%;
+    margin-bottom: 25vh;
+  }
+  .mapa-como-llegar .container-mapa .mapa {
+    width: 90%;
+  }
 }
 @media (min-width: 376px) and (max-width: 425px) {
   nav a {
@@ -1196,6 +1349,83 @@ nav ul a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+  }
+  .cont-primer-item {
+    margin-top: 0vh;
+    text-align: center;
+  }
+  .cont-primer-item h1 {
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  .primera-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+  }
+  .primera-section .cont-segundo-item {
+    width: 85%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    background: #09366c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .primera-section .cont-segundo-item form {
+    height: 34vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .boton-enviar {
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .cont-tercer-item {
+    margin-top: 12vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .cont-tercer-item .titulito {
+    margin-bottom: 6vh;
+  }
+  .cont-tercer-item div {
+    margin-bottom: 3vh;
+  }
+  .cont-tercer-item div h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+  }
+  .cont-tercer-item div p {
+    font-size: 1.4rem;
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 1.7rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 50px;
+  }
+  .mapa-como-llegar {
+    width: 100%;
+    margin-bottom: 25vh;
+  }
+  .mapa-como-llegar .container-mapa .mapa {
+    width: 90%;
   }
 }
 @media (min-width: 426px) and (max-width: 768px) {
@@ -1586,6 +1816,85 @@ nav ul a:hover {
     background-size: cover;
     background-position: center center;
   }
+  .cont-primer-item {
+    margin-top: 0vh;
+    text-align: center;
+  }
+  .cont-primer-item h1 {
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  .primera-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+  }
+  .primera-section .cont-segundo-item {
+    width: 75%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    background: #09366c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .primera-section .cont-segundo-item form {
+    height: 34vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .boton-enviar {
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .cont-tercer-item {
+    margin-top: 12vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .cont-tercer-item .titulito {
+    margin-bottom: 6vh;
+  }
+  .cont-tercer-item div {
+    margin-bottom: 3vh;
+  }
+  .cont-tercer-item div h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+    font-size: 2.8rem;
+  }
+  .cont-tercer-item div p {
+    font-size: 1.8rem;
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 1.7rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 50px;
+  }
+  .mapa-como-llegar {
+    width: 100%;
+    margin-bottom: 25vh;
+  }
+  .mapa-como-llegar .container-mapa .mapa {
+    width: 90%;
+    height: 50vh;
+  }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   nav a {
@@ -1777,6 +2086,7 @@ nav ul a:hover {
     width: 100%;
     height: 30vh;
     margin-bottom: 27vh;
+    padding: 0px 50px;
   }
   .equip-item-uno img {
     height: 40vh;
@@ -1805,10 +2115,12 @@ nav ul a:hover {
     font-size: 3rem;
     font-weight: bold;
     color: rgb(9, 54, 108);
+    padding: 0vh 40vh;
   }
   .equip-item-dos p {
     padding-left: 2vh;
     font-size: 1.5rem;
+    padding: 0vh 35vh;
   }
   .equip-item-tres {
     width: 100%;
@@ -1836,6 +2148,7 @@ nav ul a:hover {
   .equip-item-tres div p {
     color: white;
     font-size: 1.5rem;
+    padding: 0vh 22vh;
   }
   .equip-item-tres div button {
     margin-top: 2vh;
@@ -1847,7 +2160,7 @@ nav ul a:hover {
     margin-bottom: 10vh;
   }
   .equip-item-cuatro h2 {
-    padding-left: 3vh;
+    padding-left: 10vh;
     margin-bottom: 7vh;
     font-weight: bold;
     font-size: 2.5rem;
@@ -1882,7 +2195,6 @@ nav ul a:hover {
   .equip-item-cinco {
     margin-top: 10vh;
     width: 100%;
-    margin-bottom: 10vh;
   }
   .equip-item-cinco .titulo-cinco {
     text-align: center;
@@ -1892,6 +2204,7 @@ nav ul a:hover {
   }
   .equip-item-cinco .titulo-cinco p {
     padding: 0px 40px;
+    margin-bottom: 20vh;
   }
   .equip-item-cinco .itemcito {
     display: flex;
@@ -1971,6 +2284,85 @@ nav ul a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+  }
+  .cont-primer-item {
+    margin-top: 0vh;
+    text-align: center;
+  }
+  .cont-primer-item h1 {
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  .primera-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+  }
+  .primera-section .cont-segundo-item {
+    width: 70%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    background: #09366c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .primera-section .cont-segundo-item form {
+    height: 34vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .boton-enviar {
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .cont-tercer-item {
+    margin-top: 12vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .cont-tercer-item .titulito {
+    margin-bottom: 6vh;
+  }
+  .cont-tercer-item div {
+    margin-bottom: 3vh;
+  }
+  .cont-tercer-item div h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+    font-size: 3rem;
+  }
+  .cont-tercer-item div p {
+    font-size: 1.8rem;
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 1.7rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 50px;
+  }
+  .mapa-como-llegar {
+    width: 100%;
+    margin-bottom: 13vh;
+  }
+  .mapa-como-llegar .container-mapa .mapa {
+    width: 90%;
+    height: 50vh;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -2158,13 +2550,14 @@ nav ul a:hover {
     /* Color gris con 50% de transparencia */
   }
   .equip-item-uno {
-    margin-top: 25%;
+    margin-top: 15%;
     width: 100%;
     height: 30vh;
-    margin-bottom: 27vh;
+    margin-bottom: 34vh;
+    padding: 0vh 5vh;
   }
   .equip-item-uno img {
-    height: 40vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -2177,7 +2570,6 @@ nav ul a:hover {
   }
   .equip-item-dos {
     width: 100%;
-    margin-top: 10vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -2192,8 +2584,8 @@ nav ul a:hover {
     color: rgb(9, 54, 108);
   }
   .equip-item-dos p {
-    padding-left: 2vh;
     font-size: 1.5rem;
+    padding: 0vh 26vh;
   }
   .equip-item-tres {
     width: 100%;
@@ -2214,13 +2606,14 @@ nav ul a:hover {
   }
   .equip-item-tres div h3 {
     color: white;
-    font-size: 2.4rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     font-weight: bold;
   }
   .equip-item-tres div p {
     color: white;
     font-size: 1.5rem;
+    padding: 0vh 40vh;
   }
   .equip-item-tres div button {
     margin-top: 2vh;
@@ -2232,14 +2625,15 @@ nav ul a:hover {
     margin-bottom: 10vh;
   }
   .equip-item-cuatro h2 {
-    padding-left: 3vh;
+    padding-left: 6vh;
     margin-bottom: 7vh;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
   .equip-item-cuatro .otros-servicios {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   .equip-item-cuatro .otros-servicios div {
     display: flex;
@@ -2258,16 +2652,13 @@ nav ul a:hover {
   }
   .equip-item-cuatro .otros-servicios h3 {
     margin-bottom: 5vh;
+    margin-top: 1vh;
     text-align: center;
     color: rgb(137, 45, 44);
-  }
-  .equip-item-cuatro .otros-servicios .tercer-servicio img {
-    margin-top: 3vh;
   }
   .equip-item-cinco {
     margin-top: 10vh;
     width: 100%;
-    margin-bottom: 10vh;
   }
   .equip-item-cinco .titulo-cinco {
     text-align: center;
@@ -2276,12 +2667,12 @@ nav ul a:hover {
     margin-bottom: 3vh;
   }
   .equip-item-cinco .titulo-cinco p {
-    padding: 0px 40px;
+    padding: 0px 100px;
   }
   .equip-item-cinco .itemcito {
     display: flex;
     flex-direction: row;
-    margin-top: 10vh;
+    margin-top: 15vh;
     text-align: center;
   }
   .equip-item-cinco .itemcito h3 {
@@ -2315,11 +2706,13 @@ nav ul a:hover {
   .equip-item-seis .nuestras-maquinas h2 {
     padding: 0px 40px;
     font-weight: bold;
-    margin-bottom: 7vh;
+    margin-bottom: 4vh;
+    color: rgb(9, 54, 108);
+    font-size: 3.2rem;
   }
   .equip-item-seis .nuestras-maquinas p {
-    padding: 0px 50px;
-    font-size: 1.5rem;
+    padding: 0px 100px;
+    font-size: 1.7rem;
     margin-bottom: 6vh;
   }
   .equip-item-seis .maquinas {
@@ -2357,6 +2750,85 @@ nav ul a:hover {
     background-size: cover;
     background-position: center center;
   }
+  .cont-primer-item {
+    margin-top: 0vh;
+    text-align: center;
+  }
+  .cont-primer-item h1 {
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  .primera-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+  }
+  .primera-section .cont-segundo-item {
+    width: 60%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    background: #09366c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .primera-section .cont-segundo-item form {
+    height: 34vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .boton-enviar {
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .cont-tercer-item {
+    margin-top: 12vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .cont-tercer-item .titulito {
+    margin-bottom: 6vh;
+  }
+  .cont-tercer-item div {
+    margin-bottom: 3vh;
+  }
+  .cont-tercer-item div h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+    font-size: 3.2rem;
+  }
+  .cont-tercer-item div p {
+    font-size: 1.9rem;
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 2rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 50px;
+  }
+  .mapa-como-llegar {
+    width: 100%;
+    margin-bottom: 13vh;
+  }
+  .mapa-como-llegar .container-mapa .mapa {
+    width: 90%;
+    height: 50vh;
+  }
 }
 @media (min-width: 1441px) {
   nav a {
@@ -2372,7 +2844,7 @@ nav ul a:hover {
     margin: 5px 65px;
   }
   .presentacion {
-    padding-top: 300px;
+    padding-top: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2383,8 +2855,10 @@ nav ul a:hover {
   }
   .presentacion h1 {
     margin-top: 0;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
+    color: rgb(9, 54, 108);
+    font-weight: 700;
   }
   .presentacion p {
     padding-bottom: 10px;
@@ -2396,7 +2870,7 @@ nav ul a:hover {
     align-items: center;
   }
   section #carouselExampleIndicators {
-    padding: 0px 30px;
+    padding: 100px;
   }
   footer {
     bottom: 0;
@@ -2547,26 +3021,30 @@ nav ul a:hover {
     /* Color gris con 50% de transparencia */
   }
   .equip-item-uno {
-    margin-top: 25%;
+    margin-top: 10%;
     width: 100%;
     height: 30vh;
     margin-bottom: 27vh;
+    padding: 0vh 15vh;
   }
   .equip-item-uno img {
-    height: 40vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   .equip-item-uno h5 {
     color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
   }
   .equip-item-uno p {
     color: white;
+    font-size: 1.2rem;
   }
   .equip-item-dos {
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 35vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -2576,13 +3054,14 @@ nav ul a:hover {
   .equip-item-dos h3 {
     text-align: center;
     margin-bottom: 3vh;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: bold;
     color: rgb(9, 54, 108);
   }
   .equip-item-dos p {
-    padding-left: 2vh;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-size: 2rem;
+    padding: 0vh 25vh;
   }
   .equip-item-tres {
     width: 100%;
@@ -2603,13 +3082,14 @@ nav ul a:hover {
   }
   .equip-item-tres div h3 {
     color: white;
-    font-size: 2.4rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     font-weight: bold;
   }
   .equip-item-tres div p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding: 0vh 30vh;
   }
   .equip-item-tres div button {
     margin-top: 2vh;
@@ -2621,14 +3101,15 @@ nav ul a:hover {
     margin-bottom: 10vh;
   }
   .equip-item-cuatro h2 {
-    padding-left: 3vh;
+    padding-left: 6vh;
     margin-bottom: 7vh;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .equip-item-cuatro .otros-servicios {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   .equip-item-cuatro .otros-servicios div {
     display: flex;
@@ -2649,23 +3130,23 @@ nav ul a:hover {
     margin-bottom: 5vh;
     text-align: center;
     color: rgb(137, 45, 44);
-  }
-  .equip-item-cuatro .otros-servicios .tercer-servicio img {
-    margin-top: 3vh;
+    margin-top: 1vh;
   }
   .equip-item-cinco {
-    margin-top: 10vh;
+    margin-top: 20vh;
     width: 100%;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
   }
   .equip-item-cinco .titulo-cinco {
     text-align: center;
   }
   .equip-item-cinco .titulo-cinco h2 {
     margin-bottom: 3vh;
+    font-weight: bold;
+    color: rgb(9, 54, 108);
   }
   .equip-item-cinco .titulo-cinco p {
-    padding: 0px 40px;
+    padding: 0px 150px;
   }
   .equip-item-cinco .itemcito {
     display: flex;
@@ -2677,6 +3158,7 @@ nav ul a:hover {
     font-weight: bold;
     font-size: 1.7rem;
     margin: 10px 0px;
+    color: rgb(137, 45, 44);
   }
   .equip-item-cinco .itemcito .calidad {
     width: 90px;
@@ -2704,11 +3186,12 @@ nav ul a:hover {
   .equip-item-seis .nuestras-maquinas h2 {
     padding: 0px 40px;
     font-weight: bold;
-    margin-bottom: 7vh;
+    margin-bottom: 4.5vh;
+    color: rgb(9, 54, 108);
   }
   .equip-item-seis .nuestras-maquinas p {
-    padding: 0px 50px;
-    font-size: 1.5rem;
+    padding: 0px 200px;
+    font-size: 1.8rem;
     margin-bottom: 6vh;
   }
   .equip-item-seis .maquinas {
@@ -2745,6 +3228,112 @@ nav ul a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+  }
+  .cont-primer-item {
+    margin-top: 0vh;
+    text-align: center;
+  }
+  .cont-primer-item h1 {
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  .primera-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+  }
+  .primera-section .cont-segundo-item {
+    width: 50%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    background: #09366c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .primera-section .cont-segundo-item form {
+    height: 34vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .boton-enviar {
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .cont-tercer-item {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .cont-tercer-item .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cont-tercer-item .info h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+    font-size: 3rem;
+  }
+  .cont-tercer-item .info p {
+    font-size: 2rem;
+    padding: 0px 10px;
+  }
+  .cont-tercer-item .corte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .cont-tercer-item .corte h3 {
+    font-weight: 700;
+    color: rgb(9, 54, 108);
+    font-size: 3rem;
+  }
+  .cont-tercer-item .corte p {
+    font-size: 2rem;
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 1.5rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 10px;
+  }
+  .como-item-uno {
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .como-item-uno h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(9, 54, 108);
+  }
+  .como-item-uno h2 {
+    font-size: 2rem;
+    color: rgb(137, 45, 44);
+    padding: 0px 50px;
+  }
+  .mapa-como-llegar {
+    width: 100%;
+    margin-bottom: 11vh;
+  }
+  .mapa-como-llegar .container-mapa .mapa {
+    width: 80%;
+    height: 50vh;
   }
 }
 
