@@ -81,6 +81,7 @@ h3 {
 
 .logo {
   height: auto;
+  cursor: pointer;
 }
 
 header {
@@ -93,6 +94,7 @@ header {
 
 nav {
   width: 100%;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
