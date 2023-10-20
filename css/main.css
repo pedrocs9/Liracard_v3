@@ -2874,6 +2874,9 @@ nav ul a:hover {
   section #carouselExampleIndicators {
     padding: 100px;
   }
+  section #carouselExampleIndicators img {
+    width: 60%;
+  }
   footer {
     bottom: 0;
     width: 100%;
