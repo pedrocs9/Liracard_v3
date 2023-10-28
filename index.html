@@ -13,10 +13,25 @@
 </head>
 
 <body>
-    <header>
+    <header id="menu">
+        <div id="info-menu">
+            <div class="info-menu-izquierda">
+                <img src="./img/icono-telefono.png" alt="icono del telefono">
+                <p class="numero">+228356500</p>
+                <img src="./img/icono-gmail.png" alt="icono del correo">
+                <p>ventas@liracard.cl</p>
+            </div>
+            <div class="info-menu-derecha">
+                <img src="./img/001-gorjeo.png" alt="icono del correo">
+                <img src="./img/002-instagram.png" alt="icono del correo">
+                <img src="./img/003-facebook.png" alt="icono del correo">
+                <img src="./img/004-linkedin.png" alt="icono del correo">
+                
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid navbarcito">
-                <a href="./index.html"><img src="./img/logo-liracard.jpg" alt="Logo Liracard" class="logo"></a>
+                <a href="./index.html"><img src="./img/logo_liracard-removebg-preview.png" alt="Logo Liracard" class="logo"></a>
                 <button class="navbar-toggler nav1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,16 +64,7 @@
         </nav>
     </header>
     <main>
-        <section class="presentacion">
-            <div class="flex-item1">
-                <h1>Diseñamos cualquier estructura a medida en Metal</h1>
-                <p>
-                    Somos una empresa con vasta experiencia en la confección y fabricación de partes y piezas metálicas, con terminación de pintura, zincado o galvanizado en caliente.
-                </p>
-               
-            </div>
-
-        </section>
+       
         <section class="w-100 segundo-item">
             <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -87,6 +93,50 @@
                 </button>
               </div>
         </section>
+        <section>
+            <div class="info-carrousel">
+                <div>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div>
+                    <input type="text" name="correo" id="correo" placeholder="Correo Electrónico">
+                </div>
+                <div>
+                    <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
+                </div>
+                <div>
+                    <button type="button" >ESCRÍBENOS</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="titulo-bienvenida">
+                <div>
+                    <h2>BIENVENIDOS A LIRACARD LTDA</h2>
+                </div>
+                <div class="divider"></div>
+            </div>
+        </section>
+        <section>
+            <div class="info-empresa">
+                <div class="info-uno">
+                    <h2>NUESTRA EMPRESA</h2>
+                    <p>En nuestra compañía, nos enorgullece haber 
+                        estado inseridos en la industria de la minería en Chile desde 1996, 
+                        brindando servicios de calidad en grandes proyectos de construcción, fabricación, suministros y montajes, 
+                        puesta en marcha y proyectos de energías renovables no convencionales. Nuestra amplia trayectoria y 
+                        experiencia nos han permitido posicionarnos como líderes del mercado en la fabricación metalmecánica y 
+                        maquinarias en faenas, ofreciendo soluciones personalizadas para cada uno de nuestros clientes.</p>
+                    <button type="button" class="btn-secundario">CONOCER MÁS</button>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p class="footer-content">
@@ -96,6 +146,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script>
+        const menu = document.getElementById('menu');
+        const info_menu = document.getElementById('info-menu');
+        window.onscroll = function(){
+            if (window.pageYOffset > 10) {
+            menu.style.backgroundColor = '#fff';
+            info_menu.style.height = '0';
+            info_menu.style.opacity = '0';
+            } else {
+            menu.style.backgroundColor = 'initial';
+            info_menu.style.height = '5vh'; // La misma altura que en el CSS
+            info_menu.style.opacity = '1';
+            }
+        }
+        </script>
 
 </body>
 

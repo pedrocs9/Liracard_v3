@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 //Globales
 
@@ -16,7 +16,7 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Inconsolata', monospace;
     background: url('../img/fondo.png');
 }
 
@@ -28,7 +28,9 @@ a{
     text-decoration: none;
     display: inline-block;
     color: rgb(134,132,132);
+   
 }
+
 img{
     width: 80%;
     height: auto;

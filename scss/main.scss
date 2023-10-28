@@ -9,28 +9,25 @@
 header{
     position: fixed;
     top: 0;
-    border-top: 30px solid rgb(52,53,51);
     width: 100%;
     z-index: 10;
     
-
 }
 
 nav{
     width: 100%;
-    background-color: white;
+    background-color: transparent;
     @include caja-flex(space-between,center,nowrap);
 
     ul{
         display: flex;
         padding: 0;
-
-
-        a:hover{
-            color: $color_primario;
-            transform: scale(1.1);
-            
-        }
+        
+    }
+    a:hover{
+        color: $color_primario;
+        transform: scale(1.1);
+        text-decoration: underline;
     }
 }
 

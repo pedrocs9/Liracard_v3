@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -12,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Inconsolata", monospace;
   background: url("../img/fondo.png");
 }
 
@@ -87,14 +88,13 @@ h3 {
 header {
   position: fixed;
   top: 0;
-  border-top: 30px solid rgb(52, 53, 51);
   width: 100%;
   z-index: 10;
 }
 
 nav {
   width: 100%;
-  background-color: white;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,9 +104,10 @@ nav ul {
   display: flex;
   padding: 0;
 }
-nav ul a:hover {
+nav a:hover {
   color: rgb(9, 54, 108);
   transform: scale(1.1);
+  text-decoration: underline;
 }
 
 @media (max-width: 320px) {
@@ -2833,6 +2834,64 @@ nav ul a:hover {
   }
 }
 @media (min-width: 1441px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header #info-menu {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+    transition: height 0.3s, opacity 0.3s;
+  }
+  header #info-menu .info-menu-izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2vh;
+    width: 20%;
+  }
+  header #info-menu .info-menu-izquierda .numero {
+    margin-right: 3vh;
+  }
+  header #info-menu .info-menu-izquierda img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-izquierda img:hover {
+    transform: scale(1.1);
+  }
+  header #info-menu .info-menu-izquierda p {
+    color: white;
+    text-decoration: none;
+    margin-right: 1vh;
+    margin-top: 1vh;
+  }
+  header #info-menu .info-menu-izquierda p:hover {
+    color: rgb(137, 45, 44);
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2vh;
+  }
+  header #info-menu .info-menu-derecha img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha img:hover {
+    transform: scale(1.1);
+  }
   nav a {
     padding: 10px;
     font-size: 2rem;
@@ -2842,7 +2901,7 @@ nav ul a:hover {
     padding: 0px 15px;
   }
   .logo {
-    width: 200px;
+    width: 120px;
     margin: 5px 65px;
   }
   .presentacion {
@@ -2872,10 +2931,102 @@ nav ul a:hover {
     align-items: center;
   }
   section #carouselExampleIndicators {
-    padding: 100px;
+    margin-top: 20vh;
   }
   section #carouselExampleIndicators img {
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+  }
+  section .info-carrousel {
+    margin-top: 4vh;
     width: 60%;
+    height: 15vh;
+    background-color: rgb(9, 54, 108);
+    margin-bottom: 5vh;
+    z-index: 11;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+  }
+  section .info-carrousel input {
+    width: 250px;
+    height: 50px;
+    font-size: 2em;
+  }
+  section .info-carrousel input::placeholder {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  section .info-carrousel button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    padding: 0.4em 0.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: transform 100ms;
+    background-color: rgb(137, 45, 44);
+    color: white;
+    margin-top: 1vh;
+  }
+  section .info-carrousel button:hover {
+    transform: scale(1.1);
+  }
+  section .titulo-bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .titulo-bienvenida h2 {
+    font-size: 4em;
+    font-weight: 600;
+  }
+  section .titulo-bienvenida .divider {
+    border-top: 1px solid black; /* Estilo de la línea */
+    margin: 20px 0;
+  }
+  section .info-empresa {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+  section .info-empresa div {
+    width: 24%;
+    height: 90%;
+  }
+  section .info-empresa .info-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  section .info-empresa .info-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 600;
+    padding: 0px 10px;
+  }
+  section .info-empresa .info-uno p {
+    padding: 0px 10px;
+    font-size: 1.5em;
   }
   footer {
     bottom: 0;
