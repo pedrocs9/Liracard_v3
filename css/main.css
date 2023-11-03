@@ -126,6 +126,9 @@ nav a:hover {
   header #info-menu {
     display: none;
   }
+  nav {
+    padding-top: 0 !important;
+  }
   nav a {
     padding: 10px;
     font-size: 2rem;
@@ -133,6 +136,7 @@ nav a:hover {
   }
   .navbarcito {
     padding-right: 30px;
+    background-color: white;
   }
   .logo {
     width: 120px;
@@ -531,136 +535,85 @@ nav a:hover {
     align-items: center;
     flex-wrap: nowrap;
   }
-  .primer-item {
-    margin-top: 55%;
-  }
-  .primer-item .primer-item-uno {
+  .empresa-uno {
+    width: 100%;
+    height: 40vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
   }
-  .primer-item .primer-item-uno h5 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  .primer-item .primer-item-uno h1 {
-    font-size: 3em;
-    font-weight: bold;
+  .empresa-uno h1 {
+    font-size: 2.8em;
+    font-weight: 1000;
     color: rgb(9, 54, 108);
   }
-  .primer-item .primer-item-dos {
-    margin-top: 5vh;
-    padding: 0px 30px;
+  .empresa-uno h2 {
+    color: rgb(137, 45, 44);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    padding: 0vh 8vh;
+  }
+  .empresa-uno p {
+    padding: 0vh 6vh;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  .empresa-dos {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13vh;
+  }
+  .empresa-dos .emp-dos-izquierda {
+    background-color: rgb(9, 54, 108);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    height: 40vh;
   }
-  .primer-item .primer-item-dos p {
-    font-size: 1.3rem;
+  .empresa-dos .emp-dos-izquierda h2 {
+    color: black;
+    font-weight: 1000;
+    font-size: 1.9em;
+    padding: 0px 40px;
     text-align: center;
   }
-  .emp-segundo-item {
-    width: 100%;
-    height: 140vh;
-    background: linear-gradient(135deg, #232323 0%, #191919 100%);
-    opacity: 1;
-    margin-top: 2vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  .empresa-dos .emp-dos-izquierda h2:hover {
+    color: rgb(137, 45, 44);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
   }
-  .emp-segundo-item .segundo-item-uno {
-    width: 85%;
+  .empresa-dos .emp-dos-izquierda p {
+    color: white;
+    padding: 0vh 7vh;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .empresa-dos .emp-dos-derecha {
     height: 40vh;
-    background-image: url("../img/empresa-1.jpg");
+    background-image: url("../img/industria.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-uno div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-uno div h3 {
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-uno div p {
-    font-size: 1rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-dos {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-dos div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-dos div h3 {
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-dos div p {
-    font-size: 1rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-tres {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-tres div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-tres div h3 {
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-tres div p {
-    font-size: 1rem;
-    color: white;
-  }
-  .emp-segundo-item div {
     width: 90%;
-    height: 35vh;
-    background-color: rgba(128, 128, 128, 0.3);
-    /* Color gris con 50% de transparencia */
+  }
+  .empresa-clientes {
+    margin-top: 10vh;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
   }
   .equip-item-uno {
     margin-top: 45%;
@@ -921,6 +874,9 @@ nav a:hover {
   header #info-menu {
     display: none;
   }
+  nav {
+    padding-top: 0 !important;
+  }
   nav a {
     padding: 10px;
     font-size: 2rem;
@@ -928,6 +884,7 @@ nav a:hover {
   }
   .navbarcito {
     padding-right: 35px;
+    background-color: white;
   }
   .logo {
     width: 120px;
@@ -1327,136 +1284,86 @@ nav a:hover {
     align-items: center;
     flex-wrap: nowrap;
   }
-  .primer-item {
-    margin-top: 55%;
-  }
-  .primer-item .primer-item-uno {
+  .empresa-uno {
+    width: 100%;
+    height: 28vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
   }
-  .primer-item .primer-item-uno h5 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  .primer-item .primer-item-uno h1 {
-    font-size: 3em;
-    font-weight: bold;
+  .empresa-uno h1 {
+    font-size: 2.8em;
+    font-weight: 1000;
     color: rgb(9, 54, 108);
   }
-  .primer-item .primer-item-dos {
-    margin-top: 5vh;
-    padding: 0px 40px;
+  .empresa-uno h2 {
+    color: rgb(137, 45, 44);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    padding: 0vh 5vh;
+  }
+  .empresa-uno p {
+    padding: 0vh 6vh;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  .empresa-dos {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10vh;
+  }
+  .empresa-dos .emp-dos-izquierda {
+    background-color: rgb(9, 54, 108);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    height: 40vh;
   }
-  .primer-item .primer-item-dos p {
-    font-size: 1.3rem;
+  .empresa-dos .emp-dos-izquierda h2 {
+    color: black;
+    font-weight: 1000;
+    font-size: 1.9em;
+    padding: 0px 40px;
     text-align: center;
   }
-  .emp-segundo-item {
-    width: 100%;
-    height: 140vh;
-    background: linear-gradient(135deg, #232323 0%, #191919 100%);
-    opacity: 1;
-    margin-top: 2vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  .empresa-dos .emp-dos-izquierda h2:hover {
+    color: rgb(137, 45, 44);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
   }
-  .emp-segundo-item .segundo-item-uno {
-    width: 85%;
+  .empresa-dos .emp-dos-izquierda p {
+    color: white;
+    padding: 0vh 7vh;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .empresa-dos .emp-dos-derecha {
     height: 40vh;
-    background-image: url("../img/empresa-1.jpg");
+    background-image: url("../img/industria.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-uno div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-uno div h3 {
-    font-size: 1.7rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-uno div p {
-    font-size: 1.2rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-dos {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-dos div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-dos div h3 {
-    font-size: 1.7rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-dos div p {
-    font-size: 1.2rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-tres {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-tres div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-tres div h3 {
-    font-size: 1.7rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-tres div p {
-    font-size: 1.2rem;
-    color: white;
-  }
-  .emp-segundo-item div {
     width: 90%;
-    height: 35vh;
-    background-color: rgba(128, 128, 128, 0.3);
-    /* Color gris con 50% de transparencia */
+  }
+  .empresa-clientes {
+    margin-top: 10vh;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
   }
   .equip-item-uno {
     margin-top: 45%;
@@ -1723,6 +1630,9 @@ nav a:hover {
   header #info-menu {
     display: none;
   }
+  nav {
+    padding-top: 0 !important;
+  }
   nav a {
     padding: 10px;
     font-size: 2rem;
@@ -1730,6 +1640,7 @@ nav a:hover {
   }
   .navbarcito {
     padding-right: 35px;
+    background-color: white;
   }
   .logo {
     width: 120px;
@@ -2131,136 +2042,86 @@ nav a:hover {
     align-items: center;
     flex-wrap: nowrap;
   }
-  .primer-item {
-    margin-top: 40%;
-  }
-  .primer-item .primer-item-uno {
+  .empresa-uno {
+    width: 100%;
+    height: 28vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
   }
-  .primer-item .primer-item-uno h5 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  .primer-item .primer-item-uno h1 {
-    font-size: 3em;
-    font-weight: bold;
+  .empresa-uno h1 {
+    font-size: 2.8em;
+    font-weight: 1000;
     color: rgb(9, 54, 108);
   }
-  .primer-item .primer-item-dos {
-    margin-top: 5vh;
-    padding: 0px 45px;
+  .empresa-uno h2 {
+    color: rgb(137, 45, 44);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    padding: 0vh 5vh;
+  }
+  .empresa-uno p {
+    padding: 0vh 8vh;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  .empresa-dos {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 10vh;
+  }
+  .empresa-dos .emp-dos-izquierda {
+    background-color: rgb(9, 54, 108);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    height: 40vh;
   }
-  .primer-item .primer-item-dos p {
-    font-size: 1.3rem;
+  .empresa-dos .emp-dos-izquierda h2 {
+    color: black;
+    font-weight: 1000;
+    font-size: 1.9em;
+    padding: 0px 40px;
     text-align: center;
   }
-  .emp-segundo-item {
-    width: 100%;
-    height: 140vh;
-    background: linear-gradient(135deg, #232323 0%, #191919 100%);
-    opacity: 1;
-    margin-top: 2vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  .empresa-dos .emp-dos-izquierda h2:hover {
+    color: rgb(137, 45, 44);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
   }
-  .emp-segundo-item .segundo-item-uno {
-    width: 85%;
+  .empresa-dos .emp-dos-izquierda p {
+    color: white;
+    padding: 0vh 7vh;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .empresa-dos .emp-dos-derecha {
     height: 40vh;
-    background-image: url("../img/empresa-1.jpg");
+    background-image: url("../img/industria.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-uno div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-uno div h3 {
-    font-size: 1.9rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-uno div p {
-    font-size: 1.4rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-dos {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-dos div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-dos div h3 {
-    font-size: 1.9rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-dos div p {
-    font-size: 1.4rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-tres {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-tres div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-tres div h3 {
-    font-size: 1.9rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-tres div p {
-    font-size: 1.4rem;
-    color: white;
-  }
-  .emp-segundo-item div {
     width: 90%;
-    height: 35vh;
-    background-color: rgba(128, 128, 128, 0.3);
-    /* Color gris con 50% de transparencia */
+  }
+  .empresa-clientes {
+    margin-top: 10vh;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
   }
   .equip-item-uno {
     margin-top: 45%;
@@ -2592,7 +2453,7 @@ nav a:hover {
     height: 6vh;
   }
   footer p {
-    font-size: 2.5rem !important;
+    font-size: 1.9rem !important;
     text-align: center;
   }
   .section-uno {
@@ -2969,137 +2830,78 @@ nav a:hover {
     align-items: center;
     flex-wrap: nowrap;
   }
-  .primer-item {
-    margin-top: 25%;
-    margin-bottom: 10%;
-  }
-  .primer-item .primer-item-uno {
+  .empresa-uno {
+    width: 100%;
+    height: 28vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
   }
-  .primer-item .primer-item-uno h5 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  .primer-item .primer-item-uno h1 {
-    font-size: 3em;
-    font-weight: bold;
+  .empresa-uno h1 {
+    font-size: 2.8em;
+    font-weight: 1000;
     color: rgb(9, 54, 108);
   }
-  .primer-item .primer-item-dos {
-    margin-top: 5vh;
+  .empresa-uno h2 {
+    color: rgb(137, 45, 44);
+    font-weight: 700;
+    font-size: 2.2em;
+  }
+  .empresa-uno p {
+    padding: 0vh 15vh;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  .empresa-dos {
+    width: 100%;
+    height: 55vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    padding: 30px;
   }
-  .primer-item .primer-item-dos p {
-    font-size: 1.3rem;
-    text-align: center;
-    padding: 0px 30px;
-  }
-  .emp-segundo-item {
-    width: 100%;
-    height: 140vh;
-    background: linear-gradient(135deg, #232323 0%, #191919 100%);
-    opacity: 1;
-    margin-top: 2vh;
+  .empresa-dos .emp-dos-izquierda {
+    background-color: rgb(9, 54, 108);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    width: 50%;
   }
-  .emp-segundo-item .segundo-item-uno {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-1.jpg");
+  .empresa-dos .emp-dos-izquierda h2 {
+    color: black;
+    font-weight: 1000;
+    font-size: 1.9em;
+    padding: 0px 67px;
+  }
+  .empresa-dos .emp-dos-izquierda h2:hover {
+    color: rgb(137, 45, 44);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .empresa-dos .emp-dos-izquierda p {
+    color: white;
+    padding: 0vh 8vh;
+    font-size: 1.3em;
+  }
+  .empresa-dos .emp-dos-derecha {
+    background-image: url("../img/industria.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    z-index: 1;
+    width: 50%;
+  }
+  .empresa-clientes {
+    margin-top: 10vh;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-uno div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-uno div h3 {
-    font-size: 2.2rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-uno div p {
-    font-size: 1.6rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-dos {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-dos div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-dos div h3 {
-    font-size: 2.2rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-dos div p {
-    font-size: 1.6rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-tres {
-    width: 85%;
-    height: 40vh;
-    background-image: url("../img/empresa-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-tres div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-tres div h3 {
-    font-size: 2.2rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-tres div p {
-    font-size: 1.6rem;
-    color: white;
-  }
-  .emp-segundo-item div {
-    width: 90%;
-    height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2);
-    /* Color gris con 50% de transparencia */
   }
   .equip-item-uno {
     margin-top: 25%;
@@ -3459,7 +3261,7 @@ nav a:hover {
     height: 6vh;
   }
   footer p {
-    font-size: 2.5rem !important;
+    font-size: 2.1rem !important;
     text-align: center;
   }
   .section-uno {
@@ -3824,137 +3626,78 @@ nav a:hover {
     font-weight: 1000;
     margin-left: 46px;
   }
-  .primer-item {
-    margin-top: 18%;
-    margin-bottom: 10%;
-  }
-  .primer-item .primer-item-uno {
+  .empresa-uno {
+    width: 100%;
+    height: 28vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
   }
-  .primer-item .primer-item-uno h5 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  .primer-item .primer-item-uno h1 {
+  .empresa-uno h1 {
     font-size: 3em;
-    font-weight: bold;
+    font-weight: 1000;
     color: rgb(9, 54, 108);
   }
-  .primer-item .primer-item-dos {
-    margin-top: 5vh;
+  .empresa-uno h2 {
+    color: rgb(137, 45, 44);
+    font-weight: 700;
+    font-size: 2.4em;
+  }
+  .empresa-uno p {
+    padding: 0vh 28vh;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  .empresa-dos {
+    width: 100%;
+    height: 55vh;
     display: flex;
     flex-direction: row;
+    padding: 30px;
+  }
+  .empresa-dos .emp-dos-izquierda {
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
   }
-  .primer-item .primer-item-dos p {
-    font-size: 1.3rem;
-    text-align: center;
-    padding: 0px 30px;
+  .empresa-dos .emp-dos-izquierda h2 {
+    color: black;
+    font-weight: 1000;
+    font-size: 2.1em;
+    padding: 0px 67px;
   }
-  .emp-segundo-item {
+  .empresa-dos .emp-dos-izquierda h2:hover {
+    color: rgb(137, 45, 44);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .empresa-dos .emp-dos-izquierda p {
+    color: white;
+    padding: 0vh 8vh;
+    font-size: 1.6em;
+  }
+  .empresa-dos .emp-dos-derecha {
+    background-image: url("../img/industria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+  }
+  .empresa-clientes {
+    margin-top: 10vh;
     width: 100%;
     height: 50vh;
-    background: linear-gradient(135deg, #232323 0%, #191919 100%);
-    opacity: 1;
-    margin-top: 2vh;
+    background-color: transparent;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .emp-segundo-item .segundo-item-uno {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-uno div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-uno div h3 {
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-uno div p {
-    font-size: 1rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-dos {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-dos div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-dos div h3 {
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-dos div p {
-    font-size: 1rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-tres {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-tres div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-tres div h3 {
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-tres div p {
-    font-size: 1rem;
-    color: white;
-  }
-  .emp-segundo-item div {
-    width: 90%;
-    height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2);
-    /* Color gris con 50% de transparencia */
   }
   .equip-item-uno {
     margin-top: 25%;
@@ -4318,7 +4061,7 @@ nav a:hover {
     height: 6vh;
   }
   footer p {
-    font-size: 2.5rem !important;
+    font-size: 2.2rem !important;
     text-align: center;
   }
   .section-uno {
@@ -4677,136 +4420,76 @@ nav a:hover {
     font-weight: 1000;
     margin-left: 46px;
   }
-  .primer-item {
-    margin-top: 15%;
-  }
-  .primer-item .primer-item-uno {
+  .empresa-uno {
+    width: 100%;
+    height: 28vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
   }
-  .primer-item .primer-item-uno h5 {
-    font-size: 2.4em;
-    font-weight: bold;
-  }
-  .primer-item .primer-item-uno h1 {
-    font-size: 3.9em;
-    font-weight: bold;
+  .empresa-uno h1 {
+    font-size: 3em;
+    font-weight: 1000;
     color: rgb(9, 54, 108);
   }
-  .primer-item .primer-item-dos {
-    margin-top: 5vh;
+  .empresa-uno h2 {
+    color: rgb(137, 45, 44);
+    font-weight: 700;
+    font-size: 2.5em;
+  }
+  .empresa-uno p {
+    padding: 0vh 44vh;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  .empresa-dos {
+    width: 100%;
+    height: 55vh;
     display: flex;
     flex-direction: row;
+    padding: 30px;
+  }
+  .empresa-dos .emp-dos-izquierda {
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
   }
-  .primer-item .primer-item-dos p {
-    font-size: 1.6rem;
-    text-align: center;
-    padding: 0px 60px;
+  .empresa-dos .emp-dos-izquierda h2 {
+    color: black;
+    font-weight: 1000;
+    font-size: 2.5em;
   }
-  .emp-segundo-item {
+  .empresa-dos .emp-dos-izquierda h2:hover {
+    color: rgb(137, 45, 44);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .empresa-dos .emp-dos-izquierda p {
+    color: white;
+    padding: 0vh 8vh;
+  }
+  .empresa-dos .emp-dos-derecha {
+    background-image: url("../img/industria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+  }
+  .empresa-clientes {
+    margin-top: 10vh;
     width: 100%;
     height: 50vh;
-    background: linear-gradient(135deg, #232323 0%, #191919 100%);
-    opacity: 1;
-    margin-top: 2vh;
+    background-color: transparent;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .emp-segundo-item .segundo-item-uno {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-uno div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-uno div h3 {
-    font-size: 2.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-uno div p {
-    font-size: 1.9rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-dos {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-dos div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-dos div h3 {
-    font-size: 2.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-dos div p {
-    font-size: 1.9rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-tres {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-tres div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-tres div h3 {
-    font-size: 2.5rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-tres div p {
-    font-size: 1.9rem;
-    color: white;
-  }
-  .emp-segundo-item div {
-    width: 90%;
-    height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2);
-    /* Color gris con 50% de transparencia */
   }
   .equip-item-uno {
     margin-top: 15%;

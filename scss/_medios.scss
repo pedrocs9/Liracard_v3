@@ -9,6 +9,7 @@
         }
     }
     nav {
+        padding-top: 0!important;
         a {
             padding: 10px;
             font-size: 2rem;
@@ -18,6 +19,7 @@
 
     .navbarcito {
         padding-right: 30px;
+        background-color: white;
     }
    
 
@@ -471,159 +473,86 @@
         @include caja-flex(center, center, nowrap);
     }
 
-    // EMPRESA
-    .primer-item {
-        margin-top: 55%;
-
-        .primer-item-uno {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            h5 {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            h1 {
-                font-size: 3em;
-                font-weight: bold;
-                color: $color_primario;
-            }
+     // EMPRESA
+    .empresa-uno{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30vh;
+        h1{
+            font-size: 2.8em;
+            font-weight: 1000;
+            color: $color_primario
         }
-
-        .primer-item-dos {
-            margin-top: 5vh;
-            padding: 0px 30px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-size: 1.3rem;
-                text-align: center;
-            }
+        h2{
+            color: $color_secundario;
+            font-weight: 700;
+            font-size: 2em;
+            text-align: center;
+            padding: 0vh 8vh;
+        }
+        p{
+            padding: 0vh 6vh;
+            font-size: 1.4em;
+            text-align: justify;
         }
     }
-
-    .emp-segundo-item {
+    .empresa-dos{
         width: 100%;
-        height: 140vh;
-        background: linear-gradient(135deg, #232323 0%, #191919 100%);
-        opacity: 1;
-        margin-top: 2vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-
-        .segundo-item-uno {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
+        margin-top: 13vh;
+        .emp-dos-izquierda{
+            background-color: $color_primario;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-dos {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-tres {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-3.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1rem;
-                    color: white;
-                }
-            }
-        }
-
-        div {
             width: 90%;
-            height: 35vh;
-            background-color: rgba(128, 128, 128, 0.3);
-            /* Color gris con 50% de transparencia */
-
-
-
+            height: 40vh;
+            h2{
+                color: black;
+                font-weight: 1000;
+                font-size: 1.9em;
+                padding: 0px 40px;
+                text-align: center;
+                &:hover{
+                    color:$color_secundario;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+    }
+            }
+            p{
+                color: white;
+                padding: 0vh 7vh;
+                font-size: 1.1em;
+                text-align: center;
+            }
         }
+        .emp-dos-derecha{
+            height: 40vh;
+            background-image: url("../img/industria.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 90%;
+        }
+    }
+    .empresa-clientes{
+        margin-top: 10vh;
+        width: 100%;
+        height: 50vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
     }
 
     // EQUIPAMIENTO
@@ -947,6 +876,7 @@
         }
     }
     nav {
+        padding-top: 0!important;
         a {
             padding: 10px;
             font-size: 2rem;
@@ -956,6 +886,8 @@
 
     .navbarcito {
         padding-right: 35px;
+        background-color: white;
+
     }
    
 
@@ -1411,158 +1343,86 @@
     }
 
     // EMPRESA
-    .primer-item {
-        margin-top: 55%;
-
-        .primer-item-uno {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            h5 {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            h1 {
-                font-size: 3em;
-                font-weight: bold;
-                color: $color_primario;
-            }
+    .empresa-uno{
+        width: 100%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30vh;
+        h1{
+            font-size: 2.8em;
+            font-weight: 1000;
+            color: $color_primario
         }
-
-        .primer-item-dos {
-            margin-top: 5vh;
-            padding: 0px 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-size: 1.3rem;
-                text-align: center;
-            }
+        h2{
+            color: $color_secundario;
+            font-weight: 700;
+            font-size: 2em;
+            text-align: center;
+            padding: 0vh 5vh;
+        }
+        p{
+            padding: 0vh 6vh;
+            font-size: 1.4em;
+            text-align: justify;
         }
     }
-
-    .emp-segundo-item {
+    .empresa-dos{
         width: 100%;
-        height: 140vh;
-        background: linear-gradient(135deg, #232323 0%, #191919 100%);
-        opacity: 1;
-        margin-top: 2vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-
-        .segundo-item-uno {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
+        padding: 20px;
+        margin-top: 10vh;
+        .emp-dos-izquierda{
+            background-color: $color_primario;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.7rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.2rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-dos {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.7rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.2rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-tres {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-3.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.7rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.2rem;
-                    color: white;
-                }
-            }
-        }
-
-        div {
             width: 90%;
-            height: 35vh;
-            background-color: rgba(128, 128, 128, 0.3);
-            /* Color gris con 50% de transparencia */
-
-
-
+            height: 40vh;
+            h2{
+                color: black;
+                font-weight: 1000;
+                font-size: 1.9em;
+                padding: 0px 40px;
+                text-align: center;
+                &:hover{
+                    color:$color_secundario;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+    }
+            }
+            p{
+                color: white;
+                padding: 0vh 7vh;
+                font-size: 1.1em;
+                text-align: center;
+            }
         }
+        .emp-dos-derecha{
+            height: 40vh;
+            background-image: url("../img/industria.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 90%;
+        }
+    }
+    .empresa-clientes{
+        margin-top: 10vh;
+        width: 100%;
+        height: 50vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
     }
 
     // EQUIPAMIENTO
@@ -1893,6 +1753,7 @@
         }
     }
     nav {
+        padding-top: 0!important;
         a {
             padding: 10px;
             font-size: 2rem;
@@ -1902,6 +1763,8 @@
 
     .navbarcito {
         padding-right: 35px;
+        background-color: white;
+
     }
    
 
@@ -2358,160 +2221,88 @@
         @include caja-flex(center, center, nowrap);
     }
 
-    // EMPRESA
-    .primer-item {
-        margin-top: 40%;
-
-        .primer-item-uno {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            h5 {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            h1 {
-                font-size: 3em;
-                font-weight: bold;
-                color: $color_primario;
-            }
-        }
-
-        .primer-item-dos {
-            margin-top: 5vh;
-            padding: 0px 45px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-size: 1.3rem;
-                text-align: center;
-            }
-        }
+   // EMPRESA
+.empresa-uno{
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    h1{
+        font-size: 2.8em;
+        font-weight: 1000;
+        color: $color_primario
     }
-
-    .emp-segundo-item {
-        width: 100%;
-        height: 140vh;
-        background: linear-gradient(135deg, #232323 0%, #191919 100%);
-        opacity: 1;
-        margin-top: 2vh;
+    h2{
+        color: $color_secundario;
+        font-weight: 700;
+        font-size: 2em;
+        text-align: center;
+        padding: 0vh 5vh;
+    }
+    p{
+        padding: 0vh 8vh;
+        font-size: 1.4em;
+        text-align: justify;
+    }
+}
+.empresa-dos{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 10vh;
+    .emp-dos-izquierda{
+        background-color: $color_primario;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
-
-        .segundo-item-uno {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.9rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.4rem;
-                    color: white;
-                }
-            }
+        width: 90%;
+        height: 40vh;
+        h2{
+            color: black;
+            font-weight: 1000;
+            font-size: 1.9em;
+            padding: 0px 40px;
+            text-align: center;
+            &:hover{
+                color:$color_secundario;
+                transition: .3s;
+                -webkit-transition: .3s;
+                -moz-transition: .3s;
+                -ms-transition: .3s;
+                -o-transition: .3s;
+}
         }
-
-        .segundo-item-dos {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.9rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.4rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-tres {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-3.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.9rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.4rem;
-                    color: white;
-                }
-            }
-        }
-
-        div {
-            width: 90%;
-            height: 35vh;
-            background-color: rgba(128, 128, 128, 0.3);
-            /* Color gris con 50% de transparencia */
-
-
-
+        p{
+            color: white;
+            padding: 0vh 7vh;
+            font-size: 1.1em;
+            text-align: center;
         }
     }
+    .emp-dos-derecha{
+        height: 40vh;
+        background-image: url("../img/industria.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 90%;
+    }
+}
+.empresa-clientes{
+    margin-top: 10vh;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
 
     // EQUIPAMIENTO
     .equip-item-uno {
@@ -2910,7 +2701,7 @@
         height: 6vh;
 
         p {
-            font-size: 2.5rem !important;
+            font-size: 1.9rem !important;
             text-align: center;
         }
     }
@@ -3342,156 +3133,78 @@
     }
 
     // EMPRESA
-    .primer-item {
-        margin-top: 25%;
-        margin-bottom: 10%;
-
-        .primer-item-uno {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            h5 {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            h1 {
-                font-size: 3em;
-                font-weight: bold;
-                color: $color_primario;
-            }
-        }
-
-        .primer-item-dos {
-            margin-top: 5vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-size: 1.3rem;
-                text-align: center;
-                padding: 0px 30px;
-            }
-        }
-    }
-
-    .emp-segundo-item {
+    .empresa-uno{
         width: 100%;
-        height: 140vh;
-        background: linear-gradient(135deg, #232323 0%, #191919 100%);
-        opacity: 1;
-        margin-top: 2vh;
+        height: 28vh;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
-
-        .segundo-item-uno {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-1.jpg");
+        margin-top: 25vh;
+        h1{
+            font-size: 2.8em;
+            font-weight: 1000;
+            color: $color_primario
+        }
+        h2{
+            color: $color_secundario;
+            font-weight: 700;
+            font-size: 2.2em;
+        }
+        p{
+            padding: 0vh 15vh;
+            font-size: 1.4em;
+            text-align: justify;
+        }
+    }
+    .empresa-dos{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        .emp-dos-izquierda{
+            background-color: $color_primario;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            h2{
+                color: black;
+                font-weight: 1000;
+                font-size: 1.9em;
+                padding: 0px 67px;
+                &:hover{
+                    color:$color_secundario;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+}
+            }
+            p{
+                color: white;
+                padding: 0vh 8vh;
+                font-size: 1.3em;
+            }
+        }
+        .emp-dos-derecha{
+            background-image: url("../img/industria.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 2.2rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.6rem;
-                    color: white;
-                }
-            }
+            width: 50%;
         }
-
-        .segundo-item-dos {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 2.2rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.6rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-tres {
-            width: 85%;
-            height: 40vh;
-            background-image: url("../img/empresa-3.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 2.2rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.6rem;
-                    color: white;
-                }
-            }
-        }
-
-        div {
-            width: 90%;
-            height: 35vh;
-            background-color: rgba(128, 128, 128, 0.2);
-            /* Color gris con 50% de transparencia */
-        }
+    }
+    .empresa-clientes{
+        margin-top: 10vh;
+        width: 100%;
+        height: 50vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
     }
 
     // EQUIPAMIENTO
@@ -3925,7 +3638,7 @@
         height: 6vh;
 
         p {
-            font-size: 2.5rem !important;
+            font-size: 2.1rem !important;
             text-align: center;
         }
     }
@@ -4347,160 +4060,79 @@
         }
     }
 
-    // EMPRESA
-    .primer-item {
-        margin-top: 18%;
-        margin-bottom: 10%;
-
-        .primer-item-uno {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            h5 {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            h1 {
-                font-size: 3em;
-                font-weight: bold;
-                color: $color_primario;
-            }
+ // EMPRESA
+    .empresa-uno{
+        width: 100%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25vh;
+        h1{
+            font-size: 3em;
+            font-weight: 1000;
+            color: $color_primario
         }
-
-        .primer-item-dos {
-            margin-top: 5vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-size: 1.3rem;
-                text-align: center;
-                padding: 0px 30px;
-            }
+        h2{
+            color: $color_secundario;
+            font-weight: 700;
+            font-size: 2.4em;
+        }
+        p{
+            padding: 0vh 28vh;
+            font-size: 1.4em;
+            text-align: justify;
         }
     }
-
-    .emp-segundo-item {
+    .empresa-dos{
         width: 100%;
-        height: 50vh;
-        background: linear-gradient(135deg, #232323 0%, #191919 100%);
-        opacity: 1;
-        margin-top: 2vh;
+        height: 55vh;
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-
-        .segundo-item-uno {
-            width: 30%;
-            height: 40vh;
-            background-image: url("../img/empresa-1.jpg");
+        padding: 30px;
+        .emp-dos-izquierda{
+            background-color: $color_primario;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            h2{
+                color: black;
+                font-weight: 1000;
+                font-size: 2.1em;
+                padding: 0px 67px;
+                &:hover{
+                    color:$color_secundario;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+}
+            }
+            p{
+                color: white;
+                padding: 0vh 8vh;
+                font-size: 1.6em;
+            }
+        }
+        .emp-dos-derecha{
+            background-image: url("../img/industria.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1rem;
-                    color: white;
-                }
-            }
+            width: 50%;
         }
-
-        .segundo-item-dos {
-            width: 30%;
-            height: 40vh;
-            background-image: url("../img/empresa-2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-tres {
-            width: 30%;
-            height: 40vh;
-            background-image: url("../img/empresa-3.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 1.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1rem;
-                    color: white;
-                }
-            }
-        }
-
-        div {
-            width: 90%;
-            height: 35vh;
-            background-color: rgba(128, 128, 128, 0.2);
-            /* Color gris con 50% de transparencia */
-
-
-
-        }
+    }
+    .empresa-clientes{
+        margin-top: 10vh;
+        width: 100%;
+        height: 50vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
     }
 
     // EQUIPAMIENTO
@@ -4937,7 +4569,7 @@
         height: 6vh;
 
         p {
-            font-size: 2.5rem !important;
+            font-size: 2.2rem !important;
             text-align: center;
         }
     }
@@ -5353,158 +4985,76 @@
     }
 
     // EMPRESA
-    .primer-item {
-        margin-top: 15%;
-
-        .primer-item-uno {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            h5 {
-                font-size: 2.4em;
-                font-weight: bold;
-            }
-
-            h1 {
-                font-size: 3.9em;
-                font-weight: bold;
-                color: $color_primario;
-            }
+    .empresa-uno{
+        width: 100%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25vh;
+        h1{
+            font-size: 3em;
+            font-weight: 1000;
+            color: $color_primario
         }
-
-        .primer-item-dos {
-            margin-top: 5vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-size: 1.6rem;
-                text-align: center;
-                padding: 0px 60px;
-            }
+        h2{
+            color: $color_secundario;
+            font-weight: 700;
+            font-size: 2.5em;
+        }
+        p{
+            padding: 0vh 44vh;
+            font-size: 1.4em;
+            text-align: justify;
         }
     }
-
-    .emp-segundo-item {
+    .empresa-dos{
         width: 100%;
-        height: 50vh;
-        background: linear-gradient(135deg, #232323 0%, #191919 100%);
-        opacity: 1;
-        margin-top: 2vh;
+        height: 55vh;
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-
-        .segundo-item-uno {
-            width: 30%;
-            height: 40vh;
-            background-image: url("../img/empresa-1.jpg");
+        padding: 30px;
+        .emp-dos-izquierda{
+            background-color: $color_primario;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            h2{
+                color: black;
+                font-weight: 1000;
+                font-size: 2.5em;
+                &:hover{
+                    color:$color_secundario;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+}
+            }
+            p{
+                color: white;
+                padding: 0vh 8vh;
+            }
+        }
+        .emp-dos-derecha{
+            background-image: url("../img/industria.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 2.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.9rem;
-                    color: white;
-                }
-            }
+            width: 50%;
         }
-
-        .segundo-item-dos {
-            width: 30%;
-            height: 40vh;
-            background-image: url("../img/empresa-2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 2.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.9rem;
-                    color: white;
-                }
-            }
-        }
-
-        .segundo-item-tres {
-            width: 30%;
-            height: 40vh;
-            background-image: url("../img/empresa-3.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                padding: 10px 30px;
-
-                h3 {
-                    font-size: 2.5rem;
-                    color: white;
-                    margin-top: 3vh;
-                    margin-bottom: 1vh;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }
-
-                p {
-                    font-size: 1.9rem;
-                    color: white;
-                }
-            }
-        }
-
-        div {
-            width: 90%;
-            height: 35vh;
-            background-color: rgba(128, 128, 128, 0.2);
-            /* Color gris con 50% de transparencia */
-
-
-
-        }
+    }
+    .empresa-clientes{
+        margin-top: 10vh;
+        width: 100%;
+        height: 50vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
     }
 
     // EQUIPAMIENTO
