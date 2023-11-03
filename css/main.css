@@ -155,7 +155,7 @@ nav a:hover {
   .section-uno {
     font-size: 14px;
     color: #000;
-    margin-top: 10vh;
+    margin-top: 9vh;
     width: 100%;
     height: 60vh;
   }
@@ -903,7 +903,7 @@ nav a:hover {
   .section-uno {
     font-size: 14px;
     color: #000;
-    margin-top: 10vh;
+    margin-top: 9vh;
     width: 100%;
     height: 60vh;
   }
@@ -1659,7 +1659,7 @@ nav a:hover {
   .section-uno {
     font-size: 14px;
     color: #000;
-    margin-top: 11vh;
+    margin-top: 9vh;
     width: 100%;
     height: 60vh;
   }
@@ -2434,6 +2434,9 @@ nav a:hover {
   header #info-menu .info-menu-derecha img:hover {
     transform: scale(1.1);
   }
+  nav {
+    background-color: white;
+  }
   nav a {
     padding: 10px;
     font-size: 2rem;
@@ -3159,28 +3162,49 @@ nav a:hover {
     font-size: 1.8rem;
     padding: 0px 10px;
   }
-  .como-item-uno {
-    margin-top: 22vh;
-    margin-bottom: 5vh;
-    text-align: center;
+  .primera-section-como {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19vh;
   }
-  .como-item-uno h1 {
-    font-weight: 700;
-    font-size: 2.2rem;
+  .primera-section-como .como-uno {
+    margin-top: 20vh;
+  }
+  .primera-section-como .como-uno h1 {
+    font-size: 3.2em;
     color: rgb(9, 54, 108);
+    font-weight: 1000;
   }
-  .como-item-uno h2 {
-    font-size: 1.7rem;
-    color: rgb(137, 45, 44);
-    padding: 0px 50px;
-  }
-  .mapa-como-llegar {
-    width: 100%;
-    margin-bottom: 25vh;
-  }
-  .mapa-como-llegar .container-mapa .mapa {
-    width: 90%;
+  .primera-section-como .como-dos {
+    width: 80%;
     height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .primera-section-como .como-dos .mapa-container {
+    width: 50%;
+    height: 50vh;
+  }
+  .primera-section-como .como-dos .mapa-container .mapa {
+    width: 100%;
+    height: 100%;
+  }
+  .primera-section-como .como-dos .info-mapa {
+    width: 50%;
+    height: 50vh;
+    margin-left: 2vh;
+  }
+  .primera-section-como .como-dos .info-mapa h3 {
+    color: rgb(9, 54, 108);
+    font-weight: 600;
+    font-size: 2.4em;
+  }
+  .primera-section-como .como-dos .info-mapa p {
+    color: black;
+    font-size: 2.1em;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -3959,28 +3983,49 @@ nav a:hover {
     font-size: 1.8rem;
     padding: 0px 10px;
   }
-  .como-item-uno {
-    margin-top: 22vh;
-    margin-bottom: 5vh;
-    text-align: center;
+  .primera-section-como {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19vh;
   }
-  .como-item-uno h1 {
-    font-weight: 700;
-    font-size: 2.2rem;
+  .primera-section-como .como-uno {
+    margin-top: 20vh;
+  }
+  .primera-section-como .como-uno h1 {
+    font-size: 3.2em;
     color: rgb(9, 54, 108);
+    font-weight: 1000;
   }
-  .como-item-uno h2 {
-    font-size: 1.7rem;
-    color: rgb(137, 45, 44);
-    padding: 0px 50px;
-  }
-  .mapa-como-llegar {
-    width: 100%;
-    margin-bottom: 13vh;
-  }
-  .mapa-como-llegar .container-mapa .mapa {
-    width: 90%;
+  .primera-section-como .como-dos {
+    width: 80%;
     height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .primera-section-como .como-dos .mapa-container {
+    width: 50%;
+    height: 50vh;
+  }
+  .primera-section-como .como-dos .mapa-container .mapa {
+    width: 100%;
+    height: 100%;
+  }
+  .primera-section-como .como-dos .info-mapa {
+    width: 50%;
+    height: 50vh;
+    margin-left: 2vh;
+  }
+  .primera-section-como .como-dos .info-mapa h3 {
+    color: rgb(9, 54, 108);
+    font-weight: 600;
+    font-size: 2.4em;
+  }
+  .primera-section-como .como-dos .info-mapa p {
+    color: black;
+    font-size: 2.1em;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -4748,28 +4793,49 @@ nav a:hover {
     font-size: 1.9rem;
     padding: 0px 10px;
   }
-  .como-item-uno {
-    margin-top: 22vh;
-    margin-bottom: 5vh;
-    text-align: center;
+  .primera-section-como {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19vh;
   }
-  .como-item-uno h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
+  .primera-section-como .como-uno {
+    margin-top: 20vh;
+  }
+  .primera-section-como .como-uno h1 {
+    font-size: 3.6em;
     color: rgb(9, 54, 108);
+    font-weight: 1000;
   }
-  .como-item-uno h2 {
-    font-size: 2rem;
-    color: rgb(137, 45, 44);
-    padding: 0px 50px;
-  }
-  .mapa-como-llegar {
-    width: 100%;
-    margin-bottom: 13vh;
-  }
-  .mapa-como-llegar .container-mapa .mapa {
-    width: 90%;
+  .primera-section-como .como-dos {
+    width: 60%;
     height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+  .primera-section-como .como-dos .mapa-container {
+    width: 50%;
+    height: 50vh;
+  }
+  .primera-section-como .como-dos .mapa-container .mapa {
+    width: 100%;
+    height: 100%;
+  }
+  .primera-section-como .como-dos .info-mapa {
+    width: 50%;
+    height: 50vh;
+    margin-left: 2vh;
+  }
+  .primera-section-como .como-dos .info-mapa h3 {
+    color: rgb(9, 54, 108);
+    font-weight: 600;
+    font-size: 2.7em;
+  }
+  .primera-section-como .como-dos .info-mapa p {
+    color: black;
+    font-size: 2.4em;
   }
 }
 @media (min-width: 1441px) {
@@ -5657,7 +5723,7 @@ nav a:hover {
     margin-top: 20vh;
   }
   .primera-section-como .como-uno h1 {
-    font-size: 3em;
+    font-size: 3.8em;
     color: rgb(9, 54, 108);
     font-weight: 1000;
   }
@@ -5684,9 +5750,11 @@ nav a:hover {
   .primera-section-como .como-dos .info-mapa h3 {
     color: rgb(9, 54, 108);
     font-weight: 600;
+    font-size: 3em;
   }
   .primera-section-como .como-dos .info-mapa p {
     color: black;
+    font-size: 2.7em;
   }
 }
 
