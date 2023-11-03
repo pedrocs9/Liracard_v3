@@ -49,7 +49,7 @@
         color: #000;
         margin-top: 9vh;
         width: 100%;
-        height: 60vh;
+        height: 50vh;
         
     }
     .swiper {
@@ -123,7 +123,7 @@
         .info-carrousel{
             margin-top: 4vh;
             width: 80%;
-            height: 42vh;
+            height: 35vh;
             background-color: $color_primario;
             margin-bottom: 7vh;
             z-index: 5;
@@ -133,22 +133,24 @@
             align-items: center;
             gap: 2vh;
             input{
-                width: 220px;
+                width: 200px;
                 height: 50px;
                 font-size: 2em;
                 &::placeholder{
-                    font-size: 0.6em;
+                    font-size: 0.9em;
                     font-weight: 600;
                 }
             }
             button{
-                width: 220px;
+                width: 200px;
                 height: 50px;
                 border: none;
                 border-radius: 2px;
+                padding: 0.4em 0.5em;
                 cursor: pointer;
+                margin-right: 10px;
                 margin-bottom: 10px;
-                font-size: 1.3rem;
+                font-size: 2rem;
                 font-weight: 800;
                 transition: transform 100ms;
                 background-color: $color_secundario;
@@ -167,13 +169,14 @@
         .titulo-bienvenida{
             background-color: white;
             width: 100%;
-            height: 20vh;
+            height: 10vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            padding-top:5vh;
+            
             h2{
-                font-size: 2.1em;
+                font-size: 1.9em;
                 font-weight: 600;
                 color: $color_primario;
             }
@@ -186,10 +189,9 @@
     section{
         .info-empresa{
             width: 100%;
-            height: 295vh;
+            height: 165vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             background-color: white;
             .info-uno{
@@ -197,13 +199,13 @@
                 flex-direction: column;
                 align-items: center;
                 gap: 2vh;
-                width: 87%;
-                height: 35%;
+                width: 70%;
+                height: 22%;
                 
                 h2{
                     color: $color_primario;
                     font-weight: 800;
-                    font-size: 1.9em;
+                    font-size: 1.8em;
                 }
                 p{
                     font-size: 1.5em;
@@ -218,7 +220,7 @@
                     cursor: pointer;
                     margin-bottom: 10px;
                     
-                    font-size: 1.3rem;
+                    font-size: 1.5rem;
                     font-weight: 500;
                     transition: transform 100ms;
                     width: 50%;
@@ -232,8 +234,9 @@
                 }
             }
             .info-dos{
-                width: 85%;
-                height: 45%;
+                width: 70%;
+                height: 37%;
+                margin-top: 15vh;
                 .item-responsabilidad{
                     display: flex;
                     flex-direction: column;
@@ -246,13 +249,13 @@
                         h2{
                             color: $color_primario;
                             font-weight: 800;
-                            font-size: 2.1em;
+                            font-size: 2.3em;
                             margin-top: 7px;
                             margin-left: 10px;
                         }
                     }
                     p{
-                        padding: 15px 10px;
+                        padding: 15px 15px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -271,13 +274,13 @@
                         h2{
                             color: $color_primario;
                             font-weight: 800;
-                            font-size: 2.1em;
+                            font-size: 2.3em;
                             margin-top: 7px;
                             margin-left: 10px;
                         }
                     }
                     p{
-                        padding: 15px 10px;
+                        padding: 15px 15px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -295,13 +298,13 @@
                         h2{
                             color: $color_primario;
                             font-weight: 800;
-                            font-size: 2.1em;
+                            font-size: 2.3em;
                             margin-top: 7px;
                             margin-left: 10px;
                         }
                     }
                     p{
-                        padding: 15px 10px;
+                        padding: 15px 15px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -331,36 +334,24 @@
                 }
             }
             .info-tres{
-                width: 80%;
-                height: 55%;
+                width: 100%;
+                height: 10%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-bottom: -20vh;
+                margin-top: 15vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 .info-galeria{
                     background-color: #F4F4F4;
-                    width: 100%;
-                    height: 96%;
+                    width: 95%;
+                    height: 26%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    div{
-                        text-align: center;
-                        margin-top: 3vh;
-                        gap: 40px;
-                        cursor: pointer;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        img{
-                            width: 85%;
-                            
-                        }
-                    }
-                    
+                    align-items: center;                    
                 }
             }
         }
@@ -372,11 +363,11 @@
         margin-top: 2vh;
         .section-info{
             width: 70%;
-            height: 100vh;
+            height: 75vh;
             background-color: $color_primario;
             display: flex;
             justify-content: center;
-            margin-top: 3vh;
+            margin-top: 5vh;
             .section-info-uno{
                 
                 width: 90%;
@@ -385,7 +376,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin-top: 33vh;
+                margin-top: 20vh;
                 .rowcito{
                     display: flex;
                     flex-direction: column;
@@ -472,6 +463,8 @@
     .segundo-item {
         @include caja-flex(center, center, nowrap);
     }
+
+  
 
      // EMPRESA
     .empresa-uno{
@@ -1069,7 +1062,7 @@
         color: #000;
         margin-top: 9vh;
         width: 100%;
-        height: 60vh;
+        height: 50vh;
         
     }
     .swiper {
@@ -1153,22 +1146,24 @@
             align-items: center;
             gap: 2vh;
             input{
-                width: 230px;
+                width: 260px;
                 height: 50px;
                 font-size: 2em;
                 &::placeholder{
-                    font-size: 0.7em;
+                    font-size: 0.9em;
                     font-weight: 600;
                 }
             }
             button{
-                width: 230px;
+                width: 250px;
                 height: 50px;
                 border: none;
                 border-radius: 2px;
+                padding: 0.4em 0.5em;
                 cursor: pointer;
+                margin-right: 10px;
                 margin-bottom: 10px;
-                font-size: 1.5rem;
+                font-size: 2rem;
                 font-weight: 800;
                 transition: transform 100ms;
                 background-color: $color_secundario;
@@ -1187,13 +1182,14 @@
         .titulo-bienvenida{
             background-color: white;
             width: 100%;
-            height: 25vh;
+            height: 10vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            padding-top:5vh;
+            
             h2{
-                font-size: 2.1em;
+                font-size: 2.5em;
                 font-weight: 600;
                 color: $color_primario;
             }
@@ -1206,10 +1202,9 @@
     section{
         .info-empresa{
             width: 100%;
-            height: 295vh;
+            height: 165vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             background-color: white;
             .info-uno{
@@ -1218,12 +1213,12 @@
                 align-items: center;
                 gap: 2vh;
                 width: 70%;
-                height: 35%;
+                height: 22%;
                 
                 h2{
                     color: $color_primario;
                     font-weight: 800;
-                    font-size: 1.9em;
+                    font-size: 2.3em;
                 }
                 p{
                     font-size: 1.5em;
@@ -1253,8 +1248,8 @@
             }
             .info-dos{
                 width: 70%;
-                height: 45%;
-                margin-top: 10vh;
+                height: 37%;
+                margin-top: 15vh;
                 .item-responsabilidad{
                     display: flex;
                     flex-direction: column;
@@ -1267,13 +1262,13 @@
                         h2{
                             color: $color_primario;
                             font-weight: 800;
-                            font-size: 2.1em;
+                            font-size: 2.3em;
                             margin-top: 7px;
                             margin-left: 10px;
                         }
                     }
                     p{
-                        padding: 15px 10px;
+                        padding: 15px 15px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -1292,13 +1287,13 @@
                         h2{
                             color: $color_primario;
                             font-weight: 800;
-                            font-size: 2.1em;
+                            font-size: 2.3em;
                             margin-top: 7px;
                             margin-left: 10px;
                         }
                     }
                     p{
-                        padding: 15px 10px;
+                        padding: 15px 15px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -1316,13 +1311,13 @@
                         h2{
                             color: $color_primario;
                             font-weight: 800;
-                            font-size: 2.1em;
+                            font-size: 2.3em;
                             margin-top: 7px;
                             margin-left: 10px;
                         }
                     }
                     p{
-                        padding: 15px 10px;
+                        padding: 15px 15px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -1352,36 +1347,24 @@
                 }
             }
             .info-tres{
-                width: 80%;
-                height: 55%;
+                width: 100%;
+                height: 10%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-bottom: -20vh;
+                margin-top: 15vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 .info-galeria{
                     background-color: #F4F4F4;
-                    width: 100%;
-                    height: 90%;
+                    width: 95%;
+                    height: 26%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    div{
-                        text-align: center;
-                        margin-top: 3vh;
-                        gap: 40px;
-                        cursor: pointer;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        img{
-                            width: 60%;
-                            
-                        }
-                    }
-                    
+                    align-items: center;                    
                 }
             }
         }
@@ -1393,11 +1376,11 @@
         margin-top: 2vh;
         .section-info{
             width: 70%;
-            height: 100vh;
+            height: 75vh;
             background-color: $color_primario;
             display: flex;
             justify-content: center;
-            margin-top: 3vh;
+            margin-top: 5vh;
             .section-info-uno{
                 
                 width: 90%;
@@ -1406,7 +1389,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin-top: 33vh;
+                margin-top: 20vh;
                 .rowcito{
                     display: flex;
                     flex-direction: column;
@@ -2210,11 +2193,12 @@
         .titulo-bienvenida{
             background-color: white;
             width: 100%;
-            height: 30vh;
+            height: 10vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            padding-top:5vh;
+            
             h2{
                 font-size: 2.5em;
                 font-weight: 600;
@@ -2229,10 +2213,9 @@
     section{
         .info-empresa{
             width: 100%;
-            height: 295vh;
+            height: 250vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             background-color: white;
             .info-uno{
@@ -2241,7 +2224,7 @@
                 align-items: center;
                 gap: 2vh;
                 width: 70%;
-                height: 35%;
+                height: 22%;
                 
                 h2{
                     color: $color_primario;
@@ -2276,7 +2259,7 @@
             }
             .info-dos{
                 width: 70%;
-                height: 45%;
+                height: 37%;
                 margin-top: 10vh;
                 .item-responsabilidad{
                     display: flex;
@@ -2375,36 +2358,24 @@
                 }
             }
             .info-tres{
-                width: 80%;
-                height: 55%;
+                width: 100%;
+                height: 10%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-bottom: -20vh;
+                margin-top: 15vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 .info-galeria{
                     background-color: #F4F4F4;
-                    width: 100%;
-                    height: 94%;
+                    width: 95%;
+                    height: 26%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    div{
-                        text-align: center;
-                        margin-top: 3vh;
-                        gap: 40px;
-                        cursor: pointer;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        img{
-                            width: 60%;
-                            
-                        }
-                    }
-                    
+                    align-items: center;                    
                 }
             }
         }
@@ -3154,7 +3125,7 @@
         // font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
         color: #000;
-        margin-top: 15vh;
+        margin-top: 12vh;
         width: 100%;
         height: 60vh;
         
@@ -3230,7 +3201,7 @@
         margin-top: 5vh;
         .info-carrousel{
             margin-top: 4vh;
-            width: 66%;
+            width: 45%;
             height: 42vh;
             background-color: $color_primario;
             margin-bottom: 7vh;
@@ -3241,7 +3212,7 @@
             align-items: center;
             gap: 2vh;
             input{
-                width: 300px;
+                width: 290px;
                 height: 50px;
                 font-size: 2em;
                 &::placeholder{
@@ -3250,7 +3221,7 @@
                 }
             }
             button{
-                width: 250px;
+                width: 290px;
                 height: 50px;
                 border: none;
                 border-radius: 2px;
@@ -3277,13 +3248,13 @@
         .titulo-bienvenida{
             background-color: white;
             width: 100%;
-            height: 15vh;
+            height: 30vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            padding-top: 2vh;
             h2{
-                font-size: 3em;
+                font-size: 4em;
                 font-weight: 600;
                 color: $color_primario;
             }
@@ -3296,7 +3267,7 @@
     section{
         .info-empresa{
             width: 100%;
-            height: 230vh;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -3308,8 +3279,8 @@
                 align-items: center;
                 gap: 2vh;
                 width: 70%;
-                height: 35%;
-                
+                height: 25%;
+                margin-bottom: 7vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
@@ -3342,7 +3313,8 @@
             }
             .info-dos{
                 width: 70%;
-                height: 55%;
+                height: 33%;
+                margin-bottom: 20vh;
                 .item-responsabilidad{
                     display: flex;
                     flex-direction: column;
@@ -3360,7 +3332,7 @@
                         }
                     }
                     p{
-                        padding: 20px 65px;
+                        padding: 10px 120px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -3375,6 +3347,7 @@
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
+                        padding-right: 5vh;
                         h2{
                             color: $color_primario;
                             font-weight: 800;
@@ -3384,7 +3357,7 @@
                         }
                     }
                     p{
-                        padding: 20px 65px;
+                        padding: 10px 120px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -3398,6 +3371,7 @@
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
+                        padding-right: 8vh;
                         h2{
                             color: $color_primario;
                             font-weight: 800;
@@ -3407,7 +3381,7 @@
                         }
                     }
                     p{
-                        padding: 20px 65px;
+                        padding: 10px 120px;
                         font-size: 1.8em;
                         text-align: justify;
                         
@@ -3438,43 +3412,35 @@
             }
             .info-tres{
                 width: 80%;
-                height: 55%;
+                height: 80%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-bottom: 30vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 .info-galeria{
                     background-color: #F4F4F4;
-                    width: 100%;
-                    height: 86%;
+                    width: 80%;
+                    height: 26%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    div{
-                        text-align: center;
-                        margin-top: 3vh;
-                        gap: 40px;
-                        cursor: pointer;
-                        img{
-                            width: 47%;
-                            
-                        }
-                    }
-                    
+                    align-items: center;                    
                 }
             }
         }
     }
-    section{
+    .ult-section{
+        width: 100%;
+        height: 70vh;
         display: flex;
         align-items: center;
         justify-content: center;
         .section-info{
-            width: 45%;
-            height: 106vh;
+            width: 50%;
+            height: 70vh;
             background-color: $color_primario;
             display: flex;
             justify-content: center;
@@ -3482,24 +3448,23 @@
             .section-info-uno{
                 
                 width: 90%;
-                height: 30vh;
+                height: 51vh;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin-top: 35vh;
+                gap: 5vh;
+                margin-top: 9vh;
                 .rowcito{
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin-top: 8vh;
                     .circulo{
                         width: 90px;
                         height: 90px;
                         border-radius: 50%;
                         background-color: $color_secundario;
-                        margin-top: 9px;
                         &:hover{
                             transform: scale(1.1);
                             i{
@@ -3524,9 +3489,9 @@
                     .años{
                         h2{
                             color: white;
-                            font-size: 6em;
+                            font-size: 7em;
+                            margin-left: 80px;
                             font-weight: 1000;
-                            text-align: center;
                         }
                         p{
                             color: white;
@@ -3538,14 +3503,13 @@
                     .seguridad{
                         h2{
                             color: white;
-                            font-size: 6em;
+                            font-size: 7em;
                             font-weight: 1000;
                         }
                         p{
                             color: white;
                             font-size:2.5em;
                             font-weight: 1000;
-                            text-align: center;
                         }
                     }
                     .proyectos{
@@ -3559,7 +3523,6 @@
                             color: white;
                             font-size:2.5em;
                             font-weight: 1000;
-                            text-align: center;
                         }
                     }
                 }
@@ -3568,8 +3531,30 @@
         }
     }
 
-    .segundo-item {
-        @include caja-flex(center, center, nowrap);
+    .imagencita{
+        width: 100%;
+        height: 33vh;
+    }
+
+    .swiper2 {
+        width: 100%;
+        height: 100%;
+    }
+  
+    .swiper-slide2 {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .swiper-slide2 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     // EMPRESA
@@ -4225,7 +4210,7 @@
         // font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
         color: #000;
-        margin-top: 15vh;
+        margin-top: 13vh;
         width: 100%;
         height: 60vh;
         
@@ -4312,7 +4297,7 @@
             align-items: center;
             gap: 2vh;
             input{
-                width: 250px;
+                width: 290px;
                 height: 50px;
                 font-size: 2em;
                 &::placeholder{
@@ -4321,7 +4306,7 @@
                 }
             }
             button{
-                width: 250px;
+                width: 290px;
                 height: 50px;
                 border: none;
                 border-radius: 2px;
@@ -4348,11 +4333,11 @@
         .titulo-bienvenida{
             background-color: white;
             width: 100%;
-            height: 20vh;
+            height: 32vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            padding-top: 2vh;
             h2{
                 font-size: 4em;
                 font-weight: 600;
@@ -4367,7 +4352,7 @@
     section{
         .info-empresa{
             width: 100%;
-            height: 230vh;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -4379,8 +4364,8 @@
                 align-items: center;
                 gap: 2vh;
                 width: 70%;
-                height: 45%;
-                
+                height: 25%;
+                margin-bottom: 7vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
@@ -4413,7 +4398,8 @@
             }
             .info-dos{
                 width: 70%;
-                height: 55%;
+                height: 33%;
+                margin-bottom: 12vh;
                 .item-responsabilidad{
                     display: flex;
                     flex-direction: column;
@@ -4446,6 +4432,7 @@
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
+                        padding-right: 5vh;
                         h2{
                             color: $color_primario;
                             font-weight: 800;
@@ -4469,6 +4456,7 @@
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
+                        padding-right: 8vh;
                         h2{
                             color: $color_primario;
                             font-weight: 800;
@@ -4513,28 +4501,18 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-bottom: 30vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 .info-galeria{
                     background-color: #F4F4F4;
-                    width: 100%;
-                    height: 88%;
+                    width: 80%;
+                    height: 26%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    div{
-                        text-align: center;
-                        margin-top: 1vh;
-                        gap: 40px;
-                        cursor: pointer;
-                        img{
-                            width: 47%;
-                            
-                        }
-                    }
-                    
+                    align-items: center;                    
                 }
             }
         }
@@ -4546,7 +4524,7 @@
             background-color: $color_primario;
             display: flex;
             justify-content: center;
-            
+            margin-top: 5vh;
             .section-info-uno{
                 
                 width: 90%;
@@ -4632,6 +4610,32 @@
             
             }
         }
+    }
+
+    .imagencita{
+        width: 100%;
+        height: 33vh;
+    }
+
+    .swiper2 {
+        width: 100%;
+        height: 100%;
+    }
+  
+    .swiper-slide2 {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .swiper-slide2 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
  // EMPRESA
@@ -5464,25 +5468,26 @@
     section{
         .info-empresa{
             width: 100%;
-            height: 70vh;
+            height: 50vh;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            justify-content: center;
+            gap: 6vh;
             background-color: white;
             .info-uno{
                 display: flex;
                 flex-direction: column;
-                width: 24%;
+                align-items: center;
+                width: 30%;
                 height: 90%;
-                
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 p{
-                    padding: 10px 60px 10px 0px;
                     font-size: 1.5em;
                     text-align: justify;
+                    padding: 10px 40px;
                 }
                 .btn-conocer{
                     justify-content: center;
@@ -5491,8 +5496,7 @@
                     border-radius: 2px;
                     padding: 0.7em 1.5em;
                     cursor: pointer;
-                    margin-bottom: 10px;
-                    margin-left:50px;
+                    
                     font-size: 1.5rem;
                     font-weight: 500;
                     transition: transform 100ms;
@@ -5507,7 +5511,7 @@
                 }
             }
             .info-dos{
-                width: 24%;
+                width: 30%;
                 height: 90%;
                 .item-responsabilidad{
                     display: flex;
@@ -5524,7 +5528,7 @@
                         }
                     }
                     p{
-                        padding: 0px 50px 10px 50px;
+                        padding: 0px 80px 10px 50px;
                         font-size: 1.5em;
                         text-align: justify;
                         
@@ -5546,7 +5550,7 @@
                         }
                     }
                     p{
-                        padding: 0px 50px 10px 50px;
+                        padding: 0px 80px 10px 50px;
                         font-size: 1.5em;
                         text-align: justify;
                         
@@ -5568,7 +5572,7 @@
                         }
                     }
                     p{
-                        padding: 0px 50px 10px 50px;
+                        padding: 0px 80px 10px 50px;
                         font-size: 1.5em;
                         text-align: justify;
                         
@@ -5598,33 +5602,22 @@
                 }
             }
             .info-tres{
-                width: 24%;
-                height: 80%;
+                width: 33%;
+                height: 75%;
                 display: flex;
                 flex-direction: column;
-                margin-right: 10vh;
+                align-items: center;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 .info-galeria{
                     background-color: #F4F4F4;
-                    width: 100%;
-                    height: 88%;
+                    width: 80%;
+                    height: 40%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    div{
-                        text-align: center;
-                        margin-top: 1vh;
-                        gap: 40px;
-                        cursor: pointer;
-                        img{
-                            width: 47%;
-                            
-                        }
-                    }
-                    
+                    align-items: center;                    
                 }
             }
         }
@@ -5722,6 +5715,32 @@
             
             }
         }
+    }
+
+    .imagencita{
+        width: 100%;
+        height: 33vh;
+    }
+
+    .swiper2 {
+        width: 100%;
+        height: 100%;
+    }
+  
+    .swiper-slide2 {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .swiper-slide2 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     // EMPRESA
@@ -6534,22 +6553,23 @@
             height: 50vh;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            justify-content: center;
+            gap: 6vh;
             background-color: white;
             .info-uno{
                 display: flex;
                 flex-direction: column;
-                width: 24%;
+                align-items: center;
+                width: 30%;
                 height: 90%;
-                margin-left: 10vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
                 }
                 p{
-                    padding: 10px 60px 10px 0px;
                     font-size: 1.5em;
                     text-align: justify;
+                    padding: 10px 40px;
                 }
                 .btn-conocer{
                     justify-content: center;
@@ -6558,8 +6578,7 @@
                     border-radius: 2px;
                     padding: 0.7em 1.5em;
                     cursor: pointer;
-                    margin-bottom: 10px;
-                    margin-left:75px;
+                    
                     font-size: 1.5rem;
                     font-weight: 500;
                     transition: transform 100ms;
@@ -6574,7 +6593,7 @@
                 }
             }
             .info-dos{
-                width: 24%;
+                width: 30%;
                 height: 90%;
                 .item-responsabilidad{
                     display: flex;
@@ -6665,11 +6684,11 @@
                 }
             }
             .info-tres{
-                width: 24%;
-                height: 80%;
+                width: 30%;
+                height: 75%;
                 display: flex;
                 flex-direction: column;
-                margin-right: 10vh;
+                align-items: center;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
@@ -6680,18 +6699,7 @@
                     height: 88%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    div{
-                        text-align: center;
-                        margin-top: 1vh;
-                        gap: 40px;
-                        cursor: pointer;
-                        img{
-                            width: 47%;
-                            
-                        }
-                    }
-                    
+                    align-items: center;                    
                 }
             }
         }
@@ -6703,9 +6711,7 @@
             background-color: $color_primario;
             display: flex;
             justify-content: center;
-            
             .section-info-uno{
-                
                 width: 55%;
                 height: 25vh;
                 display: flex;
@@ -6788,6 +6794,32 @@
             
             }
         }
+    }
+
+    .imagencita{
+        width: 100%;
+        height: 33vh;
+    }
+
+    .swiper2 {
+        width: 100%;
+        height: 100%;
+    }
+  
+    .swiper-slide2 {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .swiper-slide2 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     
     // EMPRESA

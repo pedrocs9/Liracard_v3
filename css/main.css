@@ -157,7 +157,7 @@ nav a:hover {
     color: #000;
     margin-top: 9vh;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
   }
   .swiper {
     width: 100%;
@@ -220,7 +220,7 @@ nav a:hover {
   .index-escribenos .info-carrousel {
     margin-top: 4vh;
     width: 80%;
-    height: 42vh;
+    height: 35vh;
     background-color: rgb(9, 54, 108);
     margin-bottom: 7vh;
     z-index: 5;
@@ -231,22 +231,24 @@ nav a:hover {
     gap: 2vh;
   }
   .index-escribenos .info-carrousel input {
-    width: 220px;
+    width: 200px;
     height: 50px;
     font-size: 2em;
   }
   .index-escribenos .info-carrousel input::placeholder {
-    font-size: 0.6em;
+    font-size: 0.9em;
     font-weight: 600;
   }
   .index-escribenos .info-carrousel button {
-    width: 220px;
+    width: 200px;
     height: 50px;
     border: none;
     border-radius: 2px;
+    padding: 0.4em 0.5em;
     cursor: pointer;
+    margin-right: 10px;
     margin-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 800;
     transition: transform 100ms;
     background-color: rgb(137, 45, 44);
@@ -259,14 +261,14 @@ nav a:hover {
   section .titulo-bienvenida {
     background-color: white;
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 5vh;
   }
   section .titulo-bienvenida h2 {
-    font-size: 2.1em;
+    font-size: 1.9em;
     font-weight: 600;
     color: rgb(9, 54, 108);
   }
@@ -276,10 +278,9 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 295vh;
+    height: 165vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: white;
   }
@@ -288,13 +289,13 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     gap: 2vh;
-    width: 87%;
-    height: 35%;
+    width: 70%;
+    height: 22%;
   }
   section .info-empresa .info-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
   section .info-empresa .info-uno p {
     font-size: 1.5em;
@@ -308,7 +309,7 @@ nav a:hover {
     padding: 0.7em 1.5em;
     cursor: pointer;
     margin-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
     transition: transform 100ms;
     width: 50%;
@@ -321,8 +322,9 @@ nav a:hover {
     transform: scale(1.1);
   }
   section .info-empresa .info-dos {
-    width: 85%;
-    height: 45%;
+    width: 70%;
+    height: 37%;
+    margin-top: 15vh;
   }
   section .info-empresa .info-dos .item-responsabilidad {
     display: flex;
@@ -338,12 +340,12 @@ nav a:hover {
   section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 2.1em;
+    font-size: 2.3em;
     margin-top: 7px;
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-responsabilidad p {
-    padding: 15px 10px;
+    padding: 15px 15px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -361,12 +363,12 @@ nav a:hover {
   section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 2.1em;
+    font-size: 2.3em;
     margin-top: 7px;
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-compromiso p {
-    padding: 15px 10px;
+    padding: 15px 15px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -383,12 +385,12 @@ nav a:hover {
   section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 2.1em;
+    font-size: 2.3em;
     margin-top: 7px;
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-respeto p {
-    padding: 15px 10px;
+    padding: 15px 15px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -411,11 +413,13 @@ nav a:hover {
     margin-left: 7px;
   }
   section .info-empresa .info-tres {
-    width: 80%;
-    height: 55%;
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -20vh;
+    margin-top: 15vh;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -423,23 +427,11 @@ nav a:hover {
   }
   section .info-empresa .info-tres .info-galeria {
     background-color: #F4F4F4;
-    width: 100%;
-    height: 96%;
+    width: 95%;
+    height: 26%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div {
-    text-align: center;
-    margin-top: 3vh;
-    gap: 40px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div img {
-    width: 85%;
   }
   .ult-section {
     display: flex;
@@ -449,11 +441,11 @@ nav a:hover {
   }
   .ult-section .section-info {
     width: 70%;
-    height: 100vh;
+    height: 75vh;
     background-color: rgb(9, 54, 108);
     display: flex;
     justify-content: center;
-    margin-top: 3vh;
+    margin-top: 5vh;
   }
   .ult-section .section-info .section-info-uno {
     width: 90%;
@@ -462,7 +454,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 33vh;
+    margin-top: 20vh;
   }
   .ult-section .section-info .section-info-uno .rowcito {
     display: flex;
@@ -1048,7 +1040,7 @@ nav a:hover {
     color: #000;
     margin-top: 9vh;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
   }
   .swiper {
     width: 100%;
@@ -1122,22 +1114,24 @@ nav a:hover {
     gap: 2vh;
   }
   .index-escribenos .info-carrousel input {
-    width: 230px;
+    width: 260px;
     height: 50px;
     font-size: 2em;
   }
   .index-escribenos .info-carrousel input::placeholder {
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 600;
   }
   .index-escribenos .info-carrousel button {
-    width: 230px;
+    width: 250px;
     height: 50px;
     border: none;
     border-radius: 2px;
+    padding: 0.4em 0.5em;
     cursor: pointer;
+    margin-right: 10px;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
     transition: transform 100ms;
     background-color: rgb(137, 45, 44);
@@ -1150,14 +1144,14 @@ nav a:hover {
   section .titulo-bienvenida {
     background-color: white;
     width: 100%;
-    height: 25vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 5vh;
   }
   section .titulo-bienvenida h2 {
-    font-size: 2.1em;
+    font-size: 2.5em;
     font-weight: 600;
     color: rgb(9, 54, 108);
   }
@@ -1167,10 +1161,9 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 295vh;
+    height: 165vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: white;
   }
@@ -1180,12 +1173,12 @@ nav a:hover {
     align-items: center;
     gap: 2vh;
     width: 70%;
-    height: 35%;
+    height: 22%;
   }
   section .info-empresa .info-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 1.9em;
+    font-size: 2.3em;
   }
   section .info-empresa .info-uno p {
     font-size: 1.5em;
@@ -1213,8 +1206,8 @@ nav a:hover {
   }
   section .info-empresa .info-dos {
     width: 70%;
-    height: 45%;
-    margin-top: 10vh;
+    height: 37%;
+    margin-top: 15vh;
   }
   section .info-empresa .info-dos .item-responsabilidad {
     display: flex;
@@ -1230,12 +1223,12 @@ nav a:hover {
   section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 2.1em;
+    font-size: 2.3em;
     margin-top: 7px;
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-responsabilidad p {
-    padding: 15px 10px;
+    padding: 15px 15px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -1253,12 +1246,12 @@ nav a:hover {
   section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 2.1em;
+    font-size: 2.3em;
     margin-top: 7px;
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-compromiso p {
-    padding: 15px 10px;
+    padding: 15px 15px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -1275,12 +1268,12 @@ nav a:hover {
   section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
-    font-size: 2.1em;
+    font-size: 2.3em;
     margin-top: 7px;
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-respeto p {
-    padding: 15px 10px;
+    padding: 15px 15px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -1303,11 +1296,13 @@ nav a:hover {
     margin-left: 7px;
   }
   section .info-empresa .info-tres {
-    width: 80%;
-    height: 55%;
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -20vh;
+    margin-top: 15vh;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -1315,23 +1310,11 @@ nav a:hover {
   }
   section .info-empresa .info-tres .info-galeria {
     background-color: #F4F4F4;
-    width: 100%;
-    height: 90%;
+    width: 95%;
+    height: 26%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div {
-    text-align: center;
-    margin-top: 3vh;
-    gap: 40px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div img {
-    width: 60%;
   }
   .ult-section {
     display: flex;
@@ -1341,11 +1324,11 @@ nav a:hover {
   }
   .ult-section .section-info {
     width: 70%;
-    height: 100vh;
+    height: 75vh;
     background-color: rgb(9, 54, 108);
     display: flex;
     justify-content: center;
-    margin-top: 3vh;
+    margin-top: 5vh;
   }
   .ult-section .section-info .section-info-uno {
     width: 90%;
@@ -1354,7 +1337,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 33vh;
+    margin-top: 20vh;
   }
   .ult-section .section-info .section-info-uno .rowcito {
     display: flex;
@@ -2044,11 +2027,11 @@ nav a:hover {
   section .titulo-bienvenida {
     background-color: white;
     width: 100%;
-    height: 30vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 5vh;
   }
   section .titulo-bienvenida h2 {
     font-size: 2.5em;
@@ -2061,10 +2044,9 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 295vh;
+    height: 250vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: white;
   }
@@ -2074,7 +2056,7 @@ nav a:hover {
     align-items: center;
     gap: 2vh;
     width: 70%;
-    height: 35%;
+    height: 22%;
   }
   section .info-empresa .info-uno h2 {
     color: rgb(9, 54, 108);
@@ -2107,7 +2089,7 @@ nav a:hover {
   }
   section .info-empresa .info-dos {
     width: 70%;
-    height: 45%;
+    height: 37%;
     margin-top: 10vh;
   }
   section .info-empresa .info-dos .item-responsabilidad {
@@ -2197,11 +2179,13 @@ nav a:hover {
     margin-left: 7px;
   }
   section .info-empresa .info-tres {
-    width: 80%;
-    height: 55%;
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -20vh;
+    margin-top: 15vh;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -2209,23 +2193,11 @@ nav a:hover {
   }
   section .info-empresa .info-tres .info-galeria {
     background-color: #F4F4F4;
-    width: 100%;
-    height: 94%;
+    width: 95%;
+    height: 26%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div {
-    text-align: center;
-    margin-top: 3vh;
-    gap: 40px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div img {
-    width: 60%;
   }
   .ult-section {
     display: flex;
@@ -2877,7 +2849,7 @@ nav a:hover {
   .section-uno {
     font-size: 14px;
     color: #000;
-    margin-top: 15vh;
+    margin-top: 12vh;
     width: 100%;
     height: 60vh;
   }
@@ -2942,7 +2914,7 @@ nav a:hover {
   }
   .index-escribenos .info-carrousel {
     margin-top: 4vh;
-    width: 66%;
+    width: 45%;
     height: 42vh;
     background-color: rgb(9, 54, 108);
     margin-bottom: 7vh;
@@ -2954,7 +2926,7 @@ nav a:hover {
     gap: 2vh;
   }
   .index-escribenos .info-carrousel input {
-    width: 300px;
+    width: 290px;
     height: 50px;
     font-size: 2em;
   }
@@ -2963,7 +2935,7 @@ nav a:hover {
     font-weight: 600;
   }
   .index-escribenos .info-carrousel button {
-    width: 250px;
+    width: 290px;
     height: 50px;
     border: none;
     border-radius: 2px;
@@ -2984,14 +2956,14 @@ nav a:hover {
   section .titulo-bienvenida {
     background-color: white;
     width: 100%;
-    height: 15vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 2vh;
   }
   section .titulo-bienvenida h2 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 600;
     color: rgb(9, 54, 108);
   }
@@ -3001,7 +2973,7 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 230vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3014,7 +2986,8 @@ nav a:hover {
     align-items: center;
     gap: 2vh;
     width: 70%;
-    height: 35%;
+    height: 25%;
+    margin-bottom: 7vh;
   }
   section .info-empresa .info-uno h2 {
     color: rgb(9, 54, 108);
@@ -3046,7 +3019,8 @@ nav a:hover {
   }
   section .info-empresa .info-dos {
     width: 70%;
-    height: 55%;
+    height: 33%;
+    margin-bottom: 20vh;
   }
   section .info-empresa .info-dos .item-responsabilidad {
     display: flex;
@@ -3066,7 +3040,7 @@ nav a:hover {
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-responsabilidad p {
-    padding: 20px 65px;
+    padding: 10px 120px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -3079,6 +3053,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 5vh;
   }
   section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
     color: rgb(9, 54, 108);
@@ -3088,7 +3063,7 @@ nav a:hover {
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-compromiso p {
-    padding: 20px 65px;
+    padding: 10px 120px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -3100,6 +3075,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 8vh;
   }
   section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
     color: rgb(9, 54, 108);
@@ -3109,7 +3085,7 @@ nav a:hover {
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-respeto p {
-    padding: 20px 65px;
+    padding: 10px 120px;
     font-size: 1.8em;
     text-align: justify;
   }
@@ -3133,10 +3109,11 @@ nav a:hover {
   }
   section .info-empresa .info-tres {
     width: 80%;
-    height: 55%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30vh;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -3144,109 +3121,115 @@ nav a:hover {
   }
   section .info-empresa .info-tres .info-galeria {
     background-color: #F4F4F4;
-    width: 100%;
-    height: 86%;
+    width: 80%;
+    height: 26%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .info-empresa .info-tres .info-galeria div {
-    text-align: center;
-    margin-top: 3vh;
-    gap: 40px;
-    cursor: pointer;
-  }
-  section .info-empresa .info-tres .info-galeria div img {
-    width: 47%;
-  }
-  section {
+  .ult-section {
+    width: 100%;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  section .section-info {
-    width: 45%;
-    height: 106vh;
+  .ult-section .section-info {
+    width: 50%;
+    height: 70vh;
     background-color: rgb(9, 54, 108);
     display: flex;
     justify-content: center;
     margin-top: 5vh;
   }
-  section .section-info .section-info-uno {
+  .ult-section .section-info .section-info-uno {
     width: 90%;
-    height: 30vh;
+    height: 51vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 35vh;
+    gap: 5vh;
+    margin-top: 9vh;
   }
-  section .section-info .section-info-uno .rowcito {
+  .ult-section .section-info .section-info-uno .rowcito {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 8vh;
   }
-  section .section-info .section-info-uno .rowcito .circulo {
+  .ult-section .section-info .section-info-uno .rowcito .circulo {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     background-color: rgb(137, 45, 44);
-    margin-top: 9px;
   }
-  section .section-info .section-info-uno .rowcito .circulo:hover {
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover {
     transform: scale(1.1);
   }
-  section .section-info .section-info-uno .rowcito .circulo:hover i {
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover i {
     color: #232323;
     transition: all 0.3s;
   }
-  section .section-info .section-info-uno .rowcito .circulo i {
+  .ult-section .section-info .section-info-uno .rowcito .circulo i {
     font-size: 55px;
     color: white;
     margin-left: 17px;
     margin-top: 15px;
   }
-  section .section-info .section-info-uno .rowcito .años h2 {
+  .ult-section .section-info .section-info-uno .rowcito .años h2 {
     color: white;
-    font-size: 6em;
+    font-size: 7em;
+    margin-left: 80px;
     font-weight: 1000;
-    text-align: center;
   }
-  section .section-info .section-info-uno .rowcito .años p {
+  .ult-section .section-info .section-info-uno .rowcito .años p {
     color: white;
     font-size: 2.5em;
     font-weight: 1000;
     margin-left: 0px;
   }
-  section .section-info .section-info-uno .rowcito .seguridad h2 {
-    color: white;
-    font-size: 6em;
-    font-weight: 1000;
-  }
-  section .section-info .section-info-uno .rowcito .seguridad p {
-    color: white;
-    font-size: 2.5em;
-    font-weight: 1000;
-    text-align: center;
-  }
-  section .section-info .section-info-uno .rowcito .proyectos h2 {
+  .ult-section .section-info .section-info-uno .rowcito .seguridad h2 {
     color: white;
     font-size: 7em;
     font-weight: 1000;
   }
-  section .section-info .section-info-uno .rowcito .proyectos p {
+  .ult-section .section-info .section-info-uno .rowcito .seguridad p {
     color: white;
     font-size: 2.5em;
     font-weight: 1000;
-    text-align: center;
   }
-  .segundo-item {
+  .ult-section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 7em;
+    font-weight: 1000;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+  }
+  .imagencita {
+    width: 100%;
+    height: 33vh;
+  }
+  .swiper2 {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+  }
+  .swiper-slide2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .empresa-uno {
     width: 100%;
@@ -3811,7 +3794,7 @@ nav a:hover {
   .section-uno {
     font-size: 14px;
     color: #000;
-    margin-top: 15vh;
+    margin-top: 13vh;
     width: 100%;
     height: 60vh;
   }
@@ -3888,7 +3871,7 @@ nav a:hover {
     gap: 2vh;
   }
   .index-escribenos .info-carrousel input {
-    width: 250px;
+    width: 290px;
     height: 50px;
     font-size: 2em;
   }
@@ -3897,7 +3880,7 @@ nav a:hover {
     font-weight: 600;
   }
   .index-escribenos .info-carrousel button {
-    width: 250px;
+    width: 290px;
     height: 50px;
     border: none;
     border-radius: 2px;
@@ -3918,11 +3901,11 @@ nav a:hover {
   section .titulo-bienvenida {
     background-color: white;
     width: 100%;
-    height: 20vh;
+    height: 32vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 2vh;
   }
   section .titulo-bienvenida h2 {
     font-size: 4em;
@@ -3935,7 +3918,7 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 230vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3948,7 +3931,8 @@ nav a:hover {
     align-items: center;
     gap: 2vh;
     width: 70%;
-    height: 45%;
+    height: 25%;
+    margin-bottom: 7vh;
   }
   section .info-empresa .info-uno h2 {
     color: rgb(9, 54, 108);
@@ -3980,7 +3964,8 @@ nav a:hover {
   }
   section .info-empresa .info-dos {
     width: 70%;
-    height: 55%;
+    height: 33%;
+    margin-bottom: 12vh;
   }
   section .info-empresa .info-dos .item-responsabilidad {
     display: flex;
@@ -4013,6 +3998,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 5vh;
   }
   section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
     color: rgb(9, 54, 108);
@@ -4034,6 +4020,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 8vh;
   }
   section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
     color: rgb(9, 54, 108);
@@ -4071,6 +4058,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30vh;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -4078,20 +4066,11 @@ nav a:hover {
   }
   section .info-empresa .info-tres .info-galeria {
     background-color: #F4F4F4;
-    width: 100%;
-    height: 88%;
+    width: 80%;
+    height: 26%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div {
-    text-align: center;
-    margin-top: 1vh;
-    gap: 40px;
-    cursor: pointer;
-  }
-  section .info-empresa .info-tres .info-galeria div img {
-    width: 47%;
   }
   section .section-info {
     width: 100%;
@@ -4099,6 +4078,7 @@ nav a:hover {
     background-color: rgb(9, 54, 108);
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
   }
   section .section-info .section-info-uno {
     width: 90%;
@@ -4169,6 +4149,28 @@ nav a:hover {
     font-size: 2.5em;
     font-weight: 1000;
     margin-left: 46px;
+  }
+  .imagencita {
+    width: 100%;
+    height: 33vh;
+  }
+  .swiper2 {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .empresa-uno {
     width: 100%;
@@ -4893,16 +4895,18 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 6vh;
     background-color: white;
   }
   section .info-empresa .info-uno {
     display: flex;
     flex-direction: column;
-    width: 24%;
+    align-items: center;
+    width: 30%;
     height: 90%;
   }
   section .info-empresa .info-uno h2 {
@@ -4910,9 +4914,9 @@ nav a:hover {
     font-weight: 800;
   }
   section .info-empresa .info-uno p {
-    padding: 10px 60px 10px 0px;
     font-size: 1.5em;
     text-align: justify;
+    padding: 10px 40px;
   }
   section .info-empresa .info-uno .btn-conocer {
     justify-content: center;
@@ -4921,8 +4925,6 @@ nav a:hover {
     border-radius: 2px;
     padding: 0.7em 1.5em;
     cursor: pointer;
-    margin-bottom: 10px;
-    margin-left: 50px;
     font-size: 1.5rem;
     font-weight: 500;
     transition: transform 100ms;
@@ -4936,7 +4938,7 @@ nav a:hover {
     transform: scale(1.1);
   }
   section .info-empresa .info-dos {
-    width: 24%;
+    width: 30%;
     height: 90%;
   }
   section .info-empresa .info-dos .item-responsabilidad {
@@ -4955,7 +4957,7 @@ nav a:hover {
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-responsabilidad p {
-    padding: 0px 50px 10px 50px;
+    padding: 0px 80px 10px 50px;
     font-size: 1.5em;
     text-align: justify;
   }
@@ -4975,7 +4977,7 @@ nav a:hover {
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-compromiso p {
-    padding: 0px 50px 10px 50px;
+    padding: 0px 80px 10px 50px;
     font-size: 1.5em;
     text-align: justify;
   }
@@ -4995,7 +4997,7 @@ nav a:hover {
     margin-left: 10px;
   }
   section .info-empresa .info-dos .item-respeto p {
-    padding: 0px 50px 10px 50px;
+    padding: 0px 80px 10px 50px;
     font-size: 1.5em;
     text-align: justify;
   }
@@ -5018,11 +5020,11 @@ nav a:hover {
     margin-left: 7px;
   }
   section .info-empresa .info-tres {
-    width: 24%;
-    height: 80%;
+    width: 33%;
+    height: 75%;
     display: flex;
     flex-direction: column;
-    margin-right: 10vh;
+    align-items: center;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -5030,20 +5032,11 @@ nav a:hover {
   }
   section .info-empresa .info-tres .info-galeria {
     background-color: #F4F4F4;
-    width: 100%;
-    height: 88%;
+    width: 80%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div {
-    text-align: center;
-    margin-top: 1vh;
-    gap: 40px;
-    cursor: pointer;
-  }
-  section .info-empresa .info-tres .info-galeria div img {
-    width: 47%;
   }
   section .section-info {
     width: 100%;
@@ -5121,6 +5114,28 @@ nav a:hover {
     font-size: 2.5em;
     font-weight: 1000;
     margin-left: 46px;
+  }
+  .imagencita {
+    width: 100%;
+    height: 33vh;
+  }
+  .swiper2 {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .empresa-uno {
     width: 100%;
@@ -5826,24 +5841,25 @@ nav a:hover {
     height: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 6vh;
     background-color: white;
   }
   section .info-empresa .info-uno {
     display: flex;
     flex-direction: column;
-    width: 24%;
+    align-items: center;
+    width: 30%;
     height: 90%;
-    margin-left: 10vh;
   }
   section .info-empresa .info-uno h2 {
     color: rgb(9, 54, 108);
     font-weight: 800;
   }
   section .info-empresa .info-uno p {
-    padding: 10px 60px 10px 0px;
     font-size: 1.5em;
     text-align: justify;
+    padding: 10px 40px;
   }
   section .info-empresa .info-uno .btn-conocer {
     justify-content: center;
@@ -5852,8 +5868,6 @@ nav a:hover {
     border-radius: 2px;
     padding: 0.7em 1.5em;
     cursor: pointer;
-    margin-bottom: 10px;
-    margin-left: 75px;
     font-size: 1.5rem;
     font-weight: 500;
     transition: transform 100ms;
@@ -5867,7 +5881,7 @@ nav a:hover {
     transform: scale(1.1);
   }
   section .info-empresa .info-dos {
-    width: 24%;
+    width: 30%;
     height: 90%;
   }
   section .info-empresa .info-dos .item-responsabilidad {
@@ -5949,11 +5963,11 @@ nav a:hover {
     margin-left: 7px;
   }
   section .info-empresa .info-tres {
-    width: 24%;
-    height: 80%;
+    width: 30%;
+    height: 75%;
     display: flex;
     flex-direction: column;
-    margin-right: 10vh;
+    align-items: center;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -5966,15 +5980,6 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section .info-empresa .info-tres .info-galeria div {
-    text-align: center;
-    margin-top: 1vh;
-    gap: 40px;
-    cursor: pointer;
-  }
-  section .info-empresa .info-tres .info-galeria div img {
-    width: 47%;
   }
   section .section-info {
     width: 100%;
@@ -6049,6 +6054,28 @@ nav a:hover {
     font-size: 2.5em;
     font-weight: 1000;
     margin-left: 35px;
+  }
+  .imagencita {
+    width: 100%;
+    height: 33vh;
+  }
+  .swiper2 {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .empresa-uno {
     width: 100%;
