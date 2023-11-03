@@ -107,57 +107,422 @@ nav ul {
 nav a:hover {
   color: rgb(9, 54, 108);
   transform: scale(1.1);
-  text-decoration: underline;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.active {
+  color: rgb(9, 54, 108);
 }
 
 @media (max-width: 320px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header #info-menu {
+    display: none;
+  }
   nav a {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
   }
-  nav .nav1 {
-    margin-right: 10px;
+  .navbarcito {
+    padding-right: 30px;
   }
   .logo {
-    width: 140px;
-    margin: 5px 10px;
+    width: 120px;
+    margin: -5px -6px;
   }
-  .presentacion {
-    padding-top: 155px;
+  footer {
+    bottom: 0;
+    width: 100%;
+    margin-top: 3vh;
+    height: 6vh;
+  }
+  footer p {
+    font-size: 1.7rem !important;
+    text-align: center;
+  }
+  .section-uno {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10vh;
+    width: 100%;
+    height: 60vh;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 60px;
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/soldador.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .title1 {
+    font-size: 18px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title1:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title2 {
+    font-size: 18px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title2:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title3 {
+    font-size: 18px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title3:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .index-escribenos {
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
+  }
+  .index-escribenos .info-carrousel {
+    margin-top: 4vh;
+    width: 80%;
+    height: 42vh;
+    background-color: rgb(9, 54, 108);
+    margin-bottom: 7vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    gap: 2vh;
   }
-  .presentacion .flex-item2 {
-    text-align: center;
+  .index-escribenos .info-carrousel input {
+    width: 220px;
+    height: 50px;
+    font-size: 2em;
   }
-  .presentacion h1 {
-    margin-top: 0;
-    font-size: 3rem;
-    text-align: center;
+  .index-escribenos .info-carrousel input::placeholder {
+    font-size: 0.6em;
+    font-weight: 600;
   }
-  .presentacion p {
-    padding-bottom: 10px;
-    text-align: center;
+  .index-escribenos .info-carrousel button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    transition: transform 100ms;
+    background-color: rgb(137, 45, 44);
+    color: white;
+    margin-top: 1vh;
   }
-  .flex-item1 {
+  .index-escribenos .info-carrousel button:hover {
+    transform: scale(1.1);
+  }
+  section .titulo-bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .titulo-bienvenida h2 {
+    font-size: 2.1em;
+    font-weight: 600;
+    color: rgb(9, 54, 108);
+  }
+  section .titulo-bienvenida .divider {
+    border-top: 1px solid black; /* Estilo de la línea */
+    margin: 20px 0;
+  }
+  section .info-empresa {
+    width: 100%;
+    height: 295vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  section .info-empresa .info-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 87%;
+    height: 35%;
+  }
+  section .info-empresa .info-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 1.9em;
+  }
+  section .info-empresa .info-uno p {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-uno .btn-conocer {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    width: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-uno .btn-conocer a {
+    color: white;
+  }
+  section .info-empresa .info-uno .btn-conocer:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos {
+    width: 85%;
+    height: 45%;
+  }
+  section .info-empresa .info-dos .item-responsabilidad {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.1em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-responsabilidad p {
+    padding: 15px 10px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-compromiso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.1em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-compromiso p {
+    padding: 15px 10px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-respeto {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.1em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-respeto p {
+    padding: 15px 10px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-dos .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .info-empresa .info-dos i {
+    font-size: 25px;
+    color: white;
+    margin-left: 7px;
+  }
+  section .info-empresa .info-tres {
+    width: 80%;
+    height: 55%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section #carouselExampleIndicators {
-    padding: 0px 20px;
+  section .info-empresa .info-tres h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
   }
-  footer {
+  section .info-empresa .info-tres .info-galeria {
+    background-color: #F4F4F4;
     width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 3vh;
-    height: 6vh;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  footer p {
-    font-size: 1.5rem !important;
+  section .info-empresa .info-tres .info-galeria div {
+    text-align: center;
+    margin-top: 3vh;
+    gap: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres .info-galeria div img {
+    width: 85%;
+  }
+  .ult-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+  .ult-section .section-info {
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  .ult-section .section-info .section-info-uno {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33vh;
+  }
+  .ult-section .section-info .section-info-uno .rowcito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+    margin-top: 9px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover {
+    transform: scale(1.1);
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo i {
+    font-size: 49px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .años h2 {
+    color: white;
+    font-size: 5em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .años p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
+    margin-left: 0px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .seguridad h2 {
+    color: white;
+    font-size: 5em;
+    font-weight: 1000;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .seguridad p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 6em;
+    font-weight: 1000;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
     text-align: center;
   }
   .segundo-item {
@@ -549,53 +914,411 @@ nav a:hover {
   }
 }
 @media (min-width: 321px) and (max-width: 375px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header #info-menu {
+    display: none;
+  }
   nav a {
     padding: 10px;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: bold;
   }
-  nav .nav1 {
-    margin-right: 10px;
+  .navbarcito {
+    padding-right: 35px;
   }
   .logo {
-    width: 140px;
-    margin: 5px 15px;
+    width: 120px;
+    margin: -5px 10px;
   }
-  .presentacion {
-    padding-top: 155px;
+  footer {
+    bottom: 0;
+    width: 100%;
+    margin-top: 3vh;
+    height: 6vh;
+  }
+  footer p {
+    font-size: 1.7rem !important;
+    text-align: center;
+  }
+  .section-uno {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10vh;
+    width: 100%;
+    height: 60vh;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 60px;
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/soldador.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .title1 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title1:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title2 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title2:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title3 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title3:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .index-escribenos {
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
+  }
+  .index-escribenos .info-carrousel {
+    margin-top: 4vh;
+    width: 80%;
+    height: 42vh;
+    background-color: rgb(9, 54, 108);
+    margin-bottom: 7vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    gap: 2vh;
   }
-  .presentacion .flex-item2 {
-    text-align: center;
+  .index-escribenos .info-carrousel input {
+    width: 230px;
+    height: 50px;
+    font-size: 2em;
   }
-  .presentacion h1 {
-    margin-top: 0;
-    font-size: 3rem;
-    text-align: center;
+  .index-escribenos .info-carrousel input::placeholder {
+    font-size: 0.7em;
+    font-weight: 600;
   }
-  .presentacion p {
-    padding-bottom: 10px;
-    text-align: center;
+  .index-escribenos .info-carrousel button {
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    transition: transform 100ms;
+    background-color: rgb(137, 45, 44);
+    color: white;
+    margin-top: 1vh;
   }
-  .flex-item1 {
+  .index-escribenos .info-carrousel button:hover {
+    transform: scale(1.1);
+  }
+  section .titulo-bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .titulo-bienvenida h2 {
+    font-size: 2.1em;
+    font-weight: 600;
+    color: rgb(9, 54, 108);
+  }
+  section .titulo-bienvenida .divider {
+    border-top: 1px solid black; /* Estilo de la línea */
+    margin: 20px 0;
+  }
+  section .info-empresa {
+    width: 100%;
+    height: 295vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  section .info-empresa .info-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 70%;
+    height: 35%;
+  }
+  section .info-empresa .info-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 1.9em;
+  }
+  section .info-empresa .info-uno p {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-uno .btn-conocer {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    width: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-uno .btn-conocer a {
+    color: white;
+  }
+  section .info-empresa .info-uno .btn-conocer:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos {
+    width: 70%;
+    height: 45%;
+    margin-top: 10vh;
+  }
+  section .info-empresa .info-dos .item-responsabilidad {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.1em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-responsabilidad p {
+    padding: 15px 10px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-compromiso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.1em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-compromiso p {
+    padding: 15px 10px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-respeto {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.1em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-respeto p {
+    padding: 15px 10px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-dos .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .info-empresa .info-dos i {
+    font-size: 25px;
+    color: white;
+    margin-left: 7px;
+  }
+  section .info-empresa .info-tres {
+    width: 80%;
+    height: 55%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section #carouselExampleIndicators {
-    padding: 0px 20px;
+  section .info-empresa .info-tres h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
   }
-  footer {
+  section .info-empresa .info-tres .info-galeria {
+    background-color: #F4F4F4;
     width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 3vh;
-    height: 6vh;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  footer p {
-    font-size: 1.5rem !important;
+  section .info-empresa .info-tres .info-galeria div {
+    text-align: center;
+    margin-top: 3vh;
+    gap: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres .info-galeria div img {
+    width: 60%;
+  }
+  .ult-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+  .ult-section .section-info {
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  .ult-section .section-info .section-info-uno {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33vh;
+  }
+  .ult-section .section-info .section-info-uno .rowcito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+    margin-top: 9px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover {
+    transform: scale(1.1);
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo i {
+    font-size: 49px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .años h2 {
+    color: white;
+    font-size: 5em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .años p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
+    margin-left: 0px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .seguridad h2 {
+    color: white;
+    font-size: 5em;
+    font-weight: 1000;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .seguridad p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 6em;
+    font-weight: 1000;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
     text-align: center;
   }
   .segundo-item {
@@ -993,53 +1716,413 @@ nav a:hover {
   }
 }
 @media (min-width: 376px) and (max-width: 425px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header #info-menu {
+    display: none;
+  }
   nav a {
     padding: 10px;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: bold;
   }
-  nav .nav1 {
-    margin-right: 10px;
+  .navbarcito {
+    padding-right: 35px;
   }
   .logo {
-    width: 145px;
-    margin: 5px 20px;
+    width: 120px;
+    margin: -5px 10px;
   }
-  .presentacion {
-    padding-top: 155px;
+  footer {
+    bottom: 0;
+    width: 100%;
+    margin-top: 3vh;
+    height: 6vh;
+  }
+  footer p {
+    font-size: 1.7rem !important;
+    text-align: center;
+  }
+  .section-uno {
+    font-size: 14px;
+    color: #000;
+    margin-top: 11vh;
+    width: 100%;
+    height: 60vh;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 60px;
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/soldador.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .title1 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title1:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title2 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title2:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title3 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+  }
+  .swiper-slide .title3:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .index-escribenos {
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
+  }
+  .index-escribenos .info-carrousel {
+    margin-top: 4vh;
+    width: 80%;
+    height: 42vh;
+    background-color: rgb(9, 54, 108);
+    margin-bottom: 7vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    gap: 2vh;
   }
-  .presentacion .flex-item2 {
-    text-align: center;
+  .index-escribenos .info-carrousel input {
+    width: 260px;
+    height: 50px;
+    font-size: 2em;
   }
-  .presentacion h1 {
-    margin-top: 0;
-    font-size: 3rem;
-    text-align: center;
+  .index-escribenos .info-carrousel input::placeholder {
+    font-size: 0.9em;
+    font-weight: 600;
   }
-  .presentacion p {
-    padding-bottom: 10px;
-    text-align: center;
+  .index-escribenos .info-carrousel button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    padding: 0.4em 0.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: transform 100ms;
+    background-color: rgb(137, 45, 44);
+    color: white;
+    margin-top: 1vh;
   }
-  .flex-item1 {
+  .index-escribenos .info-carrousel button:hover {
+    transform: scale(1.1);
+  }
+  section .titulo-bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .titulo-bienvenida h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: rgb(9, 54, 108);
+  }
+  section .titulo-bienvenida .divider {
+    border-top: 1px solid black; /* Estilo de la línea */
+    margin: 20px 0;
+  }
+  section .info-empresa {
+    width: 100%;
+    height: 295vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  section .info-empresa .info-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 70%;
+    height: 35%;
+  }
+  section .info-empresa .info-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.3em;
+  }
+  section .info-empresa .info-uno p {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-uno .btn-conocer {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    width: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-uno .btn-conocer a {
+    color: white;
+  }
+  section .info-empresa .info-uno .btn-conocer:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos {
+    width: 70%;
+    height: 45%;
+    margin-top: 10vh;
+  }
+  section .info-empresa .info-dos .item-responsabilidad {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.3em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-responsabilidad p {
+    padding: 15px 15px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-compromiso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.3em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-compromiso p {
+    padding: 15px 15px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-respeto {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.3em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-respeto p {
+    padding: 15px 15px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-dos .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .info-empresa .info-dos i {
+    font-size: 25px;
+    color: white;
+    margin-left: 7px;
+  }
+  section .info-empresa .info-tres {
+    width: 80%;
+    height: 55%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section #carouselExampleIndicators {
-    padding: 0px 20px;
+  section .info-empresa .info-tres h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
   }
-  footer {
+  section .info-empresa .info-tres .info-galeria {
+    background-color: #F4F4F4;
     width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 3vh;
-    height: 2vh;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  footer p {
-    font-size: 1.5rem !important;
+  section .info-empresa .info-tres .info-galeria div {
+    text-align: center;
+    margin-top: 3vh;
+    gap: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres .info-galeria div img {
+    width: 60%;
+  }
+  .ult-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+  .ult-section .section-info {
+    width: 70%;
+    height: 106vh;
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  .ult-section .section-info .section-info-uno {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+  }
+  .ult-section .section-info .section-info-uno .rowcito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+    margin-top: 9px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover {
+    transform: scale(1.1);
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .circulo i {
+    font-size: 49px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .años h2 {
+    color: white;
+    font-size: 5em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .años p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
+    margin-left: 0px;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .seguridad h2 {
+    color: white;
+    font-size: 5em;
+    font-weight: 1000;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .seguridad p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 6em;
+    font-weight: 1000;
+  }
+  .ult-section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1000;
     text-align: center;
   }
   .segundo-item {
@@ -1432,44 +2515,75 @@ nav a:hover {
   }
 }
 @media (min-width: 426px) and (max-width: 768px) {
-  nav a {
-    padding: 10px;
-    font-size: 1.7rem;
-    font-weight: bold;
-  }
-  nav .nav1 {
-    margin-right: 10px;
-  }
-  .logo {
-    width: 150px;
-    margin: 5px 25px;
-  }
-  .presentacion {
-    padding-top: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .presentacion .flex-item2 {
-    text-align: center;
-  }
-  .presentacion h1 {
-    margin-top: 0;
-    font-size: 3rem;
-    text-align: center;
-  }
-  .presentacion p {
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .flex-item1 {
+  header {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
-  section #carouselExampleIndicators {
-    padding: 0px 30px;
+  header #info-menu {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+    transition: height 0.3s, opacity 0.3s;
+  }
+  header #info-menu .info-menu-izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2vh;
+    width: 20%;
+  }
+  header #info-menu .info-menu-izquierda .numero {
+    margin-right: 3vh;
+  }
+  header #info-menu .info-menu-izquierda img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-izquierda img:hover {
+    transform: scale(1.1);
+  }
+  header #info-menu .info-menu-izquierda p {
+    color: white;
+    text-decoration: none;
+    margin-right: 1vh;
+    margin-top: 1vh;
+  }
+  header #info-menu .info-menu-izquierda p:hover {
+    color: rgb(137, 45, 44);
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2vh;
+  }
+  header #info-menu .info-menu-derecha img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha img:hover {
+    transform: scale(1.1);
+  }
+  nav a {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .navbarcito {
+    padding-right: 35px;
+  }
+  .logo {
+    width: 120px;
+    margin: -5px 10px;
   }
   footer {
     bottom: 0;
@@ -1478,7 +2592,375 @@ nav a:hover {
     height: 6vh;
   }
   footer p {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
+    text-align: center;
+  }
+  .section-uno {
+    font-size: 14px;
+    color: #000;
+    margin-top: 15vh;
+    width: 100%;
+    height: 60vh;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 60px;
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/soldador.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .title1 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title1:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title2 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title2:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title3 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+    padding-right: 10vh;
+  }
+  .swiper-slide .title3:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .index-escribenos {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  .index-escribenos .info-carrousel {
+    margin-top: 4vh;
+    width: 66%;
+    height: 42vh;
+    background-color: rgb(9, 54, 108);
+    margin-bottom: 7vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+  }
+  .index-escribenos .info-carrousel input {
+    width: 300px;
+    height: 50px;
+    font-size: 2em;
+  }
+  .index-escribenos .info-carrousel input::placeholder {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .index-escribenos .info-carrousel button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    padding: 0.4em 0.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: transform 100ms;
+    background-color: rgb(137, 45, 44);
+    color: white;
+    margin-top: 1vh;
+  }
+  .index-escribenos .info-carrousel button:hover {
+    transform: scale(1.1);
+  }
+  section .titulo-bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .titulo-bienvenida h2 {
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(9, 54, 108);
+  }
+  section .titulo-bienvenida .divider {
+    border-top: 1px solid black; /* Estilo de la línea */
+    margin: 20px 0;
+  }
+  section .info-empresa {
+    width: 100%;
+    height: 230vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  section .info-empresa .info-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 70%;
+    height: 35%;
+  }
+  section .info-empresa .info-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+  }
+  section .info-empresa .info-uno p {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-uno .btn-conocer {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    width: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-uno .btn-conocer a {
+    color: white;
+  }
+  section .info-empresa .info-uno .btn-conocer:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos {
+    width: 70%;
+    height: 55%;
+  }
+  section .info-empresa .info-dos .item-responsabilidad {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-responsabilidad p {
+    padding: 20px 65px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-compromiso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-compromiso p {
+    padding: 20px 65px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-respeto {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-respeto p {
+    padding: 20px 65px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-dos .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .info-empresa .info-dos i {
+    font-size: 25px;
+    color: white;
+    margin-left: 7px;
+  }
+  section .info-empresa .info-tres {
+    width: 80%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+  }
+  section .info-empresa .info-tres .info-galeria {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres .info-galeria div {
+    text-align: center;
+    margin-top: 3vh;
+    gap: 40px;
+    cursor: pointer;
+  }
+  section .info-empresa .info-tres .info-galeria div img {
+    width: 47%;
+  }
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section .section-info {
+    width: 45%;
+    height: 106vh;
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  section .section-info .section-info-uno {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+  }
+  section .section-info .section-info-uno .rowcito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  section .section-info .section-info-uno .rowcito .circulo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+    margin-top: 9px;
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .section-info .section-info-uno .rowcito .circulo i {
+    font-size: 55px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  section .section-info .section-info-uno .rowcito .años h2 {
+    color: white;
+    font-size: 6em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  section .section-info .section-info-uno .rowcito .años p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 0px;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad h2 {
+    color: white;
+    font-size: 6em;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 7em;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
     text-align: center;
   }
   .segundo-item {
@@ -1900,41 +3382,75 @@ nav a:hover {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  nav a {
-    padding: 10px;
-    font-size: 1.6rem;
-    font-weight: bold;
-  }
-  .logo {
-    width: 150px;
-    margin: 5px 25px;
-  }
-  .presentacion {
-    padding-top: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .presentacion .flex-item2 {
-    text-align: center;
-  }
-  .presentacion h1 {
-    margin-top: 0;
-    font-size: 3rem;
-    text-align: center;
-  }
-  .presentacion p {
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .flex-item1 {
+  header {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
-  section #carouselExampleIndicators {
-    padding: 0px 30px;
+  header #info-menu {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+    transition: height 0.3s, opacity 0.3s;
+  }
+  header #info-menu .info-menu-izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2vh;
+    width: 20%;
+  }
+  header #info-menu .info-menu-izquierda .numero {
+    margin-right: 3vh;
+  }
+  header #info-menu .info-menu-izquierda img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-izquierda img:hover {
+    transform: scale(1.1);
+  }
+  header #info-menu .info-menu-izquierda p {
+    color: white;
+    text-decoration: none;
+    margin-right: 1vh;
+    margin-top: 1vh;
+  }
+  header #info-menu .info-menu-izquierda p:hover {
+    color: rgb(137, 45, 44);
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2vh;
+  }
+  header #info-menu .info-menu-derecha img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha img:hover {
+    transform: scale(1.1);
+  }
+  nav a {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .navbarcito {
+    padding: 0px 15px;
+  }
+  .logo {
+    width: 120px;
+    margin: 0px 65px;
   }
   footer {
     bottom: 0;
@@ -1943,14 +3459,370 @@ nav a:hover {
     height: 6vh;
   }
   footer p {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
     text-align: center;
   }
-  .segundo-item {
+  .section-uno {
+    font-size: 14px;
+    color: #000;
+    margin-top: 15vh;
+    width: 100%;
+    height: 60vh;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 60px;
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/soldador.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .title1 {
+    font-size: 25px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title1:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title2 {
+    font-size: 25px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title2:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title3 {
+    font-size: 25px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+    padding-right: 10vh;
+  }
+  .swiper-slide .title3:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .index-escribenos {
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
+  }
+  .index-escribenos .info-carrousel {
+    margin-top: 4vh;
+    width: 45%;
+    height: 42vh;
+    background-color: rgb(9, 54, 108);
+    margin-bottom: 7vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    gap: 2vh;
+  }
+  .index-escribenos .info-carrousel input {
+    width: 250px;
+    height: 50px;
+    font-size: 2em;
+  }
+  .index-escribenos .info-carrousel input::placeholder {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .index-escribenos .info-carrousel button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    padding: 0.4em 0.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: transform 100ms;
+    background-color: rgb(137, 45, 44);
+    color: white;
+    margin-top: 1vh;
+  }
+  .index-escribenos .info-carrousel button:hover {
+    transform: scale(1.1);
+  }
+  section .titulo-bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .titulo-bienvenida h2 {
+    font-size: 4em;
+    font-weight: 600;
+    color: rgb(9, 54, 108);
+  }
+  section .titulo-bienvenida .divider {
+    border-top: 1px solid black; /* Estilo de la línea */
+    margin: 20px 0;
+  }
+  section .info-empresa {
+    width: 100%;
+    height: 230vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  section .info-empresa .info-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 70%;
+    height: 45%;
+  }
+  section .info-empresa .info-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+  }
+  section .info-empresa .info-uno p {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-uno .btn-conocer {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    width: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-uno .btn-conocer a {
+    color: white;
+  }
+  section .info-empresa .info-uno .btn-conocer:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos {
+    width: 70%;
+    height: 55%;
+  }
+  section .info-empresa .info-dos .item-responsabilidad {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-responsabilidad p {
+    padding: 10px 120px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-compromiso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-compromiso p {
+    padding: 10px 120px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-respeto {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-respeto p {
+    padding: 10px 120px;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-dos .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .info-empresa .info-dos i {
+    font-size: 25px;
+    color: white;
+    margin-left: 7px;
+  }
+  section .info-empresa .info-tres {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+  }
+  section .info-empresa .info-tres .info-galeria {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres .info-galeria div {
+    text-align: center;
+    margin-top: 1vh;
+    gap: 40px;
+    cursor: pointer;
+  }
+  section .info-empresa .info-tres .info-galeria div img {
+    width: 47%;
+  }
+  section .section-info {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    justify-content: center;
+  }
+  section .section-info .section-info-uno {
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .section-info .section-info-uno .rowcito {
+    display: flex;
+    flex-direction: row;
+  }
+  section .section-info .section-info-uno .rowcito .circulo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .section-info .section-info-uno .rowcito .circulo i {
+    font-size: 55px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  section .section-info .section-info-uno .rowcito .años {
+    margin-left: -4vh;
+  }
+  section .section-info .section-info-uno .rowcito .años h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 80px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .años p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 0px;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 15px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 37px;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 48px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 46px;
   }
   .primer-item {
     margin-top: 18%;
@@ -2369,41 +4241,75 @@ nav a:hover {
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
-  nav a {
-    padding: 10px;
-    font-size: 1.8rem;
-    font-weight: bold;
-  }
-  .logo {
-    width: 160px;
-    margin: 5px 30px;
-  }
-  .presentacion {
-    padding-top: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .presentacion .flex-item2 {
-    text-align: center;
-  }
-  .presentacion h1 {
-    margin-top: 0;
-    font-size: 3rem;
-    text-align: center;
-  }
-  .presentacion p {
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .flex-item1 {
+  header {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
-  section #carouselExampleIndicators {
-    padding: 0px 30px;
+  header #info-menu {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+    transition: height 0.3s, opacity 0.3s;
+  }
+  header #info-menu .info-menu-izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2vh;
+    width: 20%;
+  }
+  header #info-menu .info-menu-izquierda .numero {
+    margin-right: 3vh;
+  }
+  header #info-menu .info-menu-izquierda img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-izquierda img:hover {
+    transform: scale(1.1);
+  }
+  header #info-menu .info-menu-izquierda p {
+    color: white;
+    text-decoration: none;
+    margin-right: 1vh;
+    margin-top: 1vh;
+  }
+  header #info-menu .info-menu-izquierda p:hover {
+    color: rgb(137, 45, 44);
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2vh;
+  }
+  header #info-menu .info-menu-derecha img {
+    height: 26px;
+    width: 26px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+  header #info-menu .info-menu-derecha img:hover {
+    transform: scale(1.1);
+  }
+  nav a {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .navbarcito {
+    padding: 0px 15px;
+  }
+  .logo {
+    width: 120px;
+    margin: 0px 65px;
   }
   footer {
     bottom: 0;
@@ -2412,14 +4318,364 @@ nav a:hover {
     height: 6vh;
   }
   footer p {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
     text-align: center;
   }
-  .segundo-item {
+  .section-uno {
+    font-size: 14px;
+    color: #000;
+    margin-top: 15vh;
+    width: 100%;
+    height: 70vh;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 60px;
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/soldador.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .title1 {
+    font-size: 35px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title1:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title2 {
+    font-size: 35px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title2:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title3 {
+    font-size: 45px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+    padding-right: 10vh;
+  }
+  .swiper-slide .title3:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .index-escribenos {
     display: flex;
     justify-content: center;
+    margin-top: 12vh;
+  }
+  .index-escribenos .info-carrousel {
+    margin-top: 4vh;
+    width: 81%;
+    height: 15vh;
+    background-color: rgb(9, 54, 108);
+    margin-bottom: 5vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    gap: 2vh;
+  }
+  .index-escribenos .info-carrousel input {
+    width: 250px;
+    height: 50px;
+    font-size: 2em;
+  }
+  .index-escribenos .info-carrousel input::placeholder {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .index-escribenos .info-carrousel button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    padding: 0.4em 0.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: transform 100ms;
+    background-color: rgb(137, 45, 44);
+    color: white;
+    margin-top: 1vh;
+  }
+  .index-escribenos .info-carrousel button:hover {
+    transform: scale(1.1);
+  }
+  section .titulo-bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .titulo-bienvenida h2 {
+    font-size: 4em;
+    font-weight: 600;
+    color: rgb(9, 54, 108);
+  }
+  section .titulo-bienvenida .divider {
+    border-top: 1px solid black; /* Estilo de la línea */
+    margin: 20px 0;
+  }
+  section .info-empresa {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+  section .info-empresa .info-uno {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 90%;
+  }
+  section .info-empresa .info-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+  }
+  section .info-empresa .info-uno p {
+    padding: 10px 60px 10px 0px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-uno .btn-conocer {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    width: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-uno .btn-conocer a {
+    color: white;
+  }
+  section .info-empresa .info-uno .btn-conocer:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos {
+    width: 24%;
+    height: 90%;
+  }
+  section .info-empresa .info-dos .item-responsabilidad {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno {
+    display: flex;
+    flex-direction: row;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-responsabilidad p {
+    padding: 0px 50px 10px 50px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-compromiso {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno {
+    display: flex;
+    flex-direction: row;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-compromiso p {
+    padding: 0px 50px 10px 50px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-respeto {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno {
+    display: flex;
+    flex-direction: row;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-respeto p {
+    padding: 0px 50px 10px 50px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-dos .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .info-empresa .info-dos i {
+    font-size: 25px;
+    color: white;
+    margin-left: 7px;
+  }
+  section .info-empresa .info-tres {
+    width: 24%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vh;
+  }
+  section .info-empresa .info-tres h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+  }
+  section .info-empresa .info-tres .info-galeria {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .info-empresa .info-tres .info-galeria div {
+    text-align: center;
+    margin-top: 1vh;
+    gap: 40px;
+    cursor: pointer;
+  }
+  section .info-empresa .info-tres .info-galeria div img {
+    width: 47%;
+  }
+  section .section-info {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    justify-content: center;
+  }
+  section .section-info .section-info-uno {
+    width: 70%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .section-info .section-info-uno .rowcito {
+    display: flex;
+    flex-direction: row;
+  }
+  section .section-info .section-info-uno .rowcito .circulo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .section-info .section-info-uno .rowcito .circulo i {
+    font-size: 55px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  section .section-info .section-info-uno .rowcito .años {
+    margin-left: -4vh;
+  }
+  section .section-info .section-info-uno .rowcito .años h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 80px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .años p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 0px;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 30px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 49px;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 48px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 46px;
   }
   .primer-item {
     margin-top: 15%;
@@ -2904,69 +5160,105 @@ nav a:hover {
     width: 120px;
     margin: 5px 65px;
   }
-  .presentacion {
-    padding-top: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .presentacion .flex-item2 {
-    text-align: center;
-  }
-  .presentacion h1 {
-    margin-top: 0;
-    font-size: 3.5rem;
-    text-align: center;
-    color: rgb(9, 54, 108);
-    font-weight: 700;
-  }
-  .presentacion p {
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .flex-item1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  section #carouselExampleIndicators {
-    margin-top: 20vh;
-  }
-  section #carouselExampleIndicators img {
+  footer {
+    bottom: 0;
     width: 100%;
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    margin-top: 3vh;
+    height: 6vh;
   }
-  section {
+  footer p {
+    font-size: 2.5rem !important;
+    text-align: center;
+  }
+  .section-uno {
+    font-size: 14px;
+    color: #000;
+    margin-top: 15vh;
+    width: 100%;
+    height: 70vh;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 60px;
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/soldador.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .title1 {
+    font-size: 50px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title1:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title2 {
+    font-size: 45px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+  }
+  .swiper-slide .title2:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .swiper-slide .title3 {
+    font-size: 45px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 6vh;
+    padding-right: 10vh;
+  }
+  .swiper-slide .title3:hover {
+    color: rgb(137, 45, 44);
+    transform: scale(1.1);
+  }
+  .index-escribenos {
     display: flex;
     justify-content: center;
+    margin-top: 12vh;
   }
-  section .info-carrousel {
+  .index-escribenos .info-carrousel {
     margin-top: 4vh;
     width: 60%;
     height: 15vh;
     background-color: rgb(9, 54, 108);
     margin-bottom: 5vh;
-    z-index: 11;
+    z-index: 5;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2vh;
   }
-  section .info-carrousel input {
+  .index-escribenos .info-carrousel input {
     width: 250px;
     height: 50px;
     font-size: 2em;
   }
-  section .info-carrousel input::placeholder {
+  .index-escribenos .info-carrousel input::placeholder {
     font-size: 0.9em;
     font-weight: 600;
   }
-  section .info-carrousel button {
+  .index-escribenos .info-carrousel button {
     width: 250px;
     height: 50px;
     border: none;
@@ -2982,7 +5274,7 @@ nav a:hover {
     color: white;
     margin-top: 1vh;
   }
-  section .info-carrousel button:hover {
+  .index-escribenos .info-carrousel button:hover {
     transform: scale(1.1);
   }
   section .titulo-bienvenida {
@@ -2997,6 +5289,7 @@ nav a:hover {
   section .titulo-bienvenida h2 {
     font-size: 4em;
     font-weight: 600;
+    color: rgb(9, 54, 108);
   }
   section .titulo-bienvenida .divider {
     border-top: 1px solid black; /* Estilo de la línea */
@@ -3004,177 +5297,302 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
   }
-  section .info-empresa div {
-    width: 24%;
-    height: 90%;
-  }
   section .info-empresa .info-uno {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    width: 24%;
+    height: 90%;
+    margin-left: 10vh;
   }
   section .info-empresa .info-uno h2 {
     color: rgb(9, 54, 108);
-    font-weight: 600;
-    padding: 0px 10px;
+    font-weight: 800;
   }
   section .info-empresa .info-uno p {
-    padding: 0px 10px;
+    padding: 10px 60px 10px 0px;
     font-size: 1.5em;
+    text-align: justify;
   }
-  footer {
-    bottom: 0;
-    width: 100%;
-    margin-top: 3vh;
-    height: 6vh;
-  }
-  footer p {
-    font-size: 2.5rem !important;
-    text-align: center;
-  }
-  .segundo-item {
-    display: flex;
+  section .info-empresa .info-uno .btn-conocer {
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    width: 50%;
+    background-color: rgb(137, 45, 44);
   }
-  .primer-item {
-    margin-top: 10%;
-    margin-bottom: 10%;
+  section .info-empresa .info-uno .btn-conocer a {
+    color: white;
   }
-  .primer-item .primer-item-uno {
+  section .info-empresa .info-uno .btn-conocer:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos {
+    width: 24%;
+    height: 90%;
+  }
+  section .info-empresa .info-dos .item-responsabilidad {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno {
+    display: flex;
+    flex-direction: row;
+  }
+  section .info-empresa .info-dos .item-responsabilidad .item-responsabilidad-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-responsabilidad p {
+    padding: 0px 90px 10px 50px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-compromiso {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno {
+    display: flex;
+    flex-direction: row;
+  }
+  section .info-empresa .info-dos .item-compromiso .item-compromiso-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-compromiso p {
+    padding: 0px 90px 10px 50px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .item-respeto {
+    display: flex;
+    flex-direction: column;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno {
+    display: flex;
+    flex-direction: row;
+  }
+  section .info-empresa .info-dos .item-respeto .item-respeto-uno h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  section .info-empresa .info-dos .item-respeto p {
+    padding: 0px 90px 10px 50px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  section .info-empresa .info-dos .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .info-empresa .info-dos .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .info-empresa .info-dos .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .info-empresa .info-dos i {
+    font-size: 25px;
+    color: white;
+    margin-left: 7px;
+  }
+  section .info-empresa .info-tres {
+    width: 24%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vh;
+  }
+  section .info-empresa .info-tres h2 {
+    color: rgb(9, 54, 108);
+    font-weight: 800;
+  }
+  section .info-empresa .info-tres .info-galeria {
+    background-color: #F4F4F4;
+    width: 80%;
+    height: 88%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  section .info-empresa .info-tres .info-galeria div {
+    text-align: center;
+    margin-top: 1vh;
+    gap: 40px;
+    cursor: pointer;
+  }
+  section .info-empresa .info-tres .info-galeria div img {
+    width: 47%;
+  }
+  section .section-info {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(9, 54, 108);
+    display: flex;
     justify-content: center;
   }
-  .primer-item .primer-item-uno h5 {
-    font-size: 3.2em;
-    font-weight: bold;
+  section .section-info .section-info-uno {
+    width: 55%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
-  .primer-item .primer-item-uno h1 {
-    font-size: 4.7em;
-    font-weight: bold;
+  section .section-info .section-info-uno .rowcito {
+    display: flex;
+    flex-direction: row;
+  }
+  section .section-info .section-info-uno .rowcito .circulo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(137, 45, 44);
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover {
+    transform: scale(1.1);
+  }
+  section .section-info .section-info-uno .rowcito .circulo:hover i {
+    color: #232323;
+    transition: all 0.3s;
+  }
+  section .section-info .section-info-uno .rowcito .circulo i {
+    font-size: 55px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  section .section-info .section-info-uno .rowcito .años h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 80px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .años p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 0px;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 30px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .seguridad p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 49px;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos h2 {
+    color: white;
+    font-size: 7em;
+    margin-left: 30px;
+    font-weight: 1000;
+  }
+  section .section-info .section-info-uno .rowcito .proyectos p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-left: 35px;
+  }
+  .empresa-uno {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18vh;
+  }
+  .empresa-uno h1 {
+    font-size: 4em;
+    font-weight: 1000;
     color: rgb(9, 54, 108);
   }
-  .primer-item .primer-item-dos {
-    margin-top: 8vh;
+  .empresa-uno h2 {
+    color: rgb(137, 45, 44);
+    font-weight: 700;
+  }
+  .empresa-uno p {
+    padding: 0vh 50vh;
+    font-size: 1.6em;
+    text-align: justify;
+  }
+  .empresa-dos {
+    width: 100%;
+    height: 55vh;
     display: flex;
     flex-direction: row;
+    padding: 30px;
+  }
+  .empresa-dos .emp-dos-izquierda {
+    background-color: rgb(9, 54, 108);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
   }
-  .primer-item .primer-item-dos p {
-    font-size: 1.9rem;
-    text-align: center;
-    padding: 0px 100px;
+  .empresa-dos .emp-dos-izquierda h2 {
+    color: black;
+    font-weight: 1000;
+    font-size: 3em;
   }
-  .emp-segundo-item {
+  .empresa-dos .emp-dos-izquierda h2:hover {
+    color: rgb(137, 45, 44);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .empresa-dos .emp-dos-izquierda p {
+    color: white;
+    padding: 0vh 13vh;
+  }
+  .empresa-dos .emp-dos-derecha {
+    background-image: url("../img/industria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+  }
+  .empresa-clientes {
+    margin-top: 10vh;
     width: 100%;
     height: 50vh;
-    background: linear-gradient(135deg, #232323 0%, #191919 100%);
-    opacity: 1;
-    margin-top: 2vh;
+    background-color: transparent;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .emp-segundo-item .segundo-item-uno {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-uno div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-uno div h3 {
-    font-size: 3rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-uno div p {
-    font-size: 1.6rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-dos {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-dos div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-dos div h3 {
-    font-size: 3rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-dos div p {
-    font-size: 1.6rem;
-    color: white;
-  }
-  .emp-segundo-item .segundo-item-tres {
-    width: 30%;
-    height: 40vh;
-    background-image: url("../img/empresa-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .emp-segundo-item .segundo-item-tres div {
-    padding: 10px 30px;
-  }
-  .emp-segundo-item .segundo-item-tres div h3 {
-    font-size: 3rem;
-    color: white;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .emp-segundo-item .segundo-item-tres div p {
-    font-size: 1.6rem;
-    color: white;
-  }
-  .emp-segundo-item div {
-    width: 90%;
-    height: 35vh;
-    background-color: rgba(128, 128, 128, 0.2);
-    /* Color gris con 50% de transparencia */
   }
   .equip-item-uno {
     margin-top: 10%;
@@ -3390,23 +5808,24 @@ nav a:hover {
     text-align: center;
   }
   .cont-primer-item h1 {
-    font-weight: 800;
+    font-weight: 900;
     color: white;
     margin-bottom: 2vh;
+    font-size: 4em;
   }
   .primera-section {
     display: flex;
     justify-content: center;
-    margin-top: 21vh;
+    background-color: #ececec;
+    height: 68vh;
   }
   .primera-section .cont-segundo-item {
     width: 50%;
-    height: 45vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     border-radius: 33px;
-    background: #09366c;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: #ececec;
   }
   .primera-section .cont-segundo-item form {
     height: 34vh;
@@ -3414,82 +5833,177 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 10px;
+    margin-top: 3vh;
+  }
+  .primera-section .cont-segundo-item form .cont-primer-item {
     margin-top: 5vh;
+  }
+  .primera-section .cont-segundo-item form .cont-primer-item h3 {
+    text-align: center;
+    color: rgb(9, 54, 108);
+    font-size: 3em;
+  }
+  .primera-section .cont-segundo-item form input {
+    margin-bottom: 1.5vh;
+    height: 50px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .primera-section .cont-segundo-item form input::placeholder {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .primera-section .cont-segundo-item form textarea {
+    margin-bottom: 1.5vh;
+    height: 120px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .primera-section .cont-segundo-item form textarea::placeholder {
+    font-size: 1em;
+    font-weight: 600;
   }
   .primera-section .cont-segundo-item form .boton-enviar {
     text-align: center;
     margin-top: 1vh;
   }
-  .cont-tercer-item {
-    text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+  .primera-section .cont-segundo-item form .boton-enviar button {
+    width: 200px;
+    font-size: 2em;
+    font-weight: bold;
   }
-  .cont-tercer-item .info {
+  .titulo-contacto {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo-contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulo-contacto h1 {
+    font-size: 6em;
+    color: white;
+    font-weight: 1000;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto .contacto-primero {
+    text-align: center;
+    width: 100%;
+    background-color: #ececec;
+  }
+  .contacto .contacto-primero p {
+    padding: 0vh 45vh;
+    text-align: justify;
+    margin-top: 15vh;
+    font-size: 3em;
+  }
+  .contacto .contacto-medio {
+    width: 100%;
+    height: 40vh;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .contacto .contacto-medio h2 {
+    text-align: center;
+    color: rgb(9, 54, 108);
+    font-weight: 1000;
+    font-size: 5em;
+    margin-bottom: 3vh;
+  }
+  .contacto .contacto-medio h3 {
+    text-align: center;
+    color: rgb(9, 54, 108);
+    font-weight: 5000;
+    font-size: 3em;
+  }
+  .contacto .contacto-medio .medios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vh;
+    margin-top: 0vh;
+  }
+  .contacto .contacto-medio .medios .cuadrado-info {
+    width: 22%;
+    height: 21vh;
+    border: 2px solid rgb(137, 45, 44);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: white;
   }
-  .cont-tercer-item .info h3 {
-    font-weight: 700;
+  .contacto .contacto-medio .medios .cuadrado-info i {
+    font-size: 50px;
+    color: rgb(137, 45, 44);
+    cursor: pointer;
+  }
+  .contacto .contacto-medio .medios .cuadrado-info i:hover {
+    transform: scale(1.1);
+  }
+  .contacto .contacto-medio .medios .cuadrado-info h3 {
+    font-weight: 1000;
+    font-size: 3em;
     color: rgb(9, 54, 108);
-    font-size: 3rem;
+    cursor: pointer;
   }
-  .cont-tercer-item .info p {
-    font-size: 2rem;
-    padding: 0px 10px;
+  .contacto .contacto-medio .medios .cuadrado-info h4 {
+    font-weight: 500;
+    font-size: 2.2em;
+    color: rgb(9, 54, 108);
+    cursor: pointer;
   }
-  .cont-tercer-item .corte {
+  .primera-section-como {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19vh;
+  }
+  .primera-section-como .como-uno {
+    margin-top: 20vh;
+  }
+  .primera-section-como .como-uno h1 {
+    font-size: 3em;
+    color: rgb(9, 54, 108);
+    font-weight: 1000;
+  }
+  .primera-section-como .como-dos {
+    width: 60%;
+    height: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    padding: 30px;
   }
-  .cont-tercer-item .corte h3 {
-    font-weight: 700;
-    color: rgb(9, 54, 108);
-    font-size: 3rem;
-  }
-  .cont-tercer-item .corte p {
-    font-size: 2rem;
-    padding: 0px 10px;
-  }
-  .como-item-uno {
-    margin-top: 22vh;
-    margin-bottom: 5vh;
-    text-align: center;
-  }
-  .como-item-uno h1 {
-    font-weight: 700;
-    font-size: 2rem;
-    color: rgb(9, 54, 108);
-  }
-  .como-item-uno h2 {
-    font-size: 1.5rem;
-    color: rgb(137, 45, 44);
-    padding: 0px 10px;
-  }
-  .como-item-uno {
-    margin-top: 22vh;
-    margin-bottom: 5vh;
-    text-align: center;
-  }
-  .como-item-uno h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: rgb(9, 54, 108);
-  }
-  .como-item-uno h2 {
-    font-size: 2rem;
-    color: rgb(137, 45, 44);
-    padding: 0px 50px;
-  }
-  .mapa-como-llegar {
-    width: 100%;
-    margin-bottom: 11vh;
-  }
-  .mapa-como-llegar .container-mapa .mapa {
-    width: 80%;
+  .primera-section-como .como-dos .mapa-container {
+    width: 50%;
     height: 50vh;
+  }
+  .primera-section-como .como-dos .mapa-container .mapa {
+    width: 100%;
+    height: 100%;
+  }
+  .primera-section-como .como-dos .info-mapa {
+    width: 50%;
+    height: 50vh;
+    margin-left: 2vh;
+  }
+  .primera-section-como .como-dos .info-mapa h3 {
+    color: rgb(9, 54, 108);
+    font-weight: 600;
+  }
+  .primera-section-como .como-dos .info-mapa p {
+    color: black;
   }
 }
 

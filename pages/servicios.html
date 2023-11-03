@@ -10,7 +10,22 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <header>
+    <header id="menu">
+        <div id="info-menu">
+            <div class="info-menu-izquierda">
+                <img src="../img/icono-telefono.png" alt="icono del telefono">
+                <p class="numero">+228356500</p>
+                <img src="../img/icono-gmail.png" alt="icono del correo">
+                <p>ventas@liracard.cl</p>
+            </div>
+            <div class="info-menu-derecha">
+                <img src="../img/001-gorjeo.png" alt="icono del correo">
+                <img src="../img/002-instagram.png" alt="icono del correo">
+                <img src="../img/003-facebook.png" alt="icono del correo">
+                <img src="../img/004-linkedin.png" alt="icono del correo">
+                
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid navbarcito">
                 <a href="../index.html"><img src="../img/logo_liracard-removebg-preview.png" alt="LOGO LIRACARD" class="logo"></a>
@@ -31,7 +46,7 @@
                                 <a class="navcito " href="./empresa.html">Empresa</a>
                             </li>
                             <li class="nav-item">
-                                <a class="navcito " href="#">Servicios</a>
+                                <a class="navcito active" href="#">Servicios</a>
                             </li>
                             <li class="nav-item">
                                 <a class="navcito " href="./como-llegar.html">Como Llegar</a>
@@ -204,16 +219,21 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous">
     </script>
-    <script>
+     <script>
         const menu = document.getElementById('menu');
+        const info_menu = document.getElementById('info-menu');
         window.onscroll = function(){
-            if(window.pageYOffset>10){
-                menu.style.backgroundColor='#fff';
-            }
-            else{
-                menu.style.backgroundColor='initial';
+            if (window.pageYOffset > 10) {
+            menu.style.backgroundColor = 'white';
+            info_menu.style.height = '0';
+            info_menu.style.opacity = '0';
+            } else {
+            menu.style.backgroundColor = 'initial';
+            info_menu.style.height = '5vh'; // La misma altura que en el CSS
+            info_menu.style.opacity = '1';
             }
         }
+
     </script>
 
 </body>

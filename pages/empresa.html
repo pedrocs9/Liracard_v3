@@ -6,11 +6,27 @@
     <title>Empresa - Liracard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <header>
+    <header id="menu">
+        <div id="info-menu">
+            <div class="info-menu-izquierda">
+                <img src="../img/icono-telefono.png" alt="icono del telefono">
+                <p class="numero">+228356500</p>
+                <img src="../img/icono-gmail.png" alt="icono del correo">
+                <p>ventas@liracard.cl</p>
+            </div>
+            <div class="info-menu-derecha">
+                <img src="../img/001-gorjeo.png" alt="icono del correo">
+                <img src="../img/002-instagram.png" alt="icono del correo">
+                <img src="../img/003-facebook.png" alt="icono del correo">
+                <img src="../img/004-linkedin.png" alt="icono del correo">
+                
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid navbarcito">
                 <a href="../index.html"><img src="../img/logo_liracard-removebg-preview.png" alt="LOGO LIRACARD" class="logo"></a>
@@ -25,10 +41,10 @@
                     <span>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="navcito active " aria-current="page" href="../index.html">Inicio</a>
+                                <a class="navcito" aria-current="page" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="navcito " href="#">Empresa</a>
+                                <a class="navcito active" href="#">Empresa</a>
                             </li>
                             <li class="nav-item">
                                 <a class="navcito " href="./servicios.html">Servicios</a>
@@ -46,48 +62,29 @@
         </nav>
     </header>
     <main>
-        <section class="primer-item">
-            <div class="primer-item-uno">
-                <h5>Liracard</h5>
-                <h1>Nuestra Empresa</h1>
-            </div>
-            <div class="primer-item-dos">
-                <p>
-                    Más de 25 años de experiencia en el servicio de corte, 
-                    dimensionado de planchas y fabricación de piezas especiales, 
-                    preocupándonos siempre de entregar un excelente servicio a nuestros clientes, 
-                    asegurando una rápida y puntual entrega a sus pedidos. 
-                    Prestamos servicios a todo tipo de clientes, industrias y personas, 
-                    sin importar el volumen de piezas que necesites.</p>
-                <p>Disponemos de un importante stock de planchas de diversos espesores y 
-                    de máquinas de alta definición que nos permiten fabricar todo tipo de piezas y 
-                    planchas a la medida, garantizando la máxima precisión y calidad en nuestros servicios. 
-                    Nos preocupamos de cotizar y entregar tus pedidos de la manera más ágil posible.</p>
+        <section>
+            <div class="empresa-uno">
+                <h1>Empresa</h1>
+                <h2>Especialistas en brindas soluciones con metales</h2>
+                <p>En liracard nuestro personal cuenta con una dilatada experiencia en el rubro de corte y plegado,
+                    tenemos el conocimiento, la tecnología y la experiencia para brindar soluciones a cualquier tipo de requerimiento,
+                    para esto contamos con equipos de origen europeo para los servicios de: Corte por laser con equipamiento de última generación, 
+                    corte con guillotinas de 3 y 6 mts., plegadora CNC de 3 y 6 mts., cilindrado de planchas,curvado de tubos, punzonado y maestranza.</p>
             </div>
         </section>
-        <section class="emp-segundo-item">
-            <div class="segundo-item-uno">
-                <div>
-                    <h3>Corte Laser</h3>
-                    <p>El corte láser permite crear todo tipo de piezas y 
-                        formas en planchas de fierro, acero inoxidable y otros materiales. </p>
+        <section>
+            <div class="empresa-dos">
+                <div class="emp-dos-izquierda">
+                    <h2>Desarrollo de todo tipo de productos de metal</h2>
+                    <p>Nuestra asesoría experta garantiza ideas y soluciones 
+                       para el desarrollo de cualquier tipo de proyecto. 
+                       Nos esforzamos al maximo para que nuestro cliente se sienta satisfecho con el servicio prestado.</p>
                 </div>
-            </div>
-            <div class="segundo-item-dos">
-                <div>
-                    <h3>Oxicorte</h3>
-                    <p>El corte con oxígeno permite crear todo tipo de piezas y 
-                        formas en planchas de fierro con gran precisión.</p>
-                </div>
-            </div>
-            <div class="segundo-item-tres">
-                <div>
-                    <h3>Corte y Plegado</h3>
-                    <p>En Liracard contamos con plegadoras CNC y guillotinas de última generación, 
-                        las que nos permiten realizar ángulos y medidas exactas.</p>
+                <div class="emp-dos-derecha">
                 </div>
             </div>
         </section>
+        
     </main>
     <footer>
         <p class="footer-content">
@@ -98,16 +95,23 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous">
     </script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
      <script>
         const menu = document.getElementById('menu');
+        const info_menu = document.getElementById('info-menu');
         window.onscroll = function(){
-            if(window.pageYOffset>10){
-                menu.style.backgroundColor='#fff';
-            }
-            else{
-                menu.style.backgroundColor='initial';
+            if (window.pageYOffset > 10) {
+            menu.style.backgroundColor = 'white';
+            info_menu.style.height = '0';
+            info_menu.style.opacity = '0';
+            } else {
+            menu.style.backgroundColor = 'initial';
+            info_menu.style.height = '5vh'; // La misma altura que en el CSS
+            info_menu.style.opacity = '1';
             }
         }
+      
+
     </script>
 
 </body>

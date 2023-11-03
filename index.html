@@ -8,6 +8,8 @@
     <title>Inicio - Liracard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -43,7 +45,7 @@
                     <span>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="navcito active " aria-current="page" href="index.html">Inicio</a>
+                                <a class="navcito active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="navcito " href="./pages/empresa.html">Empresa</a>
@@ -64,36 +66,27 @@
         </nav>
     </header>
     <main>
-       
-        <section class="w-100 segundo-item">
-            <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/soldador.jpeg" class="d-block w-100" alt="IMAGEN SOLDADOR">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/soldador2.jpg" class="d-block w-100" alt="IMAGEN SOLDADOR">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/soldador3.jpg" class="d-block w-100" alt="IMAGEN SOLDADOR">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+       <section class="section-uno">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+            <div class="parallax-bg" data-swiper-parallax="-23%"></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="title1" data-swiper-parallax="-300">MAESTRANZA LIRACARD LTDA</div>
               </div>
-        </section>
-        <section>
+              <div class="swiper-slide">
+                <div class="title2" data-swiper-parallax="-300">MAS DE 12 AÑOS DE EXPERIENCIA EN EL RUBRO</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title3" data-swiper-parallax="-300">SOMOS RESPONSABLES DE CADA UNA DE NUESTRAS FABRICACIONES</div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+       </section>
+       
+        <section class="index-escribenos">
             <div class="info-carrousel">
                 <div>
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre">
@@ -114,27 +107,107 @@
                 <div>
                     <h2>BIENVENIDOS A LIRACARD LTDA</h2>
                 </div>
-                <div class="divider"></div>
+                <hr class="hr hr-blurry" />
             </div>
         </section>
         <section>
             <div class="info-empresa">
                 <div class="info-uno">
-                    <h2>NUESTRA EMPRESA</h2>
+                    <h2>NUESTRA EMPRESA</h2> 
                     <p>En nuestra compañía, nos enorgullece haber 
                         estado inseridos en la industria de la minería en Chile desde 1996, 
                         brindando servicios de calidad en grandes proyectos de construcción, fabricación, suministros y montajes, 
                         puesta en marcha y proyectos de energías renovables no convencionales. Nuestra amplia trayectoria y 
                         experiencia nos han permitido posicionarnos como líderes del mercado en la fabricación metalmecánica y 
                         maquinarias en faenas, ofreciendo soluciones personalizadas para cada uno de nuestros clientes.</p>
-                    <button type="button" class="btn-secundario">CONOCER MÁS</button>
+                    <button type="button" class="btn-conocer"><a href="./pages/empresa.html">CONOCER MAS</a></button>
                 </div>
-                <div>
-
+                <div class="info-dos">
+                   <div class="item-responsabilidad">
+                        <div class="item-responsabilidad-uno">
+                            <div class="circulo">
+                                <i class="bi bi-bag-check"></i>
+                            </div>
+                            <h2>RESPONSABILIDAD</h2>
+                        </div>
+                        <div>
+                            <p>Ser responsable es asumir las consecuencias de nuestras acciones y decisiones, es cumplimiento del deber. .</p>
+                        </div>
+                   </div>
+                   <div class="item-compromiso">
+                        <div class="item-compromiso-uno">
+                            <div class="circulo">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
+                            <h2>COMPROMISO</h2>
+                        </div>
+                        <div>
+                            <p>El compromiso es más que cumplir una tarea, es poner en juego nuestras capacidades y buena disposición.</p>
+                        </div>
+                   </div>
+                   <div class="item-respeto">
+                        <div class="item-respeto-uno">
+                            <div class="circulo">
+                                <i class="bi bi-person-check-fill"></i>
+                            </div>
+                            <h2>RESPETO</h2>
+                        </div>
+                        <div>
+                            <p>El respeto debe ser siempre en todo nivel de la organización, hacia las personas que interactúan en nuestro trabajo y comunidad.</p>
+                        </div>
+                   </div>
                 </div>
-                <div>
-
+                <div class="info-tres">
+                    <h2>GALERIA</h2>
+                    <div class="info-galeria">
+                        <div class="image-container">
+                            <img src="./img/trabajador.jpg" alt="">
+                            <img src="./img/trabajador.jpg" alt="">
+                        </div>
+                        <div class="image-container">
+                            <img src="./img/trabajador.jpg" alt="">
+                            <img src="./img/trabajador.jpg" alt="">
+                        </div>
+                        <div class="image-container">
+                            <img src="./img/trabajador.jpg" alt="">
+                            <img src="./img/trabajador.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section class="ult-section">
+            <div class="section-info">
+                <div class="section-info-uno">
+                    <div class="rowcito">
+                        <div class="circulo">
+                            <i class="bi bi-building"></i>
+                        </div>
+                        <div class="años">
+                            <h2>12</h2>
+                            <p >Años de Experiencia</p>
+                        </div>
+                    </div>
+                    <div class="rowcito">
+                        <div class="circulo">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div  class="seguridad">
+                            <h2>100%</h2>
+                            <p>Seguridad</p>
+                        </div>
+                    </div>
+                    <div class="rowcito">
+                        <div class="circulo">
+                            <i class="bi bi-wrench"></i>
+                        </div>
+                        <div  class="proyectos">
+                            <h2>141</h2>
+                            <p>Proyectos</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </section>
     </main>
@@ -146,21 +219,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const menu = document.getElementById('menu');
         const info_menu = document.getElementById('info-menu');
         window.onscroll = function(){
             if (window.pageYOffset > 10) {
-            menu.style.backgroundColor = '#fff';
+            menu.style.backgroundColor = 'white';
             info_menu.style.height = '0';
             info_menu.style.opacity = '0';
             } else {
-            menu.style.backgroundColor = 'initial';
+            menu.style.backgroundColor = 'white';
             info_menu.style.height = '5vh'; // La misma altura que en el CSS
             info_menu.style.opacity = '1';
             }
         }
-        </script>
+        var swiper = new Swiper(".mySwiper", {
+        speed: 600,
+        parallax: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+       
+    </script>
 
 </body>
 
