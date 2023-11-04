@@ -218,7 +218,7 @@ nav a:hover {
     margin-top: 5vh;
   }
   .index-escribenos .info-carrousel {
-    margin-top: 4vh;
+    margin-top: 5vh;
     width: 80%;
     height: 35vh;
     background-color: rgb(9, 54, 108);
@@ -298,7 +298,7 @@ nav a:hover {
     font-size: 1.8em;
   }
   section .info-empresa .info-uno p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: justify;
   }
   section .info-empresa .info-uno .btn-conocer {
@@ -309,7 +309,7 @@ nav a:hover {
     padding: 0.7em 1.5em;
     cursor: pointer;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     transition: transform 100ms;
     width: 50%;
@@ -419,7 +419,7 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     margin-bottom: -20vh;
-    margin-top: 15vh;
+    margin-top: 23vh;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -534,7 +534,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30vh;
+    margin-top: 20vh;
   }
   .empresa-uno h1 {
     font-size: 2.8em;
@@ -546,16 +546,16 @@ nav a:hover {
     font-weight: 700;
     font-size: 2em;
     text-align: center;
-    padding: 0vh 8vh;
+    padding: 1vh 3vh;
   }
   .empresa-uno p {
-    padding: 0vh 6vh;
-    font-size: 1.4em;
+    padding: 0vh 4vh;
+    font-size: 1.3em;
     text-align: justify;
   }
   .empresa-dos {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -568,13 +568,13 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 40vh;
+    height: 30vh;
   }
   .empresa-dos .emp-dos-izquierda h2 {
     color: black;
     font-weight: 1000;
     font-size: 1.9em;
-    padding: 0px 40px;
+    padding: 0px 30px;
     text-align: center;
   }
   .empresa-dos .emp-dos-izquierda h2:hover {
@@ -587,13 +587,13 @@ nav a:hover {
   }
   .empresa-dos .emp-dos-izquierda p {
     color: white;
-    padding: 0vh 7vh;
+    padding: 0vh 3vh;
     font-size: 1.1em;
     text-align: center;
   }
   .empresa-dos .emp-dos-derecha {
-    height: 40vh;
-    background-image: url("../img/industria.jpg");
+    height: 30vh;
+    background-image: url("../img/soldador2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -613,14 +613,14 @@ nav a:hover {
     height: 30vh;
   }
   .equip-item-uno img {
-    height: 30vh;
+    height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   .equip-item-dos {
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 2vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -628,19 +628,20 @@ nav a:hover {
     align-items: center;
   }
   .equip-item-dos h3 {
-    text-align: center;
-    margin-bottom: 3vh;
+    text-align: justify;
     font-size: 3rem;
     font-weight: bold;
     color: rgb(9, 54, 108);
+    padding: 0vh 2vh;
   }
   .equip-item-dos p {
-    padding-left: 2vh;
+    padding: 0vh 2vh;
     font-size: 1.5rem;
+    text-align: justify;
   }
   .equip-item-tres {
     width: 100%;
-    height: 45vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -655,14 +656,16 @@ nav a:hover {
     text-align: center;
   }
   .equip-item-tres div h3 {
-    color: white;
+    color: rgb(137, 45, 44);
     font-size: 2.4rem;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 1000;
+    text-align: justify;
   }
   .equip-item-tres div p {
     color: white;
     font-size: 1.5rem;
+    text-align: justify;
   }
   .equip-item-tres div button {
     margin-top: 2vh;
@@ -670,14 +673,14 @@ nav a:hover {
   .equip-item-cuatro {
     display: flex;
     flex-direction: column;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 10vh;
   }
   .equip-item-cuatro h2 {
-    padding-left: 3vh;
     margin-bottom: 7vh;
     font-weight: bold;
     font-size: 2.5rem;
+    text-align: center;
   }
   .equip-item-cuatro .otros-servicios div {
     display: flex;
@@ -697,6 +700,7 @@ nav a:hover {
   .equip-item-cuatro .otros-servicios h3 {
     margin-bottom: 5vh;
     text-align: center;
+    padding: 1vh;
     color: rgb(137, 45, 44);
   }
   .equip-item-cinco {
@@ -704,11 +708,13 @@ nav a:hover {
     width: 100%;
     margin-bottom: 10vh;
   }
-  .equip-item-cinco .titulo-cinco {
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 2vh;
+    padding: 2vh;
     text-align: center;
   }
-  .equip-item-cinco .titulo-cinco h2 {
-    margin-bottom: 3vh;
+  .equip-item-cinco .titulo-cinco p {
+    padding: 2vh;
   }
   .equip-item-cinco .itemcito {
     margin-top: 10vh;
@@ -1417,7 +1423,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30vh;
+    margin-top: 15vh;
   }
   .empresa-uno h1 {
     font-size: 2.8em;
@@ -1429,16 +1435,16 @@ nav a:hover {
     font-weight: 700;
     font-size: 2em;
     text-align: center;
-    padding: 0vh 5vh;
+    padding: 1vh 2vh;
   }
   .empresa-uno p {
-    padding: 0vh 6vh;
-    font-size: 1.4em;
+    padding: 0vh 5vh;
+    font-size: 1.2em;
     text-align: justify;
   }
   .empresa-dos {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1452,14 +1458,14 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 40vh;
+    height: 30vh;
   }
   .empresa-dos .emp-dos-izquierda h2 {
     color: black;
     font-weight: 1000;
     font-size: 1.9em;
     padding: 0px 40px;
-    text-align: center;
+    text-align: justify;
   }
   .empresa-dos .emp-dos-izquierda h2:hover {
     color: rgb(137, 45, 44);
@@ -1471,13 +1477,13 @@ nav a:hover {
   }
   .empresa-dos .emp-dos-izquierda p {
     color: white;
-    padding: 0vh 7vh;
+    padding: 0vh 5vh;
     font-size: 1.1em;
-    text-align: center;
+    text-align: justify;
   }
   .empresa-dos .emp-dos-derecha {
-    height: 40vh;
-    background-image: url("../img/industria.jpg");
+    height: 30vh;
+    background-image: url("../img/soldador2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1495,17 +1501,16 @@ nav a:hover {
     margin-top: 45%;
     width: 100%;
     height: 30vh;
-    padding: 0px 10px;
   }
   .equip-item-uno img {
-    height: 30vh;
+    height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   .equip-item-dos {
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 2vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -1513,21 +1518,20 @@ nav a:hover {
     align-items: center;
   }
   .equip-item-dos h3 {
-    text-align: center;
-    margin-bottom: 3vh;
+    text-align: justify;
     font-size: 3rem;
     font-weight: bold;
     color: rgb(9, 54, 108);
-    padding: 0px 30px;
+    padding: 0vh 2vh;
   }
   .equip-item-dos p {
-    padding-left: 2vh;
+    padding: 0vh 2vh;
     font-size: 1.5rem;
-    padding: 0px 30px;
+    text-align: justify;
   }
   .equip-item-tres {
     width: 100%;
-    height: 45vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -1542,15 +1546,16 @@ nav a:hover {
     text-align: center;
   }
   .equip-item-tres div h3 {
-    color: white;
+    color: rgb(137, 45, 44);
     font-size: 2.4rem;
     margin-bottom: 10px;
-    font-weight: bold;
-    margin-top: 30px;
+    font-weight: 1000;
+    text-align: justify;
   }
   .equip-item-tres div p {
     color: white;
     font-size: 1.5rem;
+    text-align: justify;
   }
   .equip-item-tres div button {
     margin-top: 2vh;
@@ -1558,14 +1563,14 @@ nav a:hover {
   .equip-item-cuatro {
     display: flex;
     flex-direction: column;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 10vh;
   }
   .equip-item-cuatro h2 {
-    padding-left: 3vh;
     margin-bottom: 7vh;
     font-weight: bold;
     font-size: 2.5rem;
+    text-align: center;
   }
   .equip-item-cuatro .otros-servicios div {
     display: flex;
@@ -1585,19 +1590,21 @@ nav a:hover {
   .equip-item-cuatro .otros-servicios h3 {
     margin-bottom: 5vh;
     text-align: center;
+    padding: 1vh;
     color: rgb(137, 45, 44);
-    padding: 0px 15px;
   }
   .equip-item-cinco {
     margin-top: 10vh;
     width: 100%;
     margin-bottom: 10vh;
   }
-  .equip-item-cinco .titulo-cinco {
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 2vh;
+    padding: 2vh;
     text-align: center;
   }
-  .equip-item-cinco .titulo-cinco h2 {
-    margin-bottom: 3vh;
+  .equip-item-cinco .titulo-cinco p {
+    padding: 2vh;
   }
   .equip-item-cinco .itemcito {
     margin-top: 10vh;
@@ -1625,6 +1632,12 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .equip-item-seis button {
+    margin-top: 5vh;
+  }
+  .equip-item-seis .nuestras-maquinas {
+    margin-bottom: 5vh;
   }
   .equip-item-seis .nuestras-maquinas h2 {
     padding: 0px 40px;
@@ -2044,7 +2057,7 @@ nav a:hover {
   }
   section .info-empresa {
     width: 100%;
-    height: 250vh;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2184,8 +2197,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: -20vh;
-    margin-top: 15vh;
+    margin-top: 12vh;
   }
   section .info-empresa .info-tres h2 {
     color: rgb(9, 54, 108);
@@ -2207,7 +2219,7 @@ nav a:hover {
   }
   .ult-section .section-info {
     width: 70%;
-    height: 106vh;
+    height: 80vh;
     background-color: rgb(9, 54, 108);
     display: flex;
     justify-content: center;
@@ -2220,7 +2232,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 35vh;
+    margin-top: 21vh;
   }
   .ult-section .section-info .section-info-uno .rowcito {
     display: flex;
@@ -2300,19 +2312,21 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30vh;
+    margin-top: 18vh;
   }
   .empresa-uno h1 {
     font-size: 2.8em;
     font-weight: 1000;
     color: rgb(9, 54, 108);
+    text-align: justify;
+    padding: 1vh 8vh;
   }
   .empresa-uno h2 {
     color: rgb(137, 45, 44);
     font-weight: 700;
-    font-size: 2em;
-    text-align: center;
-    padding: 0vh 5vh;
+    font-size: 1.7em;
+    text-align: justify;
+    padding: 0vh 8vh;
   }
   .empresa-uno p {
     padding: 0vh 8vh;
@@ -2321,7 +2335,7 @@ nav a:hover {
   }
   .empresa-dos {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2335,14 +2349,14 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 40vh;
+    height: 30vh;
   }
   .empresa-dos .emp-dos-izquierda h2 {
     color: black;
     font-weight: 1000;
     font-size: 1.9em;
-    padding: 0px 40px;
-    text-align: center;
+    padding: 0vh 5vh;
+    text-align: justify;
   }
   .empresa-dos .emp-dos-izquierda h2:hover {
     color: rgb(137, 45, 44);
@@ -2354,13 +2368,13 @@ nav a:hover {
   }
   .empresa-dos .emp-dos-izquierda p {
     color: white;
-    padding: 0vh 7vh;
+    padding: 1vh 5vh;
     font-size: 1.1em;
-    text-align: center;
+    text-align: justify;
   }
   .empresa-dos .emp-dos-derecha {
-    height: 40vh;
-    background-image: url("../img/industria.jpg");
+    height: 30vh;
+    background-image: url("../img/soldador2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -2380,14 +2394,14 @@ nav a:hover {
     height: 30vh;
   }
   .equip-item-uno img {
-    height: 30vh;
+    height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   .equip-item-dos {
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 2vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -2395,19 +2409,20 @@ nav a:hover {
     align-items: center;
   }
   .equip-item-dos h3 {
-    text-align: center;
-    margin-bottom: 3vh;
+    text-align: justify;
     font-size: 3rem;
     font-weight: bold;
     color: rgb(9, 54, 108);
+    padding: 0vh 2vh;
   }
   .equip-item-dos p {
-    padding-left: 2vh;
-    font-size: 1.5rem;
+    padding: 0vh 2vh;
+    font-size: 1.7rem;
+    text-align: justify;
   }
   .equip-item-tres {
     width: 100%;
-    height: 45vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -2422,14 +2437,16 @@ nav a:hover {
     text-align: center;
   }
   .equip-item-tres div h3 {
-    color: white;
+    color: rgb(137, 45, 44);
     font-size: 2.4rem;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 1000;
+    text-align: justify;
   }
   .equip-item-tres div p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    text-align: justify;
   }
   .equip-item-tres div button {
     margin-top: 2vh;
@@ -2437,14 +2454,14 @@ nav a:hover {
   .equip-item-cuatro {
     display: flex;
     flex-direction: column;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 10vh;
   }
   .equip-item-cuatro h2 {
-    padding-left: 3vh;
     margin-bottom: 7vh;
     font-weight: bold;
     font-size: 2.5rem;
+    text-align: center;
   }
   .equip-item-cuatro .otros-servicios div {
     display: flex;
@@ -2464,6 +2481,7 @@ nav a:hover {
   .equip-item-cuatro .otros-servicios h3 {
     margin-bottom: 5vh;
     text-align: center;
+    padding: 1vh;
     color: rgb(137, 45, 44);
   }
   .equip-item-cinco {
@@ -2471,11 +2489,13 @@ nav a:hover {
     width: 100%;
     margin-bottom: 10vh;
   }
-  .equip-item-cinco .titulo-cinco {
+  .equip-item-cinco .titulo-cinco h2 {
+    margin-bottom: 2vh;
+    padding: 2vh;
     text-align: center;
   }
-  .equip-item-cinco .titulo-cinco h2 {
-    margin-bottom: 3vh;
+  .equip-item-cinco .titulo-cinco p {
+    padding: 2vh;
   }
   .equip-item-cinco .itemcito {
     margin-top: 10vh;
@@ -2503,6 +2523,12 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .equip-item-seis button {
+    margin-top: 5vh;
+  }
+  .equip-item-seis .nuestras-maquinas {
+    margin-bottom: 5vh;
   }
   .equip-item-seis .nuestras-maquinas h2 {
     padding: 0px 40px;
@@ -3238,7 +3264,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 25vh;
+    margin-top: 17vh;
   }
   .empresa-uno h1 {
     font-size: 2.8em;
@@ -3249,15 +3275,16 @@ nav a:hover {
     color: rgb(137, 45, 44);
     font-weight: 700;
     font-size: 2.2em;
+    padding: 0vh 10vh;
   }
   .empresa-uno p {
-    padding: 0vh 15vh;
+    padding: 0vh 10vh;
     font-size: 1.4em;
     text-align: justify;
   }
   .empresa-dos {
     width: 100%;
-    height: 55vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -3274,7 +3301,7 @@ nav a:hover {
     color: black;
     font-weight: 1000;
     font-size: 1.9em;
-    padding: 0px 67px;
+    padding: 0vh 4vh;
   }
   .empresa-dos .emp-dos-izquierda h2:hover {
     color: rgb(137, 45, 44);
@@ -3286,23 +3313,15 @@ nav a:hover {
   }
   .empresa-dos .emp-dos-izquierda p {
     color: white;
-    padding: 0vh 8vh;
+    padding: 0vh 4vh;
     font-size: 1.3em;
   }
   .empresa-dos .emp-dos-derecha {
-    background-image: url("../img/industria.jpg");
+    background-image: url("../img/soldador2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 50%;
-  }
-  .empresa-clientes {
-    margin-top: 10vh;
-    width: 100%;
-    height: 50vh;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
   }
   .equip-item-uno {
     margin-top: 25%;
@@ -3602,7 +3621,7 @@ nav a:hover {
     background-color: #ececec;
   }
   .contacto .contacto-primero p {
-    padding: 0vh 18vh;
+    padding: 0vh 12vh;
     text-align: justify;
     margin-top: 10vh;
     font-size: 2.2em;
@@ -3627,6 +3646,7 @@ nav a:hover {
     color: rgb(9, 54, 108);
     font-weight: 1000;
     font-size: 2.7em;
+    padding: 1vh;
   }
   .contacto .contacto-medio .medios {
     display: flex;
@@ -4179,7 +4199,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 25vh;
+    margin-top: 20vh;
   }
   .empresa-uno h1 {
     font-size: 3em;
@@ -4190,15 +4210,16 @@ nav a:hover {
     color: rgb(137, 45, 44);
     font-weight: 700;
     font-size: 2.4em;
+    padding: 0vh 15vh;
   }
   .empresa-uno p {
-    padding: 0vh 28vh;
+    padding: 0vh 15vh;
     font-size: 1.4em;
     text-align: justify;
   }
   .empresa-dos {
     width: 100%;
-    height: 55vh;
+    height: 45vh;
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -4215,7 +4236,7 @@ nav a:hover {
     color: black;
     font-weight: 1000;
     font-size: 2.1em;
-    padding: 0px 67px;
+    padding: 0vh 6vh;
   }
   .empresa-dos .emp-dos-izquierda h2:hover {
     color: rgb(137, 45, 44);
@@ -4227,23 +4248,15 @@ nav a:hover {
   }
   .empresa-dos .emp-dos-izquierda p {
     color: white;
-    padding: 0vh 8vh;
+    padding: 0vh 6vh;
     font-size: 1.6em;
   }
   .empresa-dos .emp-dos-derecha {
-    background-image: url("../img/industria.jpg");
+    background-image: url("../img/soldador2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 50%;
-  }
-  .empresa-clientes {
-    margin-top: 10vh;
-    width: 100%;
-    height: 50vh;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
   }
   .equip-item-uno {
     margin-top: 15%;
@@ -4253,7 +4266,7 @@ nav a:hover {
     padding: 0vh 3vh;
   }
   .equip-item-uno img {
-    height: 66vh;
+    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -4269,7 +4282,7 @@ nav a:hover {
   }
   .equip-item-dos {
     width: 100%;
-    margin-top: 38vh;
+    margin-top: 27vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -4291,7 +4304,7 @@ nav a:hover {
   }
   .equip-item-tres {
     width: 100%;
-    height: 45vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -4475,7 +4488,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     background-color: #ececec;
-    height: 68vh;
+    height: 60vh;
   }
   .primera-section .cont-segundo-item {
     width: 50%;
@@ -4558,7 +4571,7 @@ nav a:hover {
     background-color: #ececec;
   }
   .contacto .contacto-primero p {
-    padding: 0vh 25vh;
+    padding: 0vh 15vh;
     text-align: justify;
     margin-top: 10vh;
     font-size: 2.2em;
@@ -4583,6 +4596,7 @@ nav a:hover {
     color: rgb(9, 54, 108);
     font-weight: 1000;
     font-size: 2.7em;
+    padding: 1vh;
   }
   .contacto .contacto-medio .medios {
     display: flex;
@@ -5155,9 +5169,10 @@ nav a:hover {
     color: rgb(137, 45, 44);
     font-weight: 700;
     font-size: 2.5em;
+    padding: 0vh 30vh;
   }
   .empresa-uno p {
-    padding: 0vh 44vh;
+    padding: 0vh 30vh;
     font-size: 1.4em;
     text-align: justify;
   }
@@ -5180,6 +5195,7 @@ nav a:hover {
     color: black;
     font-weight: 1000;
     font-size: 2.5em;
+    padding: 0vh 7vh;
   }
   .empresa-dos .emp-dos-izquierda h2:hover {
     color: rgb(137, 45, 44);
@@ -5191,29 +5207,21 @@ nav a:hover {
   }
   .empresa-dos .emp-dos-izquierda p {
     color: white;
-    padding: 0vh 8vh;
+    padding: 0vh 7vh;
   }
   .empresa-dos .emp-dos-derecha {
-    background-image: url("../img/industria.jpg");
+    background-image: url("../img/soldador2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 50%;
-  }
-  .empresa-clientes {
-    margin-top: 10vh;
-    width: 100%;
-    height: 50vh;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
   }
   .equip-item-uno {
     margin-top: 10%;
     width: 100%;
     height: 35vh;
     margin-bottom: 27vh;
-    padding: 0vh 15vh;
+    padding: 0vh 5vh;
   }
   .equip-item-uno img {
     height: 66vh;
@@ -5249,13 +5257,13 @@ nav a:hover {
   .equip-item-dos p {
     font-size: 1rem;
     font-size: 2rem;
-    padding: 0vh 45vh;
+    padding: 0vh 25vh;
     text-align: justify;
     color: black;
   }
   .equip-item-tres {
     width: 100%;
-    height: 45vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -5339,7 +5347,7 @@ nav a:hover {
     font-size: 3.6em;
   }
   .equip-item-cinco .titulo-cinco p {
-    padding: 0vh 40vh;
+    padding: 0vh 20vh;
     font-size: 2.3em;
     text-align: center;
   }
@@ -5387,7 +5395,7 @@ nav a:hover {
   }
   .equip-item-seis .nuestras-maquinas p {
     padding: 0px 200px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 6vh;
   }
   .equip-item-seis .maquinas {
@@ -5483,7 +5491,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     background-color: #ececec;
-    height: 68vh;
+    height: 60vh;
   }
   .primera-section .cont-segundo-item {
     width: 50%;
@@ -5566,18 +5574,18 @@ nav a:hover {
     background-color: #ececec;
   }
   .contacto .contacto-primero p {
-    padding: 0vh 45vh;
+    padding: 0vh 30vh;
     text-align: justify;
     margin-top: 15vh;
     font-size: 2.5em;
   }
   .contacto .contacto-medio {
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     background-color: #ececec;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 40px;
   }
   .contacto .contacto-medio h2 {
     text-align: center;
@@ -5591,6 +5599,7 @@ nav a:hover {
     color: rgb(9, 54, 108);
     font-weight: 1000;
     font-size: 3em;
+    padding: 1vh;
   }
   .contacto .contacto-medio .medios {
     display: flex;
@@ -6133,7 +6142,7 @@ nav a:hover {
     padding: 0vh 13vh;
   }
   .empresa-dos .emp-dos-derecha {
-    background-image: url("../img/industria.jpg");
+    background-image: url("../img/soldador2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -6155,7 +6164,7 @@ nav a:hover {
     padding: 0vh 15vh;
   }
   .equip-item-uno img {
-    height: 66vh;
+    height: 72vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -6171,7 +6180,7 @@ nav a:hover {
   }
   .equip-item-dos {
     width: 100%;
-    margin-top: 38vh;
+    margin-top: 45vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -6194,7 +6203,7 @@ nav a:hover {
   }
   .equip-item-tres {
     width: 100%;
-    height: 45vh;
+    height: 32vh;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -6218,7 +6227,7 @@ nav a:hover {
   .equip-item-tres div p {
     color: white;
     font-size: 2rem;
-    padding: 0vh 30vh;
+    padding: 0vh 40vh;
   }
   .equip-item-tres div button {
     margin-top: 2vh;
@@ -6378,7 +6387,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     background-color: #ececec;
-    height: 68vh;
+    height: 60vh;
   }
   .primera-section .cont-segundo-item {
     width: 50%;
@@ -6472,7 +6481,7 @@ nav a:hover {
     background-color: #ececec;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 40px;
   }
   .contacto .contacto-medio h2 {
     text-align: center;

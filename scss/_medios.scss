@@ -121,7 +121,7 @@
         justify-content: center;
         margin-top: 5vh;
         .info-carrousel{
-            margin-top: 4vh;
+            margin-top: 5vh;
             width: 80%;
             height: 35vh;
             background-color: $color_primario;
@@ -208,7 +208,7 @@
                     font-size: 1.8em;
                 }
                 p{
-                    font-size: 1.5em;
+                    font-size: 1.3em;
                     text-align: justify;
                 }
                 .btn-conocer{
@@ -219,8 +219,7 @@
                     padding: 0.7em 1.5em;
                     cursor: pointer;
                     margin-bottom: 10px;
-                    
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     font-weight: 500;
                     transition: transform 100ms;
                     width: 50%;
@@ -340,7 +339,7 @@
                 flex-direction: column;
                 align-items: center;
                 margin-bottom: -20vh;
-                margin-top: 15vh;
+                margin-top: 23vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
@@ -474,7 +473,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 30vh;
+        margin-top: 20vh;
         h1{
             font-size: 2.8em;
             font-weight: 1000;
@@ -485,17 +484,17 @@
             font-weight: 700;
             font-size: 2em;
             text-align: center;
-            padding: 0vh 8vh;
+            padding: 1vh 3vh;
         }
         p{
-            padding: 0vh 6vh;
-            font-size: 1.4em;
+            padding: 0vh 4vh;
+            font-size: 1.3em;
             text-align: justify;
         }
     }
     .empresa-dos{
         width: 100%;
-        height: 90vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -507,12 +506,12 @@
             justify-content: center;
             align-items: center;
             width: 90%;
-            height: 40vh;
+            height: 30vh;
             h2{
                 color: black;
                 font-weight: 1000;
                 font-size: 1.9em;
-                padding: 0px 40px;
+                padding: 0px 30px;
                 text-align: center;
                 &:hover{
                     color:$color_secundario;
@@ -525,14 +524,14 @@
             }
             p{
                 color: white;
-                padding: 0vh 7vh;
+                padding: 0vh 3vh;
                 font-size: 1.1em;
                 text-align: center;
             }
         }
         .emp-dos-derecha{
-            height: 40vh;
-            background-image: url("../img/industria.jpg");
+            height: 30vh;
+            background-image: url("../img/soldador2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -548,14 +547,14 @@
         justify-content: center;
     }
 
-    // EQUIPAMIENTO
+    // SERVICIOS
     .equip-item-uno {
         margin-top: 45%;
         width: 100%;
         height: 30vh;
 
         img {
-            height: 30vh;
+            height: 25vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -565,7 +564,7 @@
 
     .equip-item-dos {
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 2vh;
         margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
@@ -573,22 +572,23 @@
         align-items: center;
 
         h3 {
-            text-align: center;
-            margin-bottom: 3vh;
+            text-align: justify;
             font-size: 3rem;
             font-weight: bold;
             color: $color_primario;
+            padding: 0vh 2vh;
         }
 
         p {
-            padding-left: 2vh;
+            padding: 0vh 2vh;
             font-size: 1.5rem;
+            text-align: justify;
         }
     }
 
     .equip-item-tres {
         width: 100%;
-        height: 45vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
         padding: 30px;
@@ -603,16 +603,18 @@
             text-align: center;
 
             h3 {
-                color: white;
+                color: $color_secundario;
                 font-size: 2.4rem;
                 margin-bottom: 10px;
-                font-weight: bold;
+                font-weight: 1000;
+                text-align: justify;
 
             }
 
             p {
                 color: white;
                 font-size: 1.5rem;
+                text-align: justify;
             }
 
             button {
@@ -624,14 +626,14 @@
     .equip-item-cuatro {
         display: flex;
         flex-direction: column;
-        margin-top: 15vh;
+        margin-top: 10vh;
         margin-bottom: 10vh;
 
         h2 {
-            padding-left: 3vh;
             margin-bottom: 7vh;
             font-weight: bold;
             font-size: 2.5rem;
+            text-align: center;
         }
 
         .otros-servicios {
@@ -655,6 +657,7 @@
             h3 {
                 margin-bottom: 5vh;
                 text-align: center;
+                padding: 1vh;
                 color: $color_secundario;
             }
         }
@@ -666,10 +669,14 @@
         margin-bottom: 10vh;
 
         .titulo-cinco {
-            text-align: center;
 
             h2 {
-                margin-bottom: 3vh;
+                margin-bottom: 2vh;
+                padding: 2vh;
+                text-align: center;
+            }
+            p{
+                padding: 2vh;
             }
         }
 
@@ -1485,7 +1492,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 30vh;
+        margin-top: 15vh;
         h1{
             font-size: 2.8em;
             font-weight: 1000;
@@ -1496,17 +1503,17 @@
             font-weight: 700;
             font-size: 2em;
             text-align: center;
-            padding: 0vh 5vh;
+            padding: 1vh 2vh;
         }
         p{
-            padding: 0vh 6vh;
-            font-size: 1.4em;
+            padding: 0vh 5vh;
+            font-size: 1.2em;
             text-align: justify;
         }
     }
     .empresa-dos{
         width: 100%;
-        height: 90vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1519,13 +1526,13 @@
             justify-content: center;
             align-items: center;
             width: 90%;
-            height: 40vh;
+            height: 30vh;
             h2{
                 color: black;
                 font-weight: 1000;
                 font-size: 1.9em;
                 padding: 0px 40px;
-                text-align: center;
+                text-align: justify;
                 &:hover{
                     color:$color_secundario;
                     transition: .3s;
@@ -1537,14 +1544,14 @@
             }
             p{
                 color: white;
-                padding: 0vh 7vh;
+                padding: 0vh 5vh;
                 font-size: 1.1em;
-                text-align: center;
+                text-align: justify;
             }
         }
         .emp-dos-derecha{
-            height: 40vh;
-            background-image: url("../img/industria.jpg");
+            height: 30vh;
+            background-image: url("../img/soldador2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -1560,15 +1567,14 @@
         justify-content: center;
     }
 
-    // EQUIPAMIENTO
+    // SERVICIO
     .equip-item-uno {
         margin-top: 45%;
         width: 100%;
         height: 30vh;
-        padding: 0px 10px;
 
         img {
-            height: 30vh;
+            height: 25vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -1578,7 +1584,7 @@
 
     .equip-item-dos {
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 2vh;
         margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
@@ -1586,24 +1592,23 @@
         align-items: center;
 
         h3 {
-            text-align: center;
-            margin-bottom: 3vh;
+            text-align: justify;
             font-size: 3rem;
             font-weight: bold;
             color: $color_primario;
-            padding: 0px 30px;
+            padding: 0vh 2vh;
         }
 
         p {
-            padding-left: 2vh;
+            padding: 0vh 2vh;
             font-size: 1.5rem;
-            padding: 0px 30px;
+            text-align: justify;
         }
     }
 
     .equip-item-tres {
         width: 100%;
-        height: 45vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
         padding: 30px;
@@ -1618,16 +1623,18 @@
             text-align: center;
 
             h3 {
-                color: white;
+                color: $color_secundario;
                 font-size: 2.4rem;
                 margin-bottom: 10px;
-                font-weight: bold;
-                margin-top: 30px;
+                font-weight: 1000;
+                text-align: justify;
+
             }
 
             p {
                 color: white;
                 font-size: 1.5rem;
+                text-align: justify;
             }
 
             button {
@@ -1639,14 +1646,14 @@
     .equip-item-cuatro {
         display: flex;
         flex-direction: column;
-        margin-top: 15vh;
+        margin-top: 10vh;
         margin-bottom: 10vh;
 
         h2 {
-            padding-left: 3vh;
             margin-bottom: 7vh;
             font-weight: bold;
             font-size: 2.5rem;
+            text-align: center;
         }
 
         .otros-servicios {
@@ -1670,8 +1677,8 @@
             h3 {
                 margin-bottom: 5vh;
                 text-align: center;
+                padding: 1vh;
                 color: $color_secundario;
-                padding: 0px 15px;
             }
         }
     }
@@ -1682,10 +1689,14 @@
         margin-bottom: 10vh;
 
         .titulo-cinco {
-            text-align: center;
 
             h2 {
-                margin-bottom: 3vh;
+                margin-bottom: 2vh;
+                padding: 2vh;
+                text-align: center;
+            }
+            p{
+                padding: 2vh;
             }
         }
 
@@ -1725,8 +1736,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        button{
+            margin-top:5vh;
+        }
 
         .nuestras-maquinas {
+            margin-bottom: 5vh;
             h2 {
                 padding: 0px 40px;
                 font-weight: bold;
@@ -2213,7 +2228,7 @@
     section{
         .info-empresa{
             width: 100%;
-            height: 250vh;
+            height: 160vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -2363,8 +2378,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin-bottom: -20vh;
-                margin-top: 15vh;
+                margin-top: 12vh;
                 h2{
                     color: $color_primario;
                     font-weight: 800;
@@ -2387,7 +2401,7 @@
         margin-top: 2vh;
         .section-info{
             width: 70%;
-            height: 106vh;
+            height:80vh;
             background-color: $color_primario;
             display: flex;
             justify-content: center;
@@ -2400,7 +2414,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin-top: 35vh;
+                margin-top: 21vh;
                 .rowcito{
                     display: flex;
                     flex-direction: column;
@@ -2496,18 +2510,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 30vh;
+        margin-top: 18vh;
         h1{
             font-size: 2.8em;
             font-weight: 1000;
-            color: $color_primario
+            color: $color_primario;
+            text-align: justify;
+            padding: 1vh 8vh;
         }
         h2{
             color: $color_secundario;
             font-weight: 700;
-            font-size: 2em;
-            text-align: center;
-            padding: 0vh 5vh;
+            font-size: 1.7em;
+            text-align: justify;
+            padding: 0vh 8vh;
         }
         p{
             padding: 0vh 8vh;
@@ -2517,7 +2533,7 @@
     }
     .empresa-dos{
         width: 100%;
-        height: 90vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2530,13 +2546,13 @@
             justify-content: center;
             align-items: center;
             width: 90%;
-            height: 40vh;
+            height: 30vh;
             h2{
                 color: black;
                 font-weight: 1000;
                 font-size: 1.9em;
-                padding: 0px 40px;
-                text-align: center;
+                padding: 0vh 5vh;
+                text-align: justify;
                 &:hover{
                     color:$color_secundario;
                     transition: .3s;
@@ -2548,14 +2564,14 @@
             }
             p{
                 color: white;
-                padding: 0vh 7vh;
+                padding: 1vh 5vh;
                 font-size: 1.1em;
-                text-align: center;
+                text-align: justify;
             }
         }
         .emp-dos-derecha{
-            height: 40vh;
-            background-image: url("../img/industria.jpg");
+            height: 30vh;
+            background-image: url("../img/soldador2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -2571,14 +2587,14 @@
         justify-content: center;
     }
 
-    // EQUIPAMIENTO
+    // SERVICIO
     .equip-item-uno {
         margin-top: 45%;
         width: 100%;
         height: 30vh;
 
         img {
-            height: 30vh;
+            height: 25vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -2588,7 +2604,7 @@
 
     .equip-item-dos {
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 2vh;
         margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
@@ -2596,22 +2612,23 @@
         align-items: center;
 
         h3 {
-            text-align: center;
-            margin-bottom: 3vh;
+            text-align: justify;
             font-size: 3rem;
             font-weight: bold;
             color: $color_primario;
+            padding: 0vh 2vh;
         }
 
         p {
-            padding-left: 2vh;
-            font-size: 1.5rem;
+            padding: 0vh 2vh;
+            font-size: 1.7rem;
+            text-align: justify;
         }
     }
 
     .equip-item-tres {
         width: 100%;
-        height: 45vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
         padding: 30px;
@@ -2626,16 +2643,18 @@
             text-align: center;
 
             h3 {
-                color: white;
+                color: $color_secundario;
                 font-size: 2.4rem;
                 margin-bottom: 10px;
-                font-weight: bold;
+                font-weight: 1000;
+                text-align: justify;
 
             }
 
             p {
                 color: white;
-                font-size: 1.5rem;
+                font-size: 1.7rem;
+                text-align: justify;
             }
 
             button {
@@ -2647,14 +2666,14 @@
     .equip-item-cuatro {
         display: flex;
         flex-direction: column;
-        margin-top: 15vh;
+        margin-top: 10vh;
         margin-bottom: 10vh;
 
         h2 {
-            padding-left: 3vh;
             margin-bottom: 7vh;
             font-weight: bold;
             font-size: 2.5rem;
+            text-align: center;
         }
 
         .otros-servicios {
@@ -2678,6 +2697,7 @@
             h3 {
                 margin-bottom: 5vh;
                 text-align: center;
+                padding: 1vh;
                 color: $color_secundario;
             }
         }
@@ -2689,10 +2709,14 @@
         margin-bottom: 10vh;
 
         .titulo-cinco {
-            text-align: center;
 
             h2 {
-                margin-bottom: 3vh;
+                margin-bottom: 2vh;
+                padding: 2vh;
+                text-align: center;
+            }
+            p{
+                padding: 2vh;
             }
         }
 
@@ -2732,8 +2756,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        button{
+            margin-top:5vh;
+        }
 
         .nuestras-maquinas {
+            margin-bottom: 5vh;
             h2 {
                 padding: 0px 40px;
                 font-weight: bold;
@@ -3565,7 +3593,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 25vh;
+        margin-top: 17vh;
         h1{
             font-size: 2.8em;
             font-weight: 1000;
@@ -3575,16 +3603,17 @@
             color: $color_secundario;
             font-weight: 700;
             font-size: 2.2em;
+            padding: 0vh 10vh;
         }
         p{
-            padding: 0vh 15vh;
+            padding: 0vh 10vh;
             font-size: 1.4em;
             text-align: justify;
         }
     }
     .empresa-dos{
         width: 100%;
-        height: 55vh;
+        height: 40vh;
         display: flex;
         flex-direction: row;
         padding: 30px;
@@ -3599,7 +3628,7 @@
                 color: black;
                 font-weight: 1000;
                 font-size: 1.9em;
-                padding: 0px 67px;
+                padding: 0vh 4vh;
                 &:hover{
                     color:$color_secundario;
                     transition: .3s;
@@ -3611,28 +3640,21 @@
             }
             p{
                 color: white;
-                padding: 0vh 8vh;
+                padding: 0vh 4vh;
                 font-size: 1.3em;
             }
         }
         .emp-dos-derecha{
-            background-image: url("../img/industria.jpg");
+            background-image: url("../img/soldador2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
             width: 50%;
         }
     }
-    .empresa-clientes{
-        margin-top: 10vh;
-        width: 100%;
-        height: 50vh;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-    }
+  
 
-    // EQUIPAMIENTO
+    // servicios
     .equip-item-uno {
         margin-top: 25%;
         width: 100%;
@@ -3995,7 +4017,7 @@
             background-color: #ececec;
             
             p{
-                padding: 0vh 18vh;
+                padding: 0vh 12vh;
                 text-align: justify;
                 margin-top: 10vh;
                 font-size: 2.2em;
@@ -4021,6 +4043,7 @@
                 color: $color_primario;
                 font-weight: 1000;
                 font-size: 2.7em;
+                padding: 1vh;
                 
                
             }
@@ -4646,7 +4669,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 25vh;
+        margin-top: 20vh;
         h1{
             font-size: 3em;
             font-weight: 1000;
@@ -4656,16 +4679,17 @@
             color: $color_secundario;
             font-weight: 700;
             font-size: 2.4em;
+            padding: 0vh 15vh;
         }
         p{
-            padding: 0vh 28vh;
+            padding: 0vh 15vh;
             font-size: 1.4em;
             text-align: justify;
         }
     }
     .empresa-dos{
         width: 100%;
-        height: 55vh;
+        height: 45vh;
         display: flex;
         flex-direction: row;
         padding: 30px;
@@ -4680,7 +4704,7 @@
                 color: black;
                 font-weight: 1000;
                 font-size: 2.1em;
-                padding: 0px 67px;
+                padding: 0vh 6vh;
                 &:hover{
                     color:$color_secundario;
                     transition: .3s;
@@ -4692,26 +4716,19 @@
             }
             p{
                 color: white;
-                padding: 0vh 8vh;
+                padding: 0vh 6vh;
                 font-size: 1.6em;
             }
         }
         .emp-dos-derecha{
-            background-image: url("../img/industria.jpg");
+            background-image: url("../img/soldador2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
             width: 50%;
         }
     }
-    .empresa-clientes{
-        margin-top: 10vh;
-        width: 100%;
-        height: 50vh;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-    }
+   
 
     // SERVICIOS
     .equip-item-uno {
@@ -4721,7 +4738,7 @@
         margin-bottom: 27vh;
         padding: 0vh 3vh;
         img {
-            height: 66vh;
+            height: 50vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -4743,7 +4760,7 @@
 
     .equip-item-dos {
         width: 100%;
-        margin-top: 38vh;
+        margin-top: 27vh;
         margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
@@ -4768,7 +4785,7 @@
 
     .equip-item-tres {
         width: 100%;
-        height: 45vh;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         padding: 30px;
@@ -5003,7 +5020,7 @@
         display: flex;
         justify-content: center;
         background-color: #ececec;
-        height: 68vh;
+        height: 60vh;
         .cont-segundo-item{
             width: 50%;
             height: 60vh;
@@ -5089,7 +5106,7 @@
             background-color: #ececec;
             
             p{
-                padding: 0vh 25vh;
+                padding: 0vh 15vh;
                 text-align: justify;
                 margin-top: 10vh;
                 font-size: 2.2em;
@@ -5115,6 +5132,7 @@
                 color: $color_primario;
                 font-weight: 1000;
                 font-size: 2.7em;
+                padding: 1vh;
                 
                
             }
@@ -5761,9 +5779,10 @@
             color: $color_secundario;
             font-weight: 700;
             font-size: 2.5em;
+            padding: 0vh 30vh;
         }
         p{
-            padding: 0vh 44vh;
+            padding: 0vh 30vh;
             font-size: 1.4em;
             text-align: justify;
         }
@@ -5785,6 +5804,7 @@
                 color: black;
                 font-weight: 1000;
                 font-size: 2.5em;
+                padding: 0vh 7vh;
                 &:hover{
                     color:$color_secundario;
                     transition: .3s;
@@ -5796,25 +5816,18 @@
             }
             p{
                 color: white;
-                padding: 0vh 8vh;
+                padding: 0vh 7vh;
             }
         }
         .emp-dos-derecha{
-            background-image: url("../img/industria.jpg");
+            background-image: url("../img/soldador2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
             width: 50%;
         }
     }
-    .empresa-clientes{
-        margin-top: 10vh;
-        width: 100%;
-        height: 50vh;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-    }
+ 
 
     // SERVICIOS
     .equip-item-uno {
@@ -5822,7 +5835,7 @@
         width: 100%;
         height: 35vh;
         margin-bottom: 27vh;
-        padding: 0vh 15vh;
+        padding: 0vh 5vh;
         img {
             height: 66vh;
             background-repeat: no-repeat;
@@ -5864,7 +5877,7 @@
         p {
             font-size: 1rem;
             font-size: 2rem;
-            padding: 0vh 45vh;
+            padding: 0vh 25vh;
             text-align: justify;
             color: black;
         }
@@ -5872,7 +5885,7 @@
 
     .equip-item-tres {
         width: 100%;
-        height: 45vh;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         padding: 30px;
@@ -5971,7 +5984,7 @@
             }
 
             p {
-                padding: 0vh 40vh;
+                padding: 0vh 20vh;
                 font-size: 2.3em;
                 text-align: center;
             }
@@ -6034,7 +6047,7 @@
 
             p {
                 padding: 0px 200px;
-                font-size: 1.8rem;
+                font-size: 2rem;
                 margin-bottom: 6vh;
             }
         }
@@ -6156,7 +6169,7 @@
         display: flex;
         justify-content: center;
         background-color: #ececec;
-        height: 68vh;
+        height: 60vh;
         .cont-segundo-item{
             width: 50%;
             height: 60vh;
@@ -6242,7 +6255,7 @@
             background-color: #ececec;
             
             p{
-                padding: 0vh 45vh;
+                padding: 0vh 30vh;
                 text-align: justify;
                 margin-top: 15vh;
                 font-size: 2.5em;
@@ -6250,11 +6263,11 @@
         }
         .contacto-medio{
             width: 100%;
-            height: 40vh;
+            height: 35vh;
             background-color: #ececec;
             display: flex;
             flex-direction: column;
-            padding-top: 20px;
+            padding-top: 40px;
           
             h2{
                 text-align: center;
@@ -6268,6 +6281,7 @@
                 color: $color_primario;
                 font-weight: 1000;
                 font-size: 3em;
+                padding: 1vh;
                 
                
             }
@@ -6878,7 +6892,7 @@
             }
         }
         .emp-dos-derecha{
-            background-image: url("../img/industria.jpg");
+            background-image: url("../img/soldador2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -6903,7 +6917,7 @@
         margin-bottom: 27vh;
         padding: 0vh 15vh;
         img {
-            height: 66vh;
+            height: 72vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -6925,7 +6939,7 @@
 
     .equip-item-dos {
         width: 100%;
-        margin-top: 38vh;
+        margin-top: 45vh;
         margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
@@ -6951,7 +6965,7 @@
 
     .equip-item-tres {
         width: 100%;
-        height: 45vh;
+        height: 32vh;
         display: flex;
         flex-direction: column;
         padding: 30px;
@@ -6977,7 +6991,7 @@
             p {
                 color: white;
                 font-size: 2rem;
-                padding: 0vh 30vh;
+                padding: 0vh 40vh;
             }
 
             button {
@@ -7188,7 +7202,7 @@
         display: flex;
         justify-content: center;
         background-color: #ececec;
-        height: 68vh;
+        height: 60vh;
         .cont-segundo-item{
             width: 50%;
             height: 60vh;
@@ -7287,7 +7301,7 @@
             background-color: #ececec;
             display: flex;
             flex-direction: column;
-            padding-top: 20px;
+            padding-top: 40px;
           
             h2{
                 text-align: center;
@@ -7345,9 +7359,6 @@
         }
     }
     
-
-    
-     
     // COMO LLEGAR  
    .primera-section-como{
         display: flex;
